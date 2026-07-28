@@ -1,0 +1,835 @@
+Corrected MRNC fibre mapping
+=============================
+
+The source variables in Tim Dokchitser's generic MRNC pictures have been rewritten in terms of the Namikawa--Ueno family parameters used in Tables 7.1--7.7. Exceptional -1 specialisations are not included.
+
+  1. I_{0-0-0}
+     target MRNC: I_g2
+     Tim source:  I_{g2}
+     substitution: (none)
+     # MRM components in paper: 1
+     SVG: images/special-fibres/i-0-0-0.svg
+
+  2. I^*_{0-0-0}
+     target MRNC: 2^{1,1,1,1,1,1}
+     Tim source:  2^{1,1,1,1,1,1}
+     substitution: (none)
+     # MRM components in paper: 7
+     SVG: images/special-fibres/i-star-0-0-0.svg
+
+  3. II
+     target MRNC: D_g1
+     Tim source:  D_{g1}
+     substitution: (none)
+     # MRM components in paper: 3
+     SVG: images/special-fibres/ii.svg
+
+  4. III
+     target MRNC: 3^{1,1,2,2}
+     Tim source:  3^{1,1,2,2}
+     substitution: (none)
+     # MRM components in paper: 7
+     SVG: images/special-fibres/iii.svg
+
+  5. IV
+     target MRNC: 6^{2,4,3,3}
+     Tim source:  6^{2,4,3,3}
+     substitution: (none)
+     # MRM components in paper: 6
+     SVG: images/special-fibres/iv.svg
+
+  6. V
+     target MRNC: 6^{1,1,4}
+     Tim source:  6^{1,1,4}
+     substitution: (none)
+     # MRM components in paper: 2
+     SVG: images/special-fibres/v.svg
+
+  7. V^*
+     target MRNC: 6^{5,5,2}
+     Tim source:  6^{5,5,2}
+     substitution: (none)
+     # MRM components in paper: 12
+     SVG: images/special-fibres/v-star.svg
+
+  8. VI
+     target MRNC: 4^{1,3,2,2}
+     Tim source:  4^{1,3,2,2}
+     substitution: (none)
+     # MRM components in paper: 7
+     SVG: images/special-fibres/vi.svg
+
+  9. VII
+     target MRNC: 8^{1,3,4}
+     Tim source:  8^{1,3,4}
+     substitution: (none)
+     # MRM components in paper: 2
+     SVG: images/special-fibres/vii.svg
+
+ 10. VII^*
+     target MRNC: 8^{5,7,4}
+     Tim source:  8^{5,7,4}
+     substitution: (none)
+     # MRM components in paper: 12
+     SVG: images/special-fibres/vii-star.svg
+
+ 11. VIII-1
+     target MRNC: 10^{1,4,5}
+     Tim source:  10^{1,4,5}
+     substitution: (none)
+     # MRM components in paper: 1
+     SVG: images/special-fibres/viii-1.svg
+
+ 12. VIII-2
+     target MRNC: 10^{7,8,5}
+     Tim source:  10^{7,8,5}
+     substitution: (none)
+     # MRM components in paper: 9
+     SVG: images/special-fibres/viii-2.svg
+
+ 13. VIII-3
+     target MRNC: 10^{3,2,5}
+     Tim source:  10^{3,2,5}
+     substitution: (none)
+     # MRM components in paper: 4
+     SVG: images/special-fibres/viii-3.svg
+
+ 14. VIII-4
+     target MRNC: 10^{9,6,5}
+     Tim source:  10^{9,6,5}
+     substitution: (none)
+     # MRM components in paper: 13
+     SVG: images/special-fibres/viii-4.svg
+
+ 15. IX-1
+     target MRNC: 5^{1,2,2}
+     Tim source:  5^{1,2,2}
+     substitution: (none)
+     # MRM components in paper: 5
+     SVG: images/special-fibres/ix-1.svg
+
+ 16. IX-2
+     target MRNC: 5^{1,1,3}
+     Tim source:  5^{1,1,3}
+     substitution: (none)
+     # MRM components in paper: 3
+     SVG: images/special-fibres/ix-2.svg
+
+ 17. IX-3
+     target MRNC: 5^{2,4,4}
+     Tim source:  5^{2,4,4}
+     substitution: (none)
+     # MRM components in paper: 11
+     SVG: images/special-fibres/ix-3.svg
+
+ 18. IX-4
+     target MRNC: 5^{3,3,4}
+     Tim source:  5^{3,3,4}
+     substitution: (none)
+     # MRM components in paper: 9
+     SVG: images/special-fibres/ix-4.svg
+
+ 19. I_{l-0-0}
+     target MRNC: I_{l,g1}
+     Tim source:  I_{{\it n},g1}
+     substitution: n -> l
+     picture labels: n -> l
+     # MRM components in paper: $l$
+     SVG: images/special-fibres/i-l-0-0.svg
+
+ 20. I^*_{l-0-0}
+     target MRNC: I^*_{0,lD}
+     Tim source:  I^*_{0,{\it n}D}
+     substitution: n -> l
+     picture labels: n\!-\!1 -> l\!-\!1
+     # MRM components in paper: $l+7$
+     SVG: images/special-fibres/i-star-l-0-0.svg
+
+ 21. III-II_l
+     target MRNC: III_l
+     Tim source:  III_{{\it n}}
+     substitution: n -> l
+     picture labels: n\!+\!1 -> l\!+\!1
+     # MRM components in paper: $l+1$
+     SVG: images/special-fibres/iii-ii-l.svg
+
+ 22. III^*-II^*_l
+     target MRNC: III^*_{lD}
+     Tim source:  III^*_{{\it n}D}
+     substitution: n -> l
+     picture labels: n -> l
+     # MRM components in paper: $l+10$
+     SVG: images/special-fibres/iii-star-ii-star-l.svg
+
+ 23. IV-II_l
+     target MRNC: IV_l
+     Tim source:  IV_{{\it n}}
+     substitution: n -> l
+     picture labels: n\!+\!1 -> l\!+\!1
+     # MRM components in paper: $l+2$
+     SVG: images/special-fibres/iv-ii-l.svg
+
+ 24. II^*-II^*_l
+     target MRNC: II^*_{lD}
+     Tim source:  II^*_{{\it n}D}
+     substitution: n -> l
+     picture labels: n -> l
+     # MRM components in paper: $l+11$
+     SVG: images/special-fibres/ii-star-ii-star-l.svg
+
+ 25. II_{(l+1)-0}
+     target MRNC: I^*_{0,l}
+     Tim source:  I^*_{0,{\it n}}
+     substitution: n -> l
+     picture labels: n\!+\!1 -> l\!+\!1
+     # MRM components in paper: $l+4$
+     SVG: images/special-fibres/ii-l-plus-1-0.svg
+
+ 26. II^*_{(l+1)-0}
+     target MRNC: [2]I_{g1,(l+1)D}
+     Tim source:  [2]I_{g1,{\it n}D}
+     substitution: n -> l+1
+     picture labels: n\!-\!1 -> l
+     # MRM components in paper: $l+4$
+     SVG: images/special-fibres/ii-star-l-plus-1-0.svg
+
+ 27. IV^*-II_{l+1}
+     target MRNC: IV^*_l
+     Tim source:  IV^*_{{\it n}}
+     substitution: n -> l
+     picture labels: n\!+\!1 -> l\!+\!1
+     # MRM components in paper: $l+6$
+     SVG: images/special-fibres/iv-star-ii-l-plus-1.svg
+
+ 28. II-II^*_{l+1}
+     target MRNC: II_{(l+1)D}
+     Tim source:  II_{{\it n}D}
+     substitution: n -> l+1
+     picture labels: n -> l\!+\!1
+     # MRM components in paper: $l+5$
+     SVG: images/special-fibres/ii-ii-star-l-plus-1.svg
+
+ 29. III^*-II_{l+1}
+     target MRNC: III^*_l
+     Tim source:  III^*_{{\it n}}
+     substitution: n -> l
+     picture labels: n\!+\!1 -> l\!+\!1
+     # MRM components in paper: $l+7$
+     SVG: images/special-fibres/iii-star-ii-l-plus-1.svg
+
+ 30. III-II^*_{l+1}
+     target MRNC: III_{(l+1)D}
+     Tim source:  III_{{\it n}D}
+     substitution: n -> l+1
+     picture labels: n -> l\!+\!1
+     # MRM components in paper: $l+6$
+     SVG: images/special-fibres/iii-ii-star-l-plus-1.svg
+
+ 31. I_{l-m-0}
+     target MRNC: I_{l,m}
+     Tim source:  I_{{\it n},{\it m}}
+     substitution: n -> m, m -> l
+     picture labels: n -> m, m -> l
+     # MRM components in paper: $l+m-1$
+     SVG: images/special-fibres/i-l-m-0.svg
+
+ 32. I^*_{l-m-0}
+     target MRNC: I^*_{l,mD}=I^*_{m,lD}
+     Tim source:  I^*_{{\it n},{\it m}D}
+     substitution: n -> l, m -> m
+     picture labels: n\!-\!1 -> l\!-\!1
+     # MRM components in paper: $l+m+7$
+     SVG: images/special-fibres/i-star-l-m-0.svg
+
+ 33. 2I_{l-0}
+     target MRNC: D_{2-2,l}
+     Tim source:  D_{\{2\m2\}{\it n}}
+     substitution: n -> l
+     picture labels: n -> l
+     # MRM components in paper: $l+2$
+     SVG: images/special-fibres/2i-l-0.svg
+
+ 34. III_l
+     target MRNC: 4^{1,3}_{lD}
+     Tim source:  4^{1,3}_{{\it n}D}
+     substitution: n -> l
+     picture labels: n\!-\!1 -> l\!-\!1
+     # MRM components in paper: $l+7$
+     SVG: images/special-fibres/iii-l.svg
+
+ 35. II_{m-l} / II_{l-m} (p182)
+     target MRNC: I^*_{l,m-1} / I^*_{m,l-1}
+     Tim source:  I^*_{{\it m},{\it n}}
+     substitution: m -> l, n -> m-1
+     picture labels: n\!+\!1 -> m, m\!-\!1 -> l\!-\!1
+     # MRM components in paper: $l+m+3$
+     SVG: images/special-fibres/ii-m-l-or-l-m-p182.svg
+
+ 36. I_{l-m-n}
+     target MRNC: I-l-m-n-I
+     Tim source:  I\e({\it n})\e({\it m})\e({\it r})I
+     substitution: n -> n, m -> m, r -> l
+     picture labels: r\!-\!1 -> l\!-\!1
+     # MRM components in paper: $l+m+n-1$
+     SVG: images/special-fibres/i-l-m-n.svg
+
+ 37. I^*_{l-m-n}
+     target MRNC: [2]I_{lD,mD,nD}
+     Tim source:  [2]I_{{\it n}D,{\it m}D,{\it r}D}
+     substitution: n -> l, m -> m, r -> n
+     picture labels: n\!-\!1 -> l\!-\!1, r\!-\!1 -> n\!-\!1
+     # MRM components in paper: $l+m+n+7$
+     SVG: images/special-fibres/i-star-l-m-n.svg
+
+ 38. II_{l-m} (p183)
+     target MRNC: D-(l-1)-{2-2}-m-D
+     Tim source:  D\e({\it n})\e{2-2}({\it m})D
+     substitution: n -> l-1, m -> m
+     picture labels: n\!+\!1 -> l
+     # MRM components in paper: $l+m+3$
+     SVG: images/special-fibres/ii-l-m-p183.svg
+
+ 39. II^*_{l-m}
+     target MRNC: [2]I_{m,lD}
+     Tim source:  [2]I_{{\it n},{\it m}D}
+     substitution: n -> m, m -> l
+     picture labels: n -> m, m\!-\!1 -> l\!-\!1
+     # MRM components in paper: $l+m+2$
+     SVG: images/special-fibres/ii-star-l-m.svg
+
+ 40. III_l (p184)
+     target MRNC: T-l-{3-3}-T
+     Tim source:  T\e{3-3}({\it n})T
+     substitution: n -> l
+     picture labels: n\!-\!1 -> l\!-\!1
+     # MRM components in paper: $l+7$
+     SVG: images/special-fibres/iii-l-p184.svg
+
+ 41. III^*_l
+     target MRNC: [2]T_{6,lD}
+     Tim source:  [2]T_{\{6\}{\it n}D}
+     substitution: n -> l
+     picture labels: n\!-\!1 -> l\!-\!1
+     # MRM components in paper: $l+6$
+     SVG: images/special-fibres/iii-star-l-stable-iv.svg
+
+ 42. I0-I0-t
+     target MRNC: I0-I0-t
+     Tim source:  I_{g1}\e({\it n})I_{g1}
+     substitution: n -> t
+     picture labels: n\!-\!1 -> t\!-\!1
+     # MRM components in paper: $t+1$
+     SVG: images/special-fibres/i0-i0-t.svg
+
+ 43. I0-I^*0-t
+     target MRNC: I0-I^*0-t
+     Tim source:  I_{g1}\e({\it n})I^*_0
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+5$
+     SVG: images/special-fibres/i0-i-star0-t.svg
+
+ 44. I^*0-I^*0-t
+     target MRNC: I^*0-I^*0-t
+     Tim source:  I^*_0\e({\it n})I^*_0
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+9$
+     SVG: images/special-fibres/i-star0-i-star0-t.svg
+
+ 45. I0-III-t
+     target MRNC: I0-III-t
+     Tim source:  I_{g1}\e({\it n})III
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+2$
+     SVG: images/special-fibres/i0-iii-t.svg
+
+ 46. I^*0-III^*-t
+     target MRNC: I^*0-III^*-t
+     Tim source:  I^*_0\e({\it n})III^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+12$
+     SVG: images/special-fibres/i-star0-iii-star-t.svg
+
+ 47. I^*0-III-t
+     target MRNC: I^*0-III-t
+     Tim source:  I^*_0\e({\it n})III
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+6$
+     SVG: images/special-fibres/i-star0-iii-t.svg
+
+ 48. I0-III^*-t
+     target MRNC: I0-III^*-t
+     Tim source:  I_{g1}\e({\it n})III^*
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+8$
+     SVG: images/special-fibres/i0-iii-star-t.svg
+
+ 49. I0-II-t
+     target MRNC: I0-II-t
+     Tim source:  I_{g1}\e({\it n})II
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+1$
+     SVG: images/special-fibres/i0-ii-t.svg
+
+ 50. I^*0-IV^*-t
+     target MRNC: I^*0-IV^*-t
+     Tim source:  I^*_0\e({\it n})IV^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+11$
+     SVG: images/special-fibres/i-star0-iv-star-t.svg
+
+ 51. I^*0-II-t
+     target MRNC: I^*0-II-t
+     Tim source:  I^*_0\e({\it n})II
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+5$
+     SVG: images/special-fibres/i-star0-ii-t.svg
+
+ 52. I0-IV^*-t
+     target MRNC: I0-IV^*-t
+     Tim source:  I_{g1}\e({\it n})IV^*
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+7$
+     SVG: images/special-fibres/i0-iv-star-t.svg
+
+ 53. I0-IV-t
+     target MRNC: I0-IV-t
+     Tim source:  I_{g1}\e({\it n})IV
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+3$
+     SVG: images/special-fibres/i0-iv-t.svg
+
+ 54. I^*0-II^*-t
+     target MRNC: I^*0-II^*-t
+     Tim source:  I^*_0\e({\it n})II^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+13$
+     SVG: images/special-fibres/i-star0-ii-star-t.svg
+
+ 55. I^*0-IV-t
+     target MRNC: I^*0-IV-t
+     Tim source:  I^*_0\e({\it n})IV
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+7$
+     SVG: images/special-fibres/i-star0-iv-t.svg
+
+ 56. I0-II^*-t
+     target MRNC: I0-II^*-t
+     Tim source:  I_{g1}\e({\it n})II^*
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+9$
+     SVG: images/special-fibres/i0-ii-star-t.svg
+
+ 57. III-III-t
+     target MRNC: III-III-t
+     Tim source:  III\e({\it n})III
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+3$
+     SVG: images/special-fibres/iii-iii-t.svg
+
+ 58. III^*-III^*-t
+     target MRNC: III^*-III^*-t
+     Tim source:  III^*\e({\it n})III^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+15$
+     SVG: images/special-fibres/iii-star-iii-star-t.svg
+
+ 59. III-III^*-t
+     target MRNC: III-III^*-t
+     Tim source:  III\e({\it n})III^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+9$
+     SVG: images/special-fibres/iii-iii-star-t.svg
+
+ 60. II-III-t
+     target MRNC: II-III-t
+     Tim source:  III\e({\it n})II
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+2$
+     SVG: images/special-fibres/ii-iii-t.svg
+
+ 61. IV^*-III^*-t
+     target MRNC: IV^*-III^*-t
+     Tim source:  IV^*\e({\it n})III^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+14$
+     SVG: images/special-fibres/iv-star-iii-star-t.svg
+
+ 62. IV-III-t
+     target MRNC: IV-III-t
+     Tim source:  IV\e({\it n})III
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+4$
+     SVG: images/special-fibres/iv-iii-t.svg
+
+ 63. II^*-III^*-t
+     target MRNC: II^*-III^*-t
+     Tim source:  III^*\e({\it n})II^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+16$
+     SVG: images/special-fibres/ii-star-iii-star-t.svg
+
+ 64. IV-III^*-t
+     target MRNC: IV-III^*-t
+     Tim source:  IV\e({\it n})III^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+10$
+     SVG: images/special-fibres/iv-iii-star-t.svg
+
+ 65. II^*-III-t
+     target MRNC: II^*-III-t
+     Tim source:  III\e({\it n})II^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+10$
+     SVG: images/special-fibres/ii-star-iii-t.svg
+
+ 66. IV^*-III-t
+     target MRNC: IV^*-III-t
+     Tim source:  IV^*\e({\it n})III
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+8$
+     SVG: images/special-fibres/iv-star-iii-t.svg
+
+ 67. II-III^*-t
+     target MRNC: II-III^*-t
+     Tim source:  III^*\e({\it n})II
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+8$
+     SVG: images/special-fibres/ii-iii-star-t.svg
+
+ 68. II-II-t
+     target MRNC: II-II-t
+     Tim source:  II\e({\it n})II
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+1$
+     SVG: images/special-fibres/ii-ii-t.svg
+
+ 69. IV^*-IV^*-t
+     target MRNC: IV^*-IV^*-t
+     Tim source:  IV^*\e({\it n})IV^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+13$
+     SVG: images/special-fibres/iv-star-iv-star-t.svg
+
+ 70. II-IV-t
+     target MRNC: II-IV-t
+     Tim source:  IV\e({\it n})II
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+3$
+     SVG: images/special-fibres/ii-iv-t.svg
+
+ 71. II^*-IV^*-t
+     target MRNC: II^*-IV^*-t
+     Tim source:  IV^*\e({\it n})II^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+15$
+     SVG: images/special-fibres/ii-star-iv-star-t.svg
+
+ 72. II-IV^*-t
+     target MRNC: II-IV^*-t
+     Tim source:  IV^*\e({\it n})II
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+7$
+     SVG: images/special-fibres/ii-iv-star-t.svg
+
+ 73. IV-IV-t
+     target MRNC: IV-IV-t
+     Tim source:  IV\e({\it n})IV
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+5$
+     SVG: images/special-fibres/iv-iv-t.svg
+
+ 74. II^*-II^*-t
+     target MRNC: II^*-II^*-t
+     Tim source:  II^*\e({\it n})II^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+17$
+     SVG: images/special-fibres/ii-star-ii-star-t.svg
+
+ 75. IV-IV^*-t
+     target MRNC: IV-IV^*-t
+     Tim source:  IV\e({\it n})IV^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+9$
+     SVG: images/special-fibres/iv-iv-star-t.svg
+
+ 76. II-II^*-t
+     target MRNC: II-II^*-t
+     Tim source:  II\e({\it n})II^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+9$
+     SVG: images/special-fibres/ii-ii-star-t.svg
+
+ 77. II^*-IV-t
+     target MRNC: II^*-IV-t
+     Tim source:  IV\e({\it n})II^*
+     substitution: n -> t
+     picture labels: n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $t+11$
+     SVG: images/special-fibres/ii-star-iv-t.svg
+
+ 78. 2I0-t
+     target MRNC: 2I0-t
+     Tim source:  [2]I_{g1,{\it n}D}
+     substitution: n -> t
+     picture labels: n\!-\!1 -> t\!-\!1
+     # MRM components in paper: $t+3$
+     SVG: images/special-fibres/2i0-t.svg
+
+ 79. 2I^*0-t
+     target MRNC: 2I^*0-t
+     Tim source:  [2]I^*_{0,{\it n}D}
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+7$
+     SVG: images/special-fibres/2i-star0-t.svg
+
+ 80. 2IV-t
+     target MRNC: 2IV-t
+     Tim source:  [2]IV_{{\it n}D}
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+5$
+     SVG: images/special-fibres/2iv-t.svg
+
+ 81. 2IV^*-t
+     target MRNC: 2IV^*-t
+     Tim source:  [2]IV^*_{{\it n}D}
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+9$
+     SVG: images/special-fibres/2iv-star-t.svg
+
+ 82. 2III-t
+     target MRNC: 2III-t
+     Tim source:  [2]III_{{\it n}D}
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+4$
+     SVG: images/special-fibres/2iii-t.svg
+
+ 83. 2III^*-t
+     target MRNC: 2III^*-t
+     Tim source:  [2]III^*_{{\it n}D}
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+10$
+     SVG: images/special-fibres/2iii-star-t.svg
+
+ 84. 2II-t
+     target MRNC: 2II-t
+     Tim source:  [2]II_{{\it n}D}
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+3$
+     SVG: images/special-fibres/2ii-t.svg
+
+ 85. 2II^*-t
+     target MRNC: 2II^*-t
+     Tim source:  [2]II^*_{{\it n}D}
+     substitution: n -> t
+     picture labels: n -> t
+     # MRM components in paper: $t+11$
+     SVG: images/special-fibres/2ii-star-t.svg
+
+ 86. I0-I_l-t
+     target MRNC: I0-I_l-t
+     Tim source:  I_{g1}\e({\it n})I_{{\it m}}
+     substitution: m -> l, n -> t
+     picture labels: m -> l, n\!-\!1 -> t\!-\!1
+     # MRM components in paper: $l+t$
+     SVG: images/special-fibres/i0-i-l-t.svg
+
+ 87. I^*0-I^*_l-t
+     target MRNC: I^*0-I^*_l-t
+     Tim source:  I^*_0\e({\it n})I^*_{{\it m}}
+     substitution: m -> l, n -> t
+     picture labels: m\!-\!1 -> l\!-\!1, n\!+\!1 -> t\!+\!1
+     # MRM components in paper: $l+t+9$
+     SVG: images/special-fibres/i-star0-i-star-l-t.svg
+
+ 88. I0-I^*_l-t
+     target MRNC: I0-I^*_l-t
+     Tim source:  I_{g1}\e({\it n})I^*_{{\it m}}
+     substitution: m -> l, n -> t
+     picture labels: n -> t, m\!-\!1 -> l\!-\!1
+     # MRM components in paper: $l+t+5$
+     SVG: images/special-fibres/i0-i-star-l-t.svg
+
+ 89. I^*0-I_l-t
+     target MRNC: I^*0-I_l-t
+     Tim source:  I_{{\it n}}\e({\it m})I^*_0
+     substitution: n -> l, m -> t
+     picture labels: n -> l, m -> t
+     # MRM components in paper: $l+t+4$
+     SVG: images/special-fibres/i-star0-i-l-t.svg
+
+ 90. III-I_l-t
+     target MRNC: III-I_l-t
+     Tim source:  I_{{\it n}}\e({\it m})III
+     substitution: n -> l, m -> t
+     picture labels: n -> l, m -> t
+     # MRM components in paper: $l+t+1$
+     SVG: images/special-fibres/iii-i-l-t.svg
+
+ 91. III^*-I^*_l-t
+     target MRNC: III^*-I^*_l-t
+     Tim source:  I^*_{{\it n}}\e({\it m})III^*
+     substitution: n -> l, m -> t
+     picture labels: m\!+\!1 -> t\!+\!1, n\!-\!1 -> l\!-\!1
+     # MRM components in paper: $l+t+12$
+     SVG: images/special-fibres/iii-star-i-star-l-t.svg
+
+ 92. III-I^*_l-t
+     target MRNC: III-I^*_l-t
+     Tim source:  I^*_{{\it n}}\e({\it m})III
+     substitution: n -> l, m -> t
+     picture labels: n\!-\!1 -> l\!-\!1, m\!+\!1 -> t\!+\!1
+     # MRM components in paper: $l+t+6$
+     SVG: images/special-fibres/iii-i-star-l-t.svg
+
+ 93. III^*-I_l-t
+     target MRNC: III^*-I_l-t
+     Tim source:  I_{{\it n}}\e({\it m})III^*
+     substitution: n -> l, m -> t
+     picture labels: m -> t, n -> l
+     # MRM components in paper: $l+t+7$
+     SVG: images/special-fibres/iii-star-i-l-t.svg
+
+ 94. II-I_l-t
+     target MRNC: II-I_l-t
+     Tim source:  I_{{\it n}}\e({\it m})II
+     substitution: n -> l, m -> t
+     picture labels: n -> l, m -> t
+     # MRM components in paper: $l+t$
+     SVG: images/special-fibres/ii-i-l-t.svg
+
+ 95. IV^*-I^*_l-t
+     target MRNC: IV^*-I^*_l-t
+     Tim source:  I^*_{{\it n}}\e({\it m})IV^*
+     substitution: n -> l, m -> t
+     picture labels: n\!-\!1 -> l\!-\!1, m\!+\!1 -> t\!+\!1
+     # MRM components in paper: $l+t+11$
+     SVG: images/special-fibres/iv-star-i-star-l-t.svg
+
+ 96. II-I^*_l-t
+     target MRNC: II-I^*_l-t
+     Tim source:  I^*_{{\it n}}\e({\it m})II
+     substitution: n -> l, m -> t
+     picture labels: n\!-\!1 -> l\!-\!1, m\!+\!1 -> t\!+\!1
+     # MRM components in paper: $l+t+5$
+     SVG: images/special-fibres/ii-i-star-l-t.svg
+
+ 97. IV^*-I_l-t
+     target MRNC: IV^*-I_l-t
+     Tim source:  I_{{\it n}}\e({\it m})IV^*
+     substitution: n -> l, m -> t
+     picture labels: n -> l, m -> t
+     # MRM components in paper: $l+t+6$
+     SVG: images/special-fibres/iv-star-i-l-t.svg
+
+ 98. IV-I_l-t
+     target MRNC: IV-I_l-t
+     Tim source:  I_{{\it n}}\e({\it m})IV
+     substitution: n -> l, m -> t
+     picture labels: n -> l, m -> t
+     # MRM components in paper: $l+t+2$
+     SVG: images/special-fibres/iv-i-l-t.svg
+
+ 99. II^*-I^*_l-t
+     target MRNC: II^*-I^*_l-t
+     Tim source:  I^*_{{\it n}}\e({\it m})II^*
+     substitution: n -> l, m -> t
+     picture labels: n\!-\!1 -> l\!-\!1, m\!+\!1 -> t\!+\!1
+     # MRM components in paper: $l+t+13$
+     SVG: images/special-fibres/ii-star-i-star-l-t.svg
+
+100. IV-I^*_l-t
+     target MRNC: IV-I^*_l-t
+     Tim source:  I^*_{{\it n}}\e({\it m})IV
+     substitution: n -> l, m -> t
+     picture labels: n\!-\!1 -> l\!-\!1, m\!+\!1 -> t\!+\!1
+     # MRM components in paper: $l+t+7$
+     SVG: images/special-fibres/iv-i-star-l-t.svg
+
+101. II^*-I_l-t
+     target MRNC: II^*-I_l-t
+     Tim source:  I_{{\it n}}\e({\it m})II^*
+     substitution: n -> l, m -> t
+     picture labels: n -> l, m -> t
+     # MRM components in paper: $l+t+8$
+     SVG: images/special-fibres/ii-star-i-l-t.svg
+
+102. I_l-I_m-t
+     target MRNC: I_l-t-I_m
+     Tim source:  I_{{\it n}}\e({\it m})I_{{\it r}}
+     substitution: n -> l, m -> t, r -> m
+     picture labels: r -> m, m\!-\!1 -> t\!-\!1, n -> l
+     # MRM components in paper: $l+m+t-1$
+     SVG: images/special-fibres/i-l-i-m-t.svg
+
+103. I^*_l-I^*_m-t
+     target MRNC: I^*_l-t-I^*_m
+     Tim source:  I^*_{{\it n}}\e({\it m})I^*_{{\it r}}
+     substitution: n -> l, m -> t, r -> m
+     picture labels: m\!+\!1 -> t\!+\!1, n\!-\!1 -> l\!-\!1, r\!-\!1 -> m\!-\!1
+     # MRM components in paper: $l+m+t+9$
+     SVG: images/special-fibres/i-star-l-i-star-m-t.svg
+
+104. I^*_l-I_m-t / I_l-I^*_m-t
+     target MRNC: I^*_l-t-I_m / I_l-t-I^*_m
+     Tim source:  I_{{\it n}}\e({\it m})I^*_{{\it r}}
+     substitution: n -> l, m -> t, r -> m
+     picture labels: m -> t, n -> l, r\!-\!1 -> m\!-\!1
+     # MRM components in paper: $l+m+t+4$
+     SVG: images/special-fibres/mixed-i-star-l-i-m-t.svg
+
+105. 2I_l-t
+     target MRNC: [2]I_{l,tD}
+     Tim source:  [2]I_{{\it n},{\it m}D}
+     substitution: n -> t, m -> l
+     picture labels: n -> t, m\!-\!1 -> l\!-\!1
+     # MRM components in paper: $l+t+2$
+     SVG: images/special-fibres/2i-l-t.svg
+
+106. 2I^*_l-t
+     target MRNC: [2]I^*_{l,tD}
+     Tim source:  [2]I^*_{{\it m},{\it n}D}
+     substitution: m -> l, n -> t
+     picture labels: n -> t, m\!-\!1 -> l\!-\!1
+     # MRM components in paper: $l+t+7$
+     SVG: images/special-fibres/2i-star-l-t.svg
+

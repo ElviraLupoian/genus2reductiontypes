@@ -1,0 +1,2035 @@
+[
+  {
+    "index": 1,
+    "id": "i-0-0-0",
+    "nuType": "I_{0-0-0}",
+    "targetMRNC": "I_g2",
+    "sourceTimType": "I_{g2}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 1,
+    "tex": "tikz/i-0-0-0.tex",
+    "svg": "images/special-fibres/i-0-0-0.svg"
+  },
+  {
+    "index": 2,
+    "id": "i-star-0-0-0",
+    "nuType": "I^*_{0-0-0}",
+    "targetMRNC": "2^{1,1,1,1,1,1}",
+    "sourceTimType": "2^{1,1,1,1,1,1}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 7,
+    "tex": "tikz/i-star-0-0-0.tex",
+    "svg": "images/special-fibres/i-star-0-0-0.svg"
+  },
+  {
+    "index": 3,
+    "id": "ii",
+    "nuType": "II",
+    "targetMRNC": "D_g1",
+    "sourceTimType": "D_{g1}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 3,
+    "tex": "tikz/ii.tex",
+    "svg": "images/special-fibres/ii.svg"
+  },
+  {
+    "index": 4,
+    "id": "iii",
+    "nuType": "III",
+    "targetMRNC": "3^{1,1,2,2}",
+    "sourceTimType": "3^{1,1,2,2}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 7,
+    "tex": "tikz/iii.tex",
+    "svg": "images/special-fibres/iii.svg"
+  },
+  {
+    "index": 5,
+    "id": "iv",
+    "nuType": "IV",
+    "targetMRNC": "6^{2,4,3,3}",
+    "sourceTimType": "6^{2,4,3,3}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 6,
+    "tex": "tikz/iv.tex",
+    "svg": "images/special-fibres/iv.svg"
+  },
+  {
+    "index": 6,
+    "id": "v",
+    "nuType": "V",
+    "targetMRNC": "6^{1,1,4}",
+    "sourceTimType": "6^{1,1,4}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 2,
+    "tex": "tikz/v.tex",
+    "svg": "images/special-fibres/v.svg"
+  },
+  {
+    "index": 7,
+    "id": "v-star",
+    "nuType": "V^*",
+    "targetMRNC": "6^{5,5,2}",
+    "sourceTimType": "6^{5,5,2}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 12,
+    "tex": "tikz/v-star.tex",
+    "svg": "images/special-fibres/v-star.svg"
+  },
+  {
+    "index": 8,
+    "id": "vi",
+    "nuType": "VI",
+    "targetMRNC": "4^{1,3,2,2}",
+    "sourceTimType": "4^{1,3,2,2}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 7,
+    "tex": "tikz/vi.tex",
+    "svg": "images/special-fibres/vi.svg"
+  },
+  {
+    "index": 9,
+    "id": "vii",
+    "nuType": "VII",
+    "targetMRNC": "8^{1,3,4}",
+    "sourceTimType": "8^{1,3,4}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 2,
+    "tex": "tikz/vii.tex",
+    "svg": "images/special-fibres/vii.svg"
+  },
+  {
+    "index": 10,
+    "id": "vii-star",
+    "nuType": "VII^*",
+    "targetMRNC": "8^{5,7,4}",
+    "sourceTimType": "8^{5,7,4}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 12,
+    "tex": "tikz/vii-star.tex",
+    "svg": "images/special-fibres/vii-star.svg"
+  },
+  {
+    "index": 11,
+    "id": "viii-1",
+    "nuType": "VIII-1",
+    "targetMRNC": "10^{1,4,5}",
+    "sourceTimType": "10^{1,4,5}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 1,
+    "tex": "tikz/viii-1.tex",
+    "svg": "images/special-fibres/viii-1.svg"
+  },
+  {
+    "index": 12,
+    "id": "viii-2",
+    "nuType": "VIII-2",
+    "targetMRNC": "10^{7,8,5}",
+    "sourceTimType": "10^{7,8,5}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 9,
+    "tex": "tikz/viii-2.tex",
+    "svg": "images/special-fibres/viii-2.svg"
+  },
+  {
+    "index": 13,
+    "id": "viii-3",
+    "nuType": "VIII-3",
+    "targetMRNC": "10^{3,2,5}",
+    "sourceTimType": "10^{3,2,5}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 4,
+    "tex": "tikz/viii-3.tex",
+    "svg": "images/special-fibres/viii-3.svg"
+  },
+  {
+    "index": 14,
+    "id": "viii-4",
+    "nuType": "VIII-4",
+    "targetMRNC": "10^{9,6,5}",
+    "sourceTimType": "10^{9,6,5}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 13,
+    "tex": "tikz/viii-4.tex",
+    "svg": "images/special-fibres/viii-4.svg"
+  },
+  {
+    "index": 15,
+    "id": "ix-1",
+    "nuType": "IX-1",
+    "targetMRNC": "5^{1,2,2}",
+    "sourceTimType": "5^{1,2,2}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 5,
+    "tex": "tikz/ix-1.tex",
+    "svg": "images/special-fibres/ix-1.svg"
+  },
+  {
+    "index": 16,
+    "id": "ix-2",
+    "nuType": "IX-2",
+    "targetMRNC": "5^{1,1,3}",
+    "sourceTimType": "5^{1,1,3}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 3,
+    "tex": "tikz/ix-2.tex",
+    "svg": "images/special-fibres/ix-2.svg"
+  },
+  {
+    "index": 17,
+    "id": "ix-3",
+    "nuType": "IX-3",
+    "targetMRNC": "5^{2,4,4}",
+    "sourceTimType": "5^{2,4,4}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 11,
+    "tex": "tikz/ix-3.tex",
+    "svg": "images/special-fibres/ix-3.svg"
+  },
+  {
+    "index": 18,
+    "id": "ix-4",
+    "nuType": "IX-4",
+    "targetMRNC": "5^{3,3,4}",
+    "sourceTimType": "5^{3,3,4}",
+    "substitution": {},
+    "changedLabels": [],
+    "mrmComponents": 9,
+    "tex": "tikz/ix-4.tex",
+    "svg": "images/special-fibres/ix-4.svg"
+  },
+  {
+    "index": 19,
+    "id": "i-l-0-0",
+    "nuType": "I_{l-0-0}",
+    "targetMRNC": "I_{l,g1}",
+    "sourceTimType": "I_{{\\it n},g1}",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "l"
+      ]
+    ],
+    "mrmComponents": "$l$",
+    "tex": "tikz/i-l-0-0.tex",
+    "svg": "images/special-fibres/i-l-0-0.svg"
+  },
+  {
+    "index": 20,
+    "id": "i-star-l-0-0",
+    "nuType": "I^*_{l-0-0}",
+    "targetMRNC": "I^*_{0,lD}",
+    "sourceTimType": "I^*_{0,{\\it n}D}",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+7$",
+    "tex": "tikz/i-star-l-0-0.tex",
+    "svg": "images/special-fibres/i-star-l-0-0.svg"
+  },
+  {
+    "index": 21,
+    "id": "iii-ii-l",
+    "nuType": "III-II_l",
+    "targetMRNC": "III_l",
+    "sourceTimType": "III_{{\\it n}}",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "l\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+1$",
+    "tex": "tikz/iii-ii-l.tex",
+    "svg": "images/special-fibres/iii-ii-l.svg"
+  },
+  {
+    "index": 22,
+    "id": "iii-star-ii-star-l",
+    "nuType": "III^*-II^*_l",
+    "targetMRNC": "III^*_{lD}",
+    "sourceTimType": "III^*_{{\\it n}D}",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "l"
+      ]
+    ],
+    "mrmComponents": "$l+10$",
+    "tex": "tikz/iii-star-ii-star-l.tex",
+    "svg": "images/special-fibres/iii-star-ii-star-l.svg"
+  },
+  {
+    "index": 23,
+    "id": "iv-ii-l",
+    "nuType": "IV-II_l",
+    "targetMRNC": "IV_l",
+    "sourceTimType": "IV_{{\\it n}}",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "l\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+2$",
+    "tex": "tikz/iv-ii-l.tex",
+    "svg": "images/special-fibres/iv-ii-l.svg"
+  },
+  {
+    "index": 24,
+    "id": "ii-star-ii-star-l",
+    "nuType": "II^*-II^*_l",
+    "targetMRNC": "II^*_{lD}",
+    "sourceTimType": "II^*_{{\\it n}D}",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "l"
+      ]
+    ],
+    "mrmComponents": "$l+11$",
+    "tex": "tikz/ii-star-ii-star-l.tex",
+    "svg": "images/special-fibres/ii-star-ii-star-l.svg"
+  },
+  {
+    "index": 25,
+    "id": "ii-l-plus-1-0",
+    "nuType": "II_{(l+1)-0}",
+    "targetMRNC": "I^*_{0,l}",
+    "sourceTimType": "I^*_{0,{\\it n}}",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "l\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+4$",
+    "tex": "tikz/ii-l-plus-1-0.tex",
+    "svg": "images/special-fibres/ii-l-plus-1-0.svg"
+  },
+  {
+    "index": 26,
+    "id": "ii-star-l-plus-1-0",
+    "nuType": "II^*_{(l+1)-0}",
+    "targetMRNC": "[2]I_{g1,(l+1)D}",
+    "sourceTimType": "[2]I_{g1,{\\it n}D}",
+    "substitution": {
+      "n": "l+1"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "l"
+      ]
+    ],
+    "mrmComponents": "$l+4$",
+    "tex": "tikz/ii-star-l-plus-1-0.tex",
+    "svg": "images/special-fibres/ii-star-l-plus-1-0.svg"
+  },
+  {
+    "index": 27,
+    "id": "iv-star-ii-l-plus-1",
+    "nuType": "IV^*-II_{l+1}",
+    "targetMRNC": "IV^*_l",
+    "sourceTimType": "IV^*_{{\\it n}}",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "l\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+6$",
+    "tex": "tikz/iv-star-ii-l-plus-1.tex",
+    "svg": "images/special-fibres/iv-star-ii-l-plus-1.svg"
+  },
+  {
+    "index": 28,
+    "id": "ii-ii-star-l-plus-1",
+    "nuType": "II-II^*_{l+1}",
+    "targetMRNC": "II_{(l+1)D}",
+    "sourceTimType": "II_{{\\it n}D}",
+    "substitution": {
+      "n": "l+1"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "l\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+5$",
+    "tex": "tikz/ii-ii-star-l-plus-1.tex",
+    "svg": "images/special-fibres/ii-ii-star-l-plus-1.svg"
+  },
+  {
+    "index": 29,
+    "id": "iii-star-ii-l-plus-1",
+    "nuType": "III^*-II_{l+1}",
+    "targetMRNC": "III^*_l",
+    "sourceTimType": "III^*_{{\\it n}}",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "l\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+7$",
+    "tex": "tikz/iii-star-ii-l-plus-1.tex",
+    "svg": "images/special-fibres/iii-star-ii-l-plus-1.svg"
+  },
+  {
+    "index": 30,
+    "id": "iii-ii-star-l-plus-1",
+    "nuType": "III-II^*_{l+1}",
+    "targetMRNC": "III_{(l+1)D}",
+    "sourceTimType": "III_{{\\it n}D}",
+    "substitution": {
+      "n": "l+1"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "l\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+6$",
+    "tex": "tikz/iii-ii-star-l-plus-1.tex",
+    "svg": "images/special-fibres/iii-ii-star-l-plus-1.svg"
+  },
+  {
+    "index": 31,
+    "id": "i-l-m-0",
+    "nuType": "I_{l-m-0}",
+    "targetMRNC": "I_{l,m}",
+    "sourceTimType": "I_{{\\it n},{\\it m}}",
+    "substitution": {
+      "n": "m",
+      "m": "l"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "m"
+      ],
+      [
+        "m",
+        "l"
+      ]
+    ],
+    "mrmComponents": "$l+m-1$",
+    "tex": "tikz/i-l-m-0.tex",
+    "svg": "images/special-fibres/i-l-m-0.svg"
+  },
+  {
+    "index": 32,
+    "id": "i-star-l-m-0",
+    "nuType": "I^*_{l-m-0}",
+    "targetMRNC": "I^*_{l,mD}=I^*_{m,lD}",
+    "sourceTimType": "I^*_{{\\it n},{\\it m}D}",
+    "substitution": {
+      "n": "l",
+      "m": "m"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+m+7$",
+    "tex": "tikz/i-star-l-m-0.tex",
+    "svg": "images/special-fibres/i-star-l-m-0.svg"
+  },
+  {
+    "index": 33,
+    "id": "2i-l-0",
+    "nuType": "2I_{l-0}",
+    "targetMRNC": "D_{2-2,l}",
+    "sourceTimType": "D_{\\{2\\m2\\}{\\it n}}",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "l"
+      ]
+    ],
+    "mrmComponents": "$l+2$",
+    "tex": "tikz/2i-l-0.tex",
+    "svg": "images/special-fibres/2i-l-0.svg"
+  },
+  {
+    "index": 34,
+    "id": "iii-l",
+    "nuType": "III_l",
+    "targetMRNC": "4^{1,3}_{lD}",
+    "sourceTimType": "4^{1,3}_{{\\it n}D}",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+7$",
+    "tex": "tikz/iii-l.tex",
+    "svg": "images/special-fibres/iii-l.svg"
+  },
+  {
+    "index": 35,
+    "id": "ii-m-l-or-l-m-p182",
+    "nuType": "II_{m-l} / II_{l-m} (p182)",
+    "targetMRNC": "I^*_{l,m-1} / I^*_{m,l-1}",
+    "sourceTimType": "I^*_{{\\it m},{\\it n}}",
+    "substitution": {
+      "m": "l",
+      "n": "m-1"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "m"
+      ],
+      [
+        "m\\!-\\!1",
+        "l\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+m+3$",
+    "tex": "tikz/ii-m-l-or-l-m-p182.tex",
+    "svg": "images/special-fibres/ii-m-l-or-l-m-p182.svg"
+  },
+  {
+    "index": 36,
+    "id": "i-l-m-n",
+    "nuType": "I_{l-m-n}",
+    "targetMRNC": "I-l-m-n-I",
+    "sourceTimType": "I\\e({\\it n})\\e({\\it m})\\e({\\it r})I",
+    "substitution": {
+      "n": "n",
+      "m": "m",
+      "r": "l"
+    },
+    "changedLabels": [
+      [
+        "r\\!-\\!1",
+        "l\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+m+n-1$",
+    "tex": "tikz/i-l-m-n.tex",
+    "svg": "images/special-fibres/i-l-m-n.svg"
+  },
+  {
+    "index": 37,
+    "id": "i-star-l-m-n",
+    "nuType": "I^*_{l-m-n}",
+    "targetMRNC": "[2]I_{lD,mD,nD}",
+    "sourceTimType": "[2]I_{{\\it n}D,{\\it m}D,{\\it r}D}",
+    "substitution": {
+      "n": "l",
+      "m": "m",
+      "r": "n"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ],
+      [
+        "r\\!-\\!1",
+        "n\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+m+n+7$",
+    "tex": "tikz/i-star-l-m-n.tex",
+    "svg": "images/special-fibres/i-star-l-m-n.svg"
+  },
+  {
+    "index": 38,
+    "id": "ii-l-m-p183",
+    "nuType": "II_{l-m} (p183)",
+    "targetMRNC": "D-(l-1)-{2-2}-m-D",
+    "sourceTimType": "D\\e({\\it n})\\e{2-2}({\\it m})D",
+    "substitution": {
+      "n": "l-1",
+      "m": "m"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "l"
+      ]
+    ],
+    "mrmComponents": "$l+m+3$",
+    "tex": "tikz/ii-l-m-p183.tex",
+    "svg": "images/special-fibres/ii-l-m-p183.svg"
+  },
+  {
+    "index": 39,
+    "id": "ii-star-l-m",
+    "nuType": "II^*_{l-m}",
+    "targetMRNC": "[2]I_{m,lD}",
+    "sourceTimType": "[2]I_{{\\it n},{\\it m}D}",
+    "substitution": {
+      "n": "m",
+      "m": "l"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "m"
+      ],
+      [
+        "m\\!-\\!1",
+        "l\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+m+2$",
+    "tex": "tikz/ii-star-l-m.tex",
+    "svg": "images/special-fibres/ii-star-l-m.svg"
+  },
+  {
+    "index": 40,
+    "id": "iii-l-p184",
+    "nuType": "III_l (p184)",
+    "targetMRNC": "T-l-{3-3}-T",
+    "sourceTimType": "T\\e{3-3}({\\it n})T",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+7$",
+    "tex": "tikz/iii-l-p184.tex",
+    "svg": "images/special-fibres/iii-l-p184.svg"
+  },
+  {
+    "index": 41,
+    "id": "iii-star-l-stable-iv",
+    "nuType": "III^*_l",
+    "targetMRNC": "[2]T_{6,lD}",
+    "sourceTimType": "[2]T_{\\{6\\}{\\it n}D}",
+    "substitution": {
+      "n": "l"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+6$",
+    "tex": "tikz/iii-star-l-stable-iv.tex",
+    "svg": "images/special-fibres/iii-star-l-stable-iv.svg"
+  },
+  {
+    "index": 42,
+    "id": "i0-i0-t",
+    "nuType": "I0-I0-t",
+    "targetMRNC": "I0-I0-t",
+    "sourceTimType": "I_{g1}\\e({\\it n})I_{g1}",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "t\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+1$",
+    "tex": "tikz/i0-i0-t.tex",
+    "svg": "images/special-fibres/i0-i0-t.svg"
+  },
+  {
+    "index": 43,
+    "id": "i0-i-star0-t",
+    "nuType": "I0-I^*0-t",
+    "targetMRNC": "I0-I^*0-t",
+    "sourceTimType": "I_{g1}\\e({\\it n})I^*_0",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+5$",
+    "tex": "tikz/i0-i-star0-t.tex",
+    "svg": "images/special-fibres/i0-i-star0-t.svg"
+  },
+  {
+    "index": 44,
+    "id": "i-star0-i-star0-t",
+    "nuType": "I^*0-I^*0-t",
+    "targetMRNC": "I^*0-I^*0-t",
+    "sourceTimType": "I^*_0\\e({\\it n})I^*_0",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+9$",
+    "tex": "tikz/i-star0-i-star0-t.tex",
+    "svg": "images/special-fibres/i-star0-i-star0-t.svg"
+  },
+  {
+    "index": 45,
+    "id": "i0-iii-t",
+    "nuType": "I0-III-t",
+    "targetMRNC": "I0-III-t",
+    "sourceTimType": "I_{g1}\\e({\\it n})III",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+2$",
+    "tex": "tikz/i0-iii-t.tex",
+    "svg": "images/special-fibres/i0-iii-t.svg"
+  },
+  {
+    "index": 46,
+    "id": "i-star0-iii-star-t",
+    "nuType": "I^*0-III^*-t",
+    "targetMRNC": "I^*0-III^*-t",
+    "sourceTimType": "I^*_0\\e({\\it n})III^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+12$",
+    "tex": "tikz/i-star0-iii-star-t.tex",
+    "svg": "images/special-fibres/i-star0-iii-star-t.svg"
+  },
+  {
+    "index": 47,
+    "id": "i-star0-iii-t",
+    "nuType": "I^*0-III-t",
+    "targetMRNC": "I^*0-III-t",
+    "sourceTimType": "I^*_0\\e({\\it n})III",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+6$",
+    "tex": "tikz/i-star0-iii-t.tex",
+    "svg": "images/special-fibres/i-star0-iii-t.svg"
+  },
+  {
+    "index": 48,
+    "id": "i0-iii-star-t",
+    "nuType": "I0-III^*-t",
+    "targetMRNC": "I0-III^*-t",
+    "sourceTimType": "I_{g1}\\e({\\it n})III^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+8$",
+    "tex": "tikz/i0-iii-star-t.tex",
+    "svg": "images/special-fibres/i0-iii-star-t.svg"
+  },
+  {
+    "index": 49,
+    "id": "i0-ii-t",
+    "nuType": "I0-II-t",
+    "targetMRNC": "I0-II-t",
+    "sourceTimType": "I_{g1}\\e({\\it n})II",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+1$",
+    "tex": "tikz/i0-ii-t.tex",
+    "svg": "images/special-fibres/i0-ii-t.svg"
+  },
+  {
+    "index": 50,
+    "id": "i-star0-iv-star-t",
+    "nuType": "I^*0-IV^*-t",
+    "targetMRNC": "I^*0-IV^*-t",
+    "sourceTimType": "I^*_0\\e({\\it n})IV^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+11$",
+    "tex": "tikz/i-star0-iv-star-t.tex",
+    "svg": "images/special-fibres/i-star0-iv-star-t.svg"
+  },
+  {
+    "index": 51,
+    "id": "i-star0-ii-t",
+    "nuType": "I^*0-II-t",
+    "targetMRNC": "I^*0-II-t",
+    "sourceTimType": "I^*_0\\e({\\it n})II",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+5$",
+    "tex": "tikz/i-star0-ii-t.tex",
+    "svg": "images/special-fibres/i-star0-ii-t.svg"
+  },
+  {
+    "index": 52,
+    "id": "i0-iv-star-t",
+    "nuType": "I0-IV^*-t",
+    "targetMRNC": "I0-IV^*-t",
+    "sourceTimType": "I_{g1}\\e({\\it n})IV^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+7$",
+    "tex": "tikz/i0-iv-star-t.tex",
+    "svg": "images/special-fibres/i0-iv-star-t.svg"
+  },
+  {
+    "index": 53,
+    "id": "i0-iv-t",
+    "nuType": "I0-IV-t",
+    "targetMRNC": "I0-IV-t",
+    "sourceTimType": "I_{g1}\\e({\\it n})IV",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+3$",
+    "tex": "tikz/i0-iv-t.tex",
+    "svg": "images/special-fibres/i0-iv-t.svg"
+  },
+  {
+    "index": 54,
+    "id": "i-star0-ii-star-t",
+    "nuType": "I^*0-II^*-t",
+    "targetMRNC": "I^*0-II^*-t",
+    "sourceTimType": "I^*_0\\e({\\it n})II^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+13$",
+    "tex": "tikz/i-star0-ii-star-t.tex",
+    "svg": "images/special-fibres/i-star0-ii-star-t.svg"
+  },
+  {
+    "index": 55,
+    "id": "i-star0-iv-t",
+    "nuType": "I^*0-IV-t",
+    "targetMRNC": "I^*0-IV-t",
+    "sourceTimType": "I^*_0\\e({\\it n})IV",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+7$",
+    "tex": "tikz/i-star0-iv-t.tex",
+    "svg": "images/special-fibres/i-star0-iv-t.svg"
+  },
+  {
+    "index": 56,
+    "id": "i0-ii-star-t",
+    "nuType": "I0-II^*-t",
+    "targetMRNC": "I0-II^*-t",
+    "sourceTimType": "I_{g1}\\e({\\it n})II^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+9$",
+    "tex": "tikz/i0-ii-star-t.tex",
+    "svg": "images/special-fibres/i0-ii-star-t.svg"
+  },
+  {
+    "index": 57,
+    "id": "iii-iii-t",
+    "nuType": "III-III-t",
+    "targetMRNC": "III-III-t",
+    "sourceTimType": "III\\e({\\it n})III",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+3$",
+    "tex": "tikz/iii-iii-t.tex",
+    "svg": "images/special-fibres/iii-iii-t.svg"
+  },
+  {
+    "index": 58,
+    "id": "iii-star-iii-star-t",
+    "nuType": "III^*-III^*-t",
+    "targetMRNC": "III^*-III^*-t",
+    "sourceTimType": "III^*\\e({\\it n})III^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+15$",
+    "tex": "tikz/iii-star-iii-star-t.tex",
+    "svg": "images/special-fibres/iii-star-iii-star-t.svg"
+  },
+  {
+    "index": 59,
+    "id": "iii-iii-star-t",
+    "nuType": "III-III^*-t",
+    "targetMRNC": "III-III^*-t",
+    "sourceTimType": "III\\e({\\it n})III^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+9$",
+    "tex": "tikz/iii-iii-star-t.tex",
+    "svg": "images/special-fibres/iii-iii-star-t.svg"
+  },
+  {
+    "index": 60,
+    "id": "ii-iii-t",
+    "nuType": "II-III-t",
+    "targetMRNC": "II-III-t",
+    "sourceTimType": "III\\e({\\it n})II",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+2$",
+    "tex": "tikz/ii-iii-t.tex",
+    "svg": "images/special-fibres/ii-iii-t.svg"
+  },
+  {
+    "index": 61,
+    "id": "iv-star-iii-star-t",
+    "nuType": "IV^*-III^*-t",
+    "targetMRNC": "IV^*-III^*-t",
+    "sourceTimType": "IV^*\\e({\\it n})III^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+14$",
+    "tex": "tikz/iv-star-iii-star-t.tex",
+    "svg": "images/special-fibres/iv-star-iii-star-t.svg"
+  },
+  {
+    "index": 62,
+    "id": "iv-iii-t",
+    "nuType": "IV-III-t",
+    "targetMRNC": "IV-III-t",
+    "sourceTimType": "IV\\e({\\it n})III",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+4$",
+    "tex": "tikz/iv-iii-t.tex",
+    "svg": "images/special-fibres/iv-iii-t.svg"
+  },
+  {
+    "index": 63,
+    "id": "ii-star-iii-star-t",
+    "nuType": "II^*-III^*-t",
+    "targetMRNC": "II^*-III^*-t",
+    "sourceTimType": "III^*\\e({\\it n})II^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+16$",
+    "tex": "tikz/ii-star-iii-star-t.tex",
+    "svg": "images/special-fibres/ii-star-iii-star-t.svg"
+  },
+  {
+    "index": 64,
+    "id": "iv-iii-star-t",
+    "nuType": "IV-III^*-t",
+    "targetMRNC": "IV-III^*-t",
+    "sourceTimType": "IV\\e({\\it n})III^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+10$",
+    "tex": "tikz/iv-iii-star-t.tex",
+    "svg": "images/special-fibres/iv-iii-star-t.svg"
+  },
+  {
+    "index": 65,
+    "id": "ii-star-iii-t",
+    "nuType": "II^*-III-t",
+    "targetMRNC": "II^*-III-t",
+    "sourceTimType": "III\\e({\\it n})II^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+10$",
+    "tex": "tikz/ii-star-iii-t.tex",
+    "svg": "images/special-fibres/ii-star-iii-t.svg"
+  },
+  {
+    "index": 66,
+    "id": "iv-star-iii-t",
+    "nuType": "IV^*-III-t",
+    "targetMRNC": "IV^*-III-t",
+    "sourceTimType": "IV^*\\e({\\it n})III",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+8$",
+    "tex": "tikz/iv-star-iii-t.tex",
+    "svg": "images/special-fibres/iv-star-iii-t.svg"
+  },
+  {
+    "index": 67,
+    "id": "ii-iii-star-t",
+    "nuType": "II-III^*-t",
+    "targetMRNC": "II-III^*-t",
+    "sourceTimType": "III^*\\e({\\it n})II",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+8$",
+    "tex": "tikz/ii-iii-star-t.tex",
+    "svg": "images/special-fibres/ii-iii-star-t.svg"
+  },
+  {
+    "index": 68,
+    "id": "ii-ii-t",
+    "nuType": "II-II-t",
+    "targetMRNC": "II-II-t",
+    "sourceTimType": "II\\e({\\it n})II",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+1$",
+    "tex": "tikz/ii-ii-t.tex",
+    "svg": "images/special-fibres/ii-ii-t.svg"
+  },
+  {
+    "index": 69,
+    "id": "iv-star-iv-star-t",
+    "nuType": "IV^*-IV^*-t",
+    "targetMRNC": "IV^*-IV^*-t",
+    "sourceTimType": "IV^*\\e({\\it n})IV^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+13$",
+    "tex": "tikz/iv-star-iv-star-t.tex",
+    "svg": "images/special-fibres/iv-star-iv-star-t.svg"
+  },
+  {
+    "index": 70,
+    "id": "ii-iv-t",
+    "nuType": "II-IV-t",
+    "targetMRNC": "II-IV-t",
+    "sourceTimType": "IV\\e({\\it n})II",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+3$",
+    "tex": "tikz/ii-iv-t.tex",
+    "svg": "images/special-fibres/ii-iv-t.svg"
+  },
+  {
+    "index": 71,
+    "id": "ii-star-iv-star-t",
+    "nuType": "II^*-IV^*-t",
+    "targetMRNC": "II^*-IV^*-t",
+    "sourceTimType": "IV^*\\e({\\it n})II^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+15$",
+    "tex": "tikz/ii-star-iv-star-t.tex",
+    "svg": "images/special-fibres/ii-star-iv-star-t.svg"
+  },
+  {
+    "index": 72,
+    "id": "ii-iv-star-t",
+    "nuType": "II-IV^*-t",
+    "targetMRNC": "II-IV^*-t",
+    "sourceTimType": "IV^*\\e({\\it n})II",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+7$",
+    "tex": "tikz/ii-iv-star-t.tex",
+    "svg": "images/special-fibres/ii-iv-star-t.svg"
+  },
+  {
+    "index": 73,
+    "id": "iv-iv-t",
+    "nuType": "IV-IV-t",
+    "targetMRNC": "IV-IV-t",
+    "sourceTimType": "IV\\e({\\it n})IV",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+5$",
+    "tex": "tikz/iv-iv-t.tex",
+    "svg": "images/special-fibres/iv-iv-t.svg"
+  },
+  {
+    "index": 74,
+    "id": "ii-star-ii-star-t",
+    "nuType": "II^*-II^*-t",
+    "targetMRNC": "II^*-II^*-t",
+    "sourceTimType": "II^*\\e({\\it n})II^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+17$",
+    "tex": "tikz/ii-star-ii-star-t.tex",
+    "svg": "images/special-fibres/ii-star-ii-star-t.svg"
+  },
+  {
+    "index": 75,
+    "id": "iv-iv-star-t",
+    "nuType": "IV-IV^*-t",
+    "targetMRNC": "IV-IV^*-t",
+    "sourceTimType": "IV\\e({\\it n})IV^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+9$",
+    "tex": "tikz/iv-iv-star-t.tex",
+    "svg": "images/special-fibres/iv-iv-star-t.svg"
+  },
+  {
+    "index": 76,
+    "id": "ii-ii-star-t",
+    "nuType": "II-II^*-t",
+    "targetMRNC": "II-II^*-t",
+    "sourceTimType": "II\\e({\\it n})II^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+9$",
+    "tex": "tikz/ii-ii-star-t.tex",
+    "svg": "images/special-fibres/ii-ii-star-t.svg"
+  },
+  {
+    "index": 77,
+    "id": "ii-star-iv-t",
+    "nuType": "II^*-IV-t",
+    "targetMRNC": "II^*-IV-t",
+    "sourceTimType": "IV\\e({\\it n})II^*",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+11$",
+    "tex": "tikz/ii-star-iv-t.tex",
+    "svg": "images/special-fibres/ii-star-iv-t.svg"
+  },
+  {
+    "index": 78,
+    "id": "2i0-t",
+    "nuType": "2I0-t",
+    "targetMRNC": "2I0-t",
+    "sourceTimType": "[2]I_{g1,{\\it n}D}",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "t\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$t+3$",
+    "tex": "tikz/2i0-t.tex",
+    "svg": "images/special-fibres/2i0-t.svg"
+  },
+  {
+    "index": 79,
+    "id": "2i-star0-t",
+    "nuType": "2I^*0-t",
+    "targetMRNC": "2I^*0-t",
+    "sourceTimType": "[2]I^*_{0,{\\it n}D}",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+7$",
+    "tex": "tikz/2i-star0-t.tex",
+    "svg": "images/special-fibres/2i-star0-t.svg"
+  },
+  {
+    "index": 80,
+    "id": "2iv-t",
+    "nuType": "2IV-t",
+    "targetMRNC": "2IV-t",
+    "sourceTimType": "[2]IV_{{\\it n}D}",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+5$",
+    "tex": "tikz/2iv-t.tex",
+    "svg": "images/special-fibres/2iv-t.svg"
+  },
+  {
+    "index": 81,
+    "id": "2iv-star-t",
+    "nuType": "2IV^*-t",
+    "targetMRNC": "2IV^*-t",
+    "sourceTimType": "[2]IV^*_{{\\it n}D}",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+9$",
+    "tex": "tikz/2iv-star-t.tex",
+    "svg": "images/special-fibres/2iv-star-t.svg"
+  },
+  {
+    "index": 82,
+    "id": "2iii-t",
+    "nuType": "2III-t",
+    "targetMRNC": "2III-t",
+    "sourceTimType": "[2]III_{{\\it n}D}",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+4$",
+    "tex": "tikz/2iii-t.tex",
+    "svg": "images/special-fibres/2iii-t.svg"
+  },
+  {
+    "index": 83,
+    "id": "2iii-star-t",
+    "nuType": "2III^*-t",
+    "targetMRNC": "2III^*-t",
+    "sourceTimType": "[2]III^*_{{\\it n}D}",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+10$",
+    "tex": "tikz/2iii-star-t.tex",
+    "svg": "images/special-fibres/2iii-star-t.svg"
+  },
+  {
+    "index": 84,
+    "id": "2ii-t",
+    "nuType": "2II-t",
+    "targetMRNC": "2II-t",
+    "sourceTimType": "[2]II_{{\\it n}D}",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+3$",
+    "tex": "tikz/2ii-t.tex",
+    "svg": "images/special-fibres/2ii-t.svg"
+  },
+  {
+    "index": 85,
+    "id": "2ii-star-t",
+    "nuType": "2II^*-t",
+    "targetMRNC": "2II^*-t",
+    "sourceTimType": "[2]II^*_{{\\it n}D}",
+    "substitution": {
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$t+11$",
+    "tex": "tikz/2ii-star-t.tex",
+    "svg": "images/special-fibres/2ii-star-t.svg"
+  },
+  {
+    "index": 86,
+    "id": "i0-i-l-t",
+    "nuType": "I0-I_l-t",
+    "targetMRNC": "I0-I_l-t",
+    "sourceTimType": "I_{g1}\\e({\\it n})I_{{\\it m}}",
+    "substitution": {
+      "m": "l",
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "m",
+        "l"
+      ],
+      [
+        "n\\!-\\!1",
+        "t\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+t$",
+    "tex": "tikz/i0-i-l-t.tex",
+    "svg": "images/special-fibres/i0-i-l-t.svg"
+  },
+  {
+    "index": 87,
+    "id": "i-star0-i-star-l-t",
+    "nuType": "I^*0-I^*_l-t",
+    "targetMRNC": "I^*0-I^*_l-t",
+    "sourceTimType": "I^*_0\\e({\\it n})I^*_{{\\it m}}",
+    "substitution": {
+      "m": "l",
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "m\\!-\\!1",
+        "l\\!-\\!1"
+      ],
+      [
+        "n\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+t+9$",
+    "tex": "tikz/i-star0-i-star-l-t.tex",
+    "svg": "images/special-fibres/i-star0-i-star-l-t.svg"
+  },
+  {
+    "index": 88,
+    "id": "i0-i-star-l-t",
+    "nuType": "I0-I^*_l-t",
+    "targetMRNC": "I0-I^*_l-t",
+    "sourceTimType": "I_{g1}\\e({\\it n})I^*_{{\\it m}}",
+    "substitution": {
+      "m": "l",
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ],
+      [
+        "m\\!-\\!1",
+        "l\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+t+5$",
+    "tex": "tikz/i0-i-star-l-t.tex",
+    "svg": "images/special-fibres/i0-i-star-l-t.svg"
+  },
+  {
+    "index": 89,
+    "id": "i-star0-i-l-t",
+    "nuType": "I^*0-I_l-t",
+    "targetMRNC": "I^*0-I_l-t",
+    "sourceTimType": "I_{{\\it n}}\\e({\\it m})I^*_0",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "l"
+      ],
+      [
+        "m",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$l+t+4$",
+    "tex": "tikz/i-star0-i-l-t.tex",
+    "svg": "images/special-fibres/i-star0-i-l-t.svg"
+  },
+  {
+    "index": 90,
+    "id": "iii-i-l-t",
+    "nuType": "III-I_l-t",
+    "targetMRNC": "III-I_l-t",
+    "sourceTimType": "I_{{\\it n}}\\e({\\it m})III",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "l"
+      ],
+      [
+        "m",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$l+t+1$",
+    "tex": "tikz/iii-i-l-t.tex",
+    "svg": "images/special-fibres/iii-i-l-t.svg"
+  },
+  {
+    "index": 91,
+    "id": "iii-star-i-star-l-t",
+    "nuType": "III^*-I^*_l-t",
+    "targetMRNC": "III^*-I^*_l-t",
+    "sourceTimType": "I^*_{{\\it n}}\\e({\\it m})III^*",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "m\\!+\\!1",
+        "t\\!+\\!1"
+      ],
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+t+12$",
+    "tex": "tikz/iii-star-i-star-l-t.tex",
+    "svg": "images/special-fibres/iii-star-i-star-l-t.svg"
+  },
+  {
+    "index": 92,
+    "id": "iii-i-star-l-t",
+    "nuType": "III-I^*_l-t",
+    "targetMRNC": "III-I^*_l-t",
+    "sourceTimType": "I^*_{{\\it n}}\\e({\\it m})III",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ],
+      [
+        "m\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+t+6$",
+    "tex": "tikz/iii-i-star-l-t.tex",
+    "svg": "images/special-fibres/iii-i-star-l-t.svg"
+  },
+  {
+    "index": 93,
+    "id": "iii-star-i-l-t",
+    "nuType": "III^*-I_l-t",
+    "targetMRNC": "III^*-I_l-t",
+    "sourceTimType": "I_{{\\it n}}\\e({\\it m})III^*",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "m",
+        "t"
+      ],
+      [
+        "n",
+        "l"
+      ]
+    ],
+    "mrmComponents": "$l+t+7$",
+    "tex": "tikz/iii-star-i-l-t.tex",
+    "svg": "images/special-fibres/iii-star-i-l-t.svg"
+  },
+  {
+    "index": 94,
+    "id": "ii-i-l-t",
+    "nuType": "II-I_l-t",
+    "targetMRNC": "II-I_l-t",
+    "sourceTimType": "I_{{\\it n}}\\e({\\it m})II",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "l"
+      ],
+      [
+        "m",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$l+t$",
+    "tex": "tikz/ii-i-l-t.tex",
+    "svg": "images/special-fibres/ii-i-l-t.svg"
+  },
+  {
+    "index": 95,
+    "id": "iv-star-i-star-l-t",
+    "nuType": "IV^*-I^*_l-t",
+    "targetMRNC": "IV^*-I^*_l-t",
+    "sourceTimType": "I^*_{{\\it n}}\\e({\\it m})IV^*",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ],
+      [
+        "m\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+t+11$",
+    "tex": "tikz/iv-star-i-star-l-t.tex",
+    "svg": "images/special-fibres/iv-star-i-star-l-t.svg"
+  },
+  {
+    "index": 96,
+    "id": "ii-i-star-l-t",
+    "nuType": "II-I^*_l-t",
+    "targetMRNC": "II-I^*_l-t",
+    "sourceTimType": "I^*_{{\\it n}}\\e({\\it m})II",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ],
+      [
+        "m\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+t+5$",
+    "tex": "tikz/ii-i-star-l-t.tex",
+    "svg": "images/special-fibres/ii-i-star-l-t.svg"
+  },
+  {
+    "index": 97,
+    "id": "iv-star-i-l-t",
+    "nuType": "IV^*-I_l-t",
+    "targetMRNC": "IV^*-I_l-t",
+    "sourceTimType": "I_{{\\it n}}\\e({\\it m})IV^*",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "l"
+      ],
+      [
+        "m",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$l+t+6$",
+    "tex": "tikz/iv-star-i-l-t.tex",
+    "svg": "images/special-fibres/iv-star-i-l-t.svg"
+  },
+  {
+    "index": 98,
+    "id": "iv-i-l-t",
+    "nuType": "IV-I_l-t",
+    "targetMRNC": "IV-I_l-t",
+    "sourceTimType": "I_{{\\it n}}\\e({\\it m})IV",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "l"
+      ],
+      [
+        "m",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$l+t+2$",
+    "tex": "tikz/iv-i-l-t.tex",
+    "svg": "images/special-fibres/iv-i-l-t.svg"
+  },
+  {
+    "index": 99,
+    "id": "ii-star-i-star-l-t",
+    "nuType": "II^*-I^*_l-t",
+    "targetMRNC": "II^*-I^*_l-t",
+    "sourceTimType": "I^*_{{\\it n}}\\e({\\it m})II^*",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ],
+      [
+        "m\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+t+13$",
+    "tex": "tikz/ii-star-i-star-l-t.tex",
+    "svg": "images/special-fibres/ii-star-i-star-l-t.svg"
+  },
+  {
+    "index": 100,
+    "id": "iv-i-star-l-t",
+    "nuType": "IV-I^*_l-t",
+    "targetMRNC": "IV-I^*_l-t",
+    "sourceTimType": "I^*_{{\\it n}}\\e({\\it m})IV",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ],
+      [
+        "m\\!+\\!1",
+        "t\\!+\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+t+7$",
+    "tex": "tikz/iv-i-star-l-t.tex",
+    "svg": "images/special-fibres/iv-i-star-l-t.svg"
+  },
+  {
+    "index": 101,
+    "id": "ii-star-i-l-t",
+    "nuType": "II^*-I_l-t",
+    "targetMRNC": "II^*-I_l-t",
+    "sourceTimType": "I_{{\\it n}}\\e({\\it m})II^*",
+    "substitution": {
+      "n": "l",
+      "m": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "l"
+      ],
+      [
+        "m",
+        "t"
+      ]
+    ],
+    "mrmComponents": "$l+t+8$",
+    "tex": "tikz/ii-star-i-l-t.tex",
+    "svg": "images/special-fibres/ii-star-i-l-t.svg"
+  },
+  {
+    "index": 102,
+    "id": "i-l-i-m-t",
+    "nuType": "I_l-I_m-t",
+    "targetMRNC": "I_l-t-I_m",
+    "sourceTimType": "I_{{\\it n}}\\e({\\it m})I_{{\\it r}}",
+    "substitution": {
+      "n": "l",
+      "m": "t",
+      "r": "m"
+    },
+    "changedLabels": [
+      [
+        "r",
+        "m"
+      ],
+      [
+        "m\\!-\\!1",
+        "t\\!-\\!1"
+      ],
+      [
+        "n",
+        "l"
+      ]
+    ],
+    "mrmComponents": "$l+m+t-1$",
+    "tex": "tikz/i-l-i-m-t.tex",
+    "svg": "images/special-fibres/i-l-i-m-t.svg"
+  },
+  {
+    "index": 103,
+    "id": "i-star-l-i-star-m-t",
+    "nuType": "I^*_l-I^*_m-t",
+    "targetMRNC": "I^*_l-t-I^*_m",
+    "sourceTimType": "I^*_{{\\it n}}\\e({\\it m})I^*_{{\\it r}}",
+    "substitution": {
+      "n": "l",
+      "m": "t",
+      "r": "m"
+    },
+    "changedLabels": [
+      [
+        "m\\!+\\!1",
+        "t\\!+\\!1"
+      ],
+      [
+        "n\\!-\\!1",
+        "l\\!-\\!1"
+      ],
+      [
+        "r\\!-\\!1",
+        "m\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+m+t+9$",
+    "tex": "tikz/i-star-l-i-star-m-t.tex",
+    "svg": "images/special-fibres/i-star-l-i-star-m-t.svg"
+  },
+  {
+    "index": 104,
+    "id": "mixed-i-star-l-i-m-t",
+    "nuType": "I^*_l-I_m-t / I_l-I^*_m-t",
+    "targetMRNC": "I^*_l-t-I_m / I_l-t-I^*_m",
+    "sourceTimType": "I_{{\\it n}}\\e({\\it m})I^*_{{\\it r}}",
+    "substitution": {
+      "n": "l",
+      "m": "t",
+      "r": "m"
+    },
+    "changedLabels": [
+      [
+        "m",
+        "t"
+      ],
+      [
+        "n",
+        "l"
+      ],
+      [
+        "r\\!-\\!1",
+        "m\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+m+t+4$",
+    "tex": "tikz/mixed-i-star-l-i-m-t.tex",
+    "svg": "images/special-fibres/mixed-i-star-l-i-m-t.svg"
+  },
+  {
+    "index": 105,
+    "id": "2i-l-t",
+    "nuType": "2I_l-t",
+    "targetMRNC": "[2]I_{l,tD}",
+    "sourceTimType": "[2]I_{{\\it n},{\\it m}D}",
+    "substitution": {
+      "n": "t",
+      "m": "l"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ],
+      [
+        "m\\!-\\!1",
+        "l\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+t+2$",
+    "tex": "tikz/2i-l-t.tex",
+    "svg": "images/special-fibres/2i-l-t.svg"
+  },
+  {
+    "index": 106,
+    "id": "2i-star-l-t",
+    "nuType": "2I^*_l-t",
+    "targetMRNC": "[2]I^*_{l,tD}",
+    "sourceTimType": "[2]I^*_{{\\it m},{\\it n}D}",
+    "substitution": {
+      "m": "l",
+      "n": "t"
+    },
+    "changedLabels": [
+      [
+        "n",
+        "t"
+      ],
+      [
+        "m\\!-\\!1",
+        "l\\!-\\!1"
+      ]
+    ],
+    "mrmComponents": "$l+t+7$",
+    "tex": "tikz/2i-star-l-t.tex",
+    "svg": "images/special-fibres/2i-star-l-t.svg"
+  }
+]

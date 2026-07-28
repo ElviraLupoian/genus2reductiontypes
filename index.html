@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genus 2 reduction types</title>
+    <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <!--Input latex (use dollar signs)-->
@@ -12,8 +14,48 @@
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
+<script defer src="app.js"></script>
 
 <body>
-    Hi. 
+
+<div class="container">
+  <h1> Genus 2 reduction types</h1><n></n>
+
+  <div id="toggler">
+    <label><input type="checkbox" data-column="nu" checked> NU type</label>
+    <label><input type="checkbox" data-column="mrnc" checked> MRNC reduction type</label>
+    <label><input type="checkbox" data-column="stable" checked> Potential stable type</label>
+    <label><input type="checkbox" data-column="mrm-pic" checked> MRM special fibre</label>
+    <label><input type="checkbox" data-column="mrnc-pic" checked> MRNC special fibre</label>
+    <label><input type="checkbox" data-column="components" checked> # Components (MRM)</label>
+    <label><input type="checkbox" data-column="component" checked> Néron component group</label>
+    <label><input type="checkbox" data-column="tamagawa" checked> Tamagawa number</label>
+    <label><input type="checkbox" data-column="conductor" checked> Tame conductor exponent</label>
+    <label><input type="checkbox" data-column="wild" checked> Wild reduction iff $p=$</label>
+    <label><input type="checkbox" data-column="discriminant" checked> $v(\Delta_{\min})$</label>
+    <label><input type="checkbox" data-column="omega" checked> $v(\omega_{\min}/\omega^0)$</label>
+  </div>
+  
+  <div class="table-wrapper">
+  <table>
+    <tr>
+      <th class="col-nu">NU type</th>
+      <th class="col-mrnc">MRNC reduction type</th>
+      <th class="col-stable">Potential stable type</th>
+      <th class="col-mrm-pic">MRM special fibre</th>
+      <th class="col-mrnc-pic">MRNC special fibre</th>
+      <th class="col-components"># Components (MRM)</th>
+      <th class="col-component">Néron component group</th>
+      <th class="col-tamagawa">Tamagawa number</th>
+      <th class="col-conductor">Tame conductor exponent</th>
+      <th class="col-wild">Wild reduction iff $p=$</th>
+      <th class="col-discriminant">$v(\Delta_{\min})$</th>
+      <th class="col-omega">$v(\omega_{\min}/\omega^0)$</th>
+    </tr>
+
+    <tbody id="reduction-types"></tbody>
+  </table>
+</div>
+</div>
 </body>
 </html>

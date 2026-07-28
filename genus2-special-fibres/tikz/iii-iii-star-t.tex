@@ -1,0 +1,34 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\begin{document}
+% Namikawa--Ueno type: III-III^*-t
+% Target MRNC type: III-III^*-t
+% Adapted from Tim Dokchitser picture: III\e({\it n})III^*
+% Parameter substitution: n -> t
+\begin{tikzpicture}[xscale=0.57,yscale=0.62]
+\draw[thick,shorten >=2] (4/15,0)--(139/30,0) node[inner sep=2pt,blue,above left,scale=0.8] {4};
+\draw[shorten <=-3pt, shorten >=-3pt] (3/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {3} (3/5,3/5);
+\draw[shorten <=-3pt, shorten >=-3pt] (3/5,3/5)--node[inner sep=2pt,scale=0.8,blue,above] {2} (0,3/5);
+\draw[shorten <=-3pt] (0,3/5)--node[inner sep=2pt,scale=0.8,blue,left] {1} (0,6/5);
+\draw[shorten <=-3pt] (7/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {2} (7/5,3/5);
+\draw[shorten <=-3pt, shorten >=-3pt] (17/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {3} (17/5,3/5);
+\draw[shorten <=-3pt, shorten >=-3pt] (17/5,3/5)--node[inner sep=2pt,scale=0.8,blue,above] {2} (13/5,3/5);
+\draw (13/5,3/5) 
+    ++(0.07,-0.13)--++(-0.26,0.5)++(0.12,-0.19)  
+    ++(0,0.02)
+      node[blue,scale=0.7,inner sep=1,anchor=west]{1}
+    ++(0,-0.02)
+    ++(-0.16,0.02)--++(0.43,0.31)++(-0.13,0.07)  
+    node{$\cdot$} ++(-0.06,0.12) node{$\cdot$}
+    ++(-0.06,0.12) node{$\cdot$}++(0.17,-0.1)    node[auto,inner sep=5,scale=0.7,anchor=west]{$t\!+\!1$}
+    ++(-0.26,0.19)--++(0.43,0.31)++(-0.18,0.04)   
+    ++(0,-0.04)
+      node[blue,scale=0.7,inner sep=1,anchor=east]{1}
+    ++(0,0.04)
+    ++(0.18,-0.04)++(-0.03,-0.15)--++(-0.26,0.5);
+\draw[thick,shorten >=2] (34/15,21/10)--(163/30,21/10) node[inner sep=2pt,blue,above left,scale=0.8] {4};
+\draw[shorten <=-3pt] (17/5,21/10)--node[inner sep=2pt,scale=0.8,blue,right] {1} (17/5,27/10);
+\draw[shorten <=-3pt] (21/5,21/10)--node[inner sep=2pt,scale=0.8,blue,right] {2} (21/5,27/10);
+\end{tikzpicture}
+\end{document}

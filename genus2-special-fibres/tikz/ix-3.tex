@@ -1,0 +1,22 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\begin{document}
+% Namikawa--Ueno type: IX-3
+% Target MRNC type: 5^{2,4,4}
+% Adapted from Tim Dokchitser picture: 5^{2,4,4}
+% Parameter substitution: (none)
+\begin{tikzpicture}[xscale=0.57,yscale=0.62]
+\draw[thick,shorten >=2] (4/15,0)--(139/30,0) node[inner sep=2pt,blue,above left,scale=0.8] {5};
+\draw[shorten <=-3pt, shorten >=-3pt] (3/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {2} (3/5,3/5);
+\draw[shorten <=-3pt] (3/5,3/5)--node[inner sep=2pt,scale=0.8,blue,above] {1} (0,3/5);
+\draw[shorten <=-3pt, shorten >=-3pt] (2,0)--node[inner sep=2pt,scale=0.8,blue,right] {4} (2,3/5);
+\draw[shorten <=-3pt, shorten >=-3pt] (2,3/5)--node[inner sep=2pt,scale=0.8,blue,above] {3} (7/5,3/5);
+\draw[shorten <=-3pt, shorten >=-3pt] (7/5,3/5)--node[inner sep=2pt,scale=0.8,blue,left] {2} (7/5,6/5);
+\draw[shorten <=-3pt] (7/5,6/5)--node[inner sep=2pt,scale=0.8,blue,above] {1} (2,6/5);
+\draw[shorten <=-3pt, shorten >=-3pt] (17/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {4} (17/5,3/5);
+\draw[shorten <=-3pt, shorten >=-3pt] (17/5,3/5)--node[inner sep=2pt,scale=0.8,blue,above] {3} (14/5,3/5);
+\draw[shorten <=-3pt, shorten >=-3pt] (14/5,3/5)--node[inner sep=2pt,scale=0.8,blue,left] {2} (14/5,6/5);
+\draw[shorten <=-3pt] (14/5,6/5)--node[inner sep=2pt,scale=0.8,blue,above] {1} (17/5,6/5);
+\end{tikzpicture}
+\end{document}

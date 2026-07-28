@@ -1,0 +1,16 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\begin{document}
+% Namikawa--Ueno type: IX-2
+% Target MRNC type: 5^{1,1,3}
+% Adapted from Tim Dokchitser picture: 5^{1,1,3}
+% Parameter substitution: (none)
+\begin{tikzpicture}[xscale=0.57,yscale=0.62]
+\draw[thick,shorten >=2] (-1/3,0)--(103/30,0) node[inner sep=2pt,blue,above left,scale=0.8] {5};
+\draw[shorten <=-3pt] (0,0)--node[inner sep=2pt,scale=0.8,blue,right] {1} (0,3/5);
+\draw[shorten <=-3pt] (4/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {1} (4/5,3/5);
+\draw[shorten <=-3pt, shorten >=-3pt] (11/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {3} (11/5,3/5);
+\draw[shorten <=-3pt] (11/5,3/5)--node[inner sep=2pt,scale=0.8,blue,above] {1} (8/5,3/5);
+\end{tikzpicture}
+\end{document}
