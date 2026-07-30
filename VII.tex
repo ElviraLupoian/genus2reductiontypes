@@ -1,0 +1,25 @@
+\documentclass[tikz,border=3pt]{standalone}
+\input{nu-fibre-style.tex}
+
+\begin{document}
+\begin{tikzpicture}[nu fibre, scale=1]
+
+  % C-component
+  \draw (0,0) ellipse (1.0 and 0.68);
+
+  % cusp branch
+  \draw (1.0,0)
+    .. controls (1.55,0.35) and (1.9,0.55) ..
+    (2.15,0.45)
+    .. controls (2.35,0.35) and (2.35,0.1) ..
+    (2.05,0.0)
+    .. controls (1.75,-0.1) and (1.5,0.0) ..
+    (1.0,0);
+
+  % labels
+  \NUTypeLabel{(0,0.9)}{(0,0)}{$C$}
+  \NUMult{(0,0)}{(0,0)}{$2$}
+  \NUText{(2.25,0.82)}{(0,0)}{cusp}
+
+\end{tikzpicture}
+\end{document}

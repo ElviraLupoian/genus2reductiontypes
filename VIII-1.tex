@@ -1,0 +1,27 @@
+\documentclass[tikz,border=3pt]{standalone}
+\input{nu-fibre-style.tex}
+
+\begin{document}
+\begin{tikzpicture}[nu fibre, scale=1]
+
+  % main horizontal component
+  \draw (-2.3,0) -- (2.0,0);
+
+  % singular cusp branch
+  \draw (0.3,0)
+    .. controls (0.9,0.55) and (1.35,0.78) ..
+    (1.7,0.62)
+    .. controls (1.92,0.50) and (1.95,0.18) ..
+    (1.55,0.04)
+    .. controls (1.12,-0.08) and (0.82,-0.02) ..
+    (0.3,0);
+
+  % multiplicities
+  \NUMult{(-1.2,0.22)}{(0,0)}{$2$}
+  \NUMult{(1.02,0.27)}{(0,0)}{$3$}
+
+  % annotation
+  \NUText{(1.65,1.02)}{(0,0)}{$(2,5)$ cusp}
+
+\end{tikzpicture}
+\end{document}

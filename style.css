@@ -1,126 +1,473 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-
-body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    padding: 10px;
-    color: #222;
-    background-color: #f5f6f8;
-  }
-
-
-.container {
-    justify-content: center;
-    background: white;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  }
-
-  h1 { 
-    font-weight: 400; 
-    font-size: 1.6rem; 
-    border-bottom: 1px solid #eee; 
-    padding-bottom: 8px; 
-    margin: 0 0 10px 0; 
-    text-align: left;
-    }
-  
-/* Column checkboxes */
-#toggler {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  
-    margin-bottom: 20px;
-    padding: 12px;
-  
-    border: 1px solid #d8dde3;
-    border-radius: 6px;
-    background-color: white;
-  }
-
-
-/* Allows wide tables to scroll */
-.table-wrapper {
-    overflow-x: auto;
-  }
-  
-#toggler label {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  
-    padding: 5px 8px;
-    font-size: 10px;
-  
-    border: 1px solid #e0e3e7;
-    border-radius: 4px;
-    background-color: #f8f9fa;
-  }
-
-table { 
-    width: 100%;
-    border-collapse: collapse;
-  
-    background-color: white;
-    box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
-    }
-
-th, td {
-      padding: 2.5px 3.5px;
-      border: 1px solid #d8dde3;
-      text-align: center;
-      vertical-align: middle;
-      font-size: 0.85rem;
-    }
-    
-thead th {
-      color: white;
-      background-color: #34495e;
-      font-weight: 400;
-    }
-    
-tbody th[scope="row"] {
-      text-align: center;
-      white-space: nowrap;
-      background-color: #eef2f6;
-      font-weight: 400;
-    }
-
-tbody tr:nth-child(even) td {
-        background-color: #f8f9fa;
-      }
-      
-tbody tr:hover td,
-tbody tr:hover th {
-        background-color: #eaf2f8;
-      }
-
-.hidden { 
-    display: none !important; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.col-nu {width:0px; overflow-wrap: anywhere;}
-.col-mrnc, .col-stable, .col-conductor, .col-discriminant, .col-component, .col-components, .col-mrm-pic, .col-mrnc-fibre, .col-wild, .col-omega { width: 0px; } 
-.col-mrnc-pic {width: 0px; max-width: 100%; height: 0px;margin: 0 auto;   padding: 30px 0px; overflow: visible;}
+:root {
+  --actions-column-width: 62px;
+  --mrm-column-width: 135px;
+  --header-background: #34495e;
+  --table-border: #d8dde3;
+}
 
+body {
+  padding: 10px;
+  color: #222;
+  background-color: #f5f6f8;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  padding: 28px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgb(0 0 0 / 10%);
+}
+
+h1 {
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+
+.table-introduction {
+  margin-bottom: 16px;
+  color: #3f474e;
+  font-size: 0.87rem;
+  line-height: 1.55;
+}
+
+.table-introduction > p:first-child {
+  width: 100%;
+  max-width: none;
+  margin-bottom: 10px;
+}
+
+.table-guide {
+  width: 100%;
+  max-width: none;
+  border: 1px solid var(--table-border);
+  border-radius: 6px;
+  background: #f8f9fa;
+}
+
+.table-guide summary {
+  padding: 8px 11px;
+  color: #34495e;
+  cursor: pointer;
+  font-weight: 500;
+  user-select: none;
+}
+
+.table-guide[open] summary {
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.table-guide-content {
+  padding: 12px 14px 14px;
+}
+
+.paper-reference {
+  margin-bottom: 13px;
+}
+
+.paper-reference a {
+  color: #315f85;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.paper-reference a:hover {
+  color: #1f496b;
+}
+
+
+.table-caveat strong {
+  color: #34495e;
+}
+
+.table-guide dl {
+  display: grid;
+  grid-template-columns: minmax(175px, 225px) minmax(0, 1fr);
+  gap: 8px 18px;
+}
+
+.table-guide dt {
+  color: #34495e;
+  font-weight: 600;
+}
+
+.table-guide dd {
+  margin: 0;
+}
+
+.table-caveat {
+  margin-top: 14px;
+  padding: 9px 11px;
+  border-left: 3px solid #8796a3;
+  background: white;
+}
+
+.controls-help {
+  width: 100%;
+  max-width: none;
+  margin-top: 9px;
+  color: #65717c;
+  font-size: 0.78rem;
+}
+
+.controls {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.row-tools,
+#toggler {
+  padding: 12px;
+  border: 1px solid var(--table-border);
+  border-radius: 7px;
+  background: white;
+}
+
+.row-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 10px 14px;
+}
+
+
+.row-tool-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.row-tool-buttons button {
+  padding: 7px 10px;
+  border: 1px solid #cfd5dc;
+  border-radius: 5px;
+  background: #f8f9fa;
+  color: #34495e;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.75rem;
+}
+
+.row-tool-buttons button:hover:not(:disabled) {
+  background: #edf2f6;
+}
+
+.row-tool-buttons button.active {
+  border-color: #537a9d;
+  background: #e8f1f8;
+  color: #244d70;
+}
+
+.row-tool-buttons button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.row-tools-help {
+  flex: 1 0 100%;
+  color: #65717c;
+  font-size: 0.73rem;
+}
+
+.row-count {
+  flex: 1 0 100%;
+  color: #66717c;
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+#toggler {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#toggler label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 8px;
+  border: 1px solid #e0e3e7;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  font-size: 0.68rem;
+}
+
+/*
+ * The table scrolls inside this panel. This is what allows the header row to
+ * remain visible while moving down the table.
+ */
+.table-wrapper {
+  position: relative;
+  max-height: calc(100vh - 245px);
+  overflow: auto;
+  border: 1px solid var(--table-border);
+  border-radius: 6px;
+  isolation: isolate;
+}
+
+table {
+  width: 100%;
+  min-width: 1600px;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: white;
+}
+
+th,
+td {
+  padding: 4px 6px;
+  border-right: 1px solid var(--table-border);
+  border-bottom: 1px solid var(--table-border);
+  background-clip: padding-box;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.82rem;
+}
+
+/* Freeze the full heading row during vertical scrolling. */
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 7px 6px;
+  color: white;
+  background-color: var(--header-background);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 14%);
+  font-size: 0.78rem;
+  font-weight: 400;
+}
+
+tbody th[scope="row"] {
+  white-space: nowrap;
+  background-color: white;
+  font-weight: 400;
+}
+
+tbody tr:nth-child(even) > * {
+  background-color: #f8f9fa;
+}
+
+tbody tr:hover > * {
+  background-color: #eaf2f8 !important;
+}
+
+/* Selected = temporary comparison choice. */
+tbody tr.row-selected > * {
+  background-color: #dceeff !important;
+}
+
+/* Pinned = persistent row kept at the top and visible during searches. */
+tbody tr.row-pinned > * {
+  position: sticky;
+  top: var(--pinned-top, var(--sticky-header-height, 0px));
+  z-index: 6;
+  background-color: #fff2e2 !important;
+  box-shadow: 0 1px 0 #d8c3a9;
+}
+
+tbody tr.row-pinned > .col-actions {
+  box-shadow: inset 3px 0 0 #b66f2a, 0 1px 0 #d8c3a9;
+}
+
+/* A row that is both selected and pinned has a neutral mixed highlight. */
+tbody tr.row-selected.row-pinned > * {
+  background-color: #e9edf3 !important;
+}
+
+tbody tr.row-selected.row-pinned > .col-actions {
+  box-shadow: inset 3px 0 0 #6b7f93, 0 1px 0 #c6ced6;
+}
+
+/* Preserve both vertical and horizontal freezing on the first two cells. */
+tbody tr.row-pinned > .col-actions {
+  z-index: 9;
+}
+
+tbody tr.row-pinned > .col-nu {
+  z-index: 8;
+}
+
+/* Freeze the select/pin column during horizontal scrolling. */
+.col-actions {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  width: var(--actions-column-width);
+  min-width: var(--actions-column-width);
+  max-width: var(--actions-column-width);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+thead .col-actions {
+  z-index: 13;
+  background-color: var(--header-background);
+}
+
+.row-actions {
+  white-space: nowrap;
+  background: #fff;
+}
+
+/* Freeze the MRM reduction-type column beside the select/pin column. */
+.col-nu {
+  position: sticky;
+  left: var(--actions-column-width);
+  z-index: 2;
+  width: var(--mrm-column-width);
+  min-width: var(--mrm-column-width);
+  max-width: var(--mrm-column-width);
+  box-shadow: 2px 0 0 rgb(52 73 94 / 16%);
+}
+
+thead .col-nu {
+  z-index: 12;
+  background-color: var(--header-background);
+}
+
+.row-selector {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  cursor: pointer;
+  accent-color: #47779f;
+}
+
+.pin-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+  height: 21px;
+  margin-left: 3px;
+  padding: 0;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  color: #8a949d;
+  cursor: pointer;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.pin-button svg {
+  display: block;
+  width: 13px;
+  height: 13px;
+}
+
+.pin-button:hover {
+  color: #6a7782;
+  background: #eef1f3;
+}
+
+.pin-button[aria-pressed="true"] {
+  color: #9d571b;
+  background: #f6dfc8;
+}
+
+.pin-button[aria-pressed="true"]:hover {
+  color: #81420f;
+  background: #efd0b1;
+}
+
+.col-mrnc {
+  min-width: 125px;
+}
+
+.col-stable,
+.col-conductor,
+.col-wild,
+.col-discriminant,
+.col-omega,
+.col-components,
+
+.col-component {
+  min-width: 145px;
+}
+
+.col-mrm-pic {
+  min-width: 180px;
+}
+
+.col-mrnc-pic {
+  min-width: 350px;
+  overflow: visible;
+}
+
+/*
+ * Picture cells need generous padding only when they actually contain an
+ * image. When a picture column is hidden, or a cell contains only a dash,
+ * the row collapses back to the compact default height.
+ */
+tbody .col-mrm-pic,
+tbody .col-mrnc-pic {
+  padding: 4px 6px;
+}
+
+tbody .col-mrm-pic:has(img.special-fibre) {
+  padding: 18px 16px;
+}
+
+tbody .col-mrnc-pic:has(img.special-fibre) {
+  padding: 26px 36px;
+}
 
 .special-fibre {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  margin: 0 auto;
+  transform: scale(1.5);
+  transform-origin: center;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 700px) {
+
+  .table-guide dl {
     display: block;
-  
-    width: auto;
-    height: auto;
-    max-width: none;
-    max-height: none;
-  
-    margin: 0 auto;
-  
-    transform: scale(1.5);
-    transform-origin: center;
   }
+
+  .table-guide dt {
+    margin-top: 10px;
+  }
+
+  .table-guide dt:first-child {
+    margin-top: 0;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .container {
+    padding: 16px 10px;
+    border-radius: 0;
+  }
+
+  .table-wrapper {
+    max-height: calc(100vh - 325px);
+  }
+}
+

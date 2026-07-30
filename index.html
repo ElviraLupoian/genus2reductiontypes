@@ -1,59 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genus 2 reduction types</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genus 2 reduction types</title>
+  <link rel="stylesheet" href="style.css">
 
+  <!-- MathJax configuration and reduction-type data. -->
+  <script src="script.js"></script>
+  <script
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"
+  ></script>
+  <script defer src="app.js"></script>
 </head>
 
-<!--Input latex (use dollar signs)-->
-<script src="script.js"></script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
-
-<script defer src="app.js"></script>
-
 <body>
+  <main class="container">
+    <h1>Genus 2 reduction types</h1>
 
-<div class="container">
-  <h1> Genus 2 reduction types</h1><n></n>
+    <section class="table-introduction">
+      <p>
+        This web-page is a version of the tables
+        in the arxiv preprint
+        <a
+          href="https://arxiv.org/abs/2607.07558"
+          target="_blank"
+          rel="noopener noreferrer"
+        ><cite>Reduction Types of Genus 2 Curves</cite></a> that lists the reduction types of genus 2 curves.
+        <!--A family may be parametrised by $l$, $m$, $n$, $t$, and other
+        integers. The restrictions on these parameters are not yet displayed
+        on this webpage, and the exceptional specialisations with parameter
+        value $-1$ are omitted.-->
+      </p>
 
-  <div id="toggler">
-    <label><input type="checkbox" data-column="nu" checked> NU type</label>
-    <label><input type="checkbox" data-column="mrnc" checked> MRNC reduction type</label>
-    <label><input type="checkbox" data-column="stable" checked> Potential stable type</label>
-    <label><input type="checkbox" data-column="mrm-pic" checked> MRM special fibre</label>
-    <label><input type="checkbox" data-column="mrnc-pic" checked> MRNC special fibre</label>
-    <label><input type="checkbox" data-column="components" checked> # Components (MRM)</label>
-    <label><input type="checkbox" data-column="component" checked> Néron component group</label>
-    <label><input type="checkbox" data-column="conductor" checked> Tame conductor exponent</label>
-    <label><input type="checkbox" data-column="wild" checked> Wild reduction iff $p=$</label>
-    <label><input type="checkbox" data-column="discriminant" checked> $v(\Delta_{\min})$</label>
-    <label><input type="checkbox" data-column="omega" checked> $v(\omega_{\min}/\omega^0)$</label>
-  </div>
-  
-  <div class="table-wrapper">
-  <table>
-    <tr>
-      <th class="col-nu">NU type</th>
-      <th class="col-mrnc">MRNC reduction type</th>
-      <th class="col-stable">Potential stable type</th>
-      <th class="col-mrm-pic">MRM special fibre</th>
-      <th class="col-mrnc-pic">MRNC special fibre</th>
-      <th class="col-components"># Components (MRM)</th>
-      <th class="col-component">Néron component group</th>
-      <th class="col-conductor">Tame conductor exponent</th>
-      <th class="col-wild">Wild reduction iff $p=$</th>
-      <th class="col-discriminant">$v(\Delta_{\min})$</th>
-      <th class="col-omega">$v(\omega_{\min}/\omega^0)$</th>
-    </tr>
+      <details class="table-guide">
+        <summary>About the table</summary>
 
-    <tbody id="reduction-types"></tbody>
-  </table>
+        <div class="table-guide-content">
+          <p class="paper-reference">
+            Throughout, $R$ is a complete discrete valuation ring with fraction
+            field $K$ and algebraically closed residue field $k$ of characteristic
+            $p\geq 0$, and $C/K$ is a smooth, projective, geometrically connected
+            curve of genus $2$
+            <a
+              href="https://arxiv.org/pdf/2607.07558#page=7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >[arXiv:2607.07558, §1.6]</a>.
+          </p>
+        
+          <dl>
+            <dt>MRM reduction type</dt>
+            <dd>
+              The reduction type of the minimal regular model (MRM) of $C$. It records
+              the irreducible components of the special fibre, their multiplicities
+              and geometric genera, their intersection pairing, and its singular
+              points
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Def. 2.1]</a>.
+              The labels are those of
+              <a
+                href="https://eudml.org/doc/154162"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[Namikawa–Ueno]</a>.
+            </dd>
+        
+            <dt>MRNC reduction type</dt>
+            <dd>
+              The reduction type of the minimal regular normal crossings model (MRNC).
+              The labels are those in
+              <a
+                href="https://arxiv.org/pdf/2512.09082#page=57"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2512.09082, Table G2]</a>.
+              For genus $2$, the MRM and MRNC reduction types determine one another
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Thm. 2.3]</a>,
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=10"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Cor. 2.7]</a>.
+            </dd>
+        
+            <dt>Potential stable type</dt>
+            <dd>
+              The type of the special fibre of the stable model after passing to a
+              finite extension over which $C$ is semistable. The notation
+              $\I$–$\VII$ is due to
+              <a
+                href="https://www.math.u-bordeaux.fr/~qliu/articles/genre2.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[Liu]</a>.
+        
+              The values in this column <strong>only apply when $p\neq 2$ and
+              $C$ has tame reduction</strong>
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=11"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Thm. 3.2(2)]</a>,
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=36"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Table 7.8]</a>.
+            </dd>
+        
+            <dt>MRM special fibre</dt>
+            <dd>
+              Special fibre of the minimal regular
+              model, following the Namikawa–Ueno description. Each irreducible
+              component is marked by its multiplicity.
+            </dd>
+        
+            
+            <dt>MRNC special fibre</dt>
+            <dd>
+              Special fibre of the minimal regular normal
+              crossings model, using the notation of
+              <a
+                href="https://arxiv.org/pdf/2512.09082#page=57"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2512.09082, Table G2]</a>.
+
+              The drawn curves represent the irreducible components of the special
+              fibre, and the picture shows how these components intersect. A component
+              marked by $m$ has multiplicity $m$. If it has positive geometric genus,
+              this is also indicated: for example, a component marked $m\,\mathrm{g1}$
+              has multiplicity $m$ and geometric genus $1$. Components of geometric
+              genus $0$ have no genus marking.
+
+              Some rational components occur in chains. To keep the pictures compact,
+              part of such a chain is replaced by dots. The expression beside the
+              dots indicates how the length of the chain, which varies with the parameters of the reduction
+              family. After the parameters are specialised, the corresponding complete
+              special fibre can be viewed on
+              <a
+                href="https://people.maths.bris.ac.uk/~matyd/redlib/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[Dokchitser, redlib]</a>.
+            </dd>
+        
+            <dt># Components (MRM)</dt>
+            <dd>
+              The number of irreducible components in the special fibre of the
+              minimal regular model.
+            </dd>
+        
+            <dt>Néron component group</dt>
+            <dd>
+              The group $\Phi_C(k)$ of components of the Néron model of
+              $\Jac(C)$
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=20"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Thm. 4.5]</a>.
+            </dd>
+        
+            <dt>Tame conductor exponent</dt>
+            <dd>
+              The tame part of the conductor exponent of $\Jac(C)$. If $C$ has
+              tame reduction, this is its full conductor exponent
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=22"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Lem. 5.1 and Cor. 5.2]</a>.
+            </dd>
+        
+            <dt>Tame and wild reduction</dt>
+            <dd>
+              The curve has tame reduction if it becomes semistable over a tamely
+              ramified finite extension of $K$; otherwise its reduction is wild. The
+              “Wild reduction iff $p=$” column lists the residue characteristics in
+              which the given reduction-type family is wild. Whether the reduction is
+              tame is determined by the MRNC special fibre
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Thm. 1.1(4)]</a>,
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Rem. 2.2]</a>.
+            </dd>
+        
+            <dt>$v(\Delta_{\min})$</dt>
+            <dd>
+              The displayed entry is the valuation of the discriminant of a minimal
+              Weierstrass model. A Weierstrass model $y^2=f(x)$ is minimal if
+              $f(x)\in R[x]$ and $v(\operatorname{disc}(f))$ is minimal among all
+              integral Weierstrass models of $C$.
+
+              The values in this column <strong>only apply when $p\neq 2$ and $C$ has
+              tame reduction</strong>
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=22"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Def. 5.6]</a>,
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=24"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Thm. 5.19]</a>.
+            </dd>
+        
+            <dt>$v(\omega_{\min}/\omega^0)$</dt>
+            <dd>
+              The displayed entry is the valuation $v(\lambda)$, where
+              $\omega_{\min}=\lambda\omega^0$. Here
+              $\omega_{\min}=\frac{dx}{y}\wedge\frac{x\,dx}{y}$
+              is the exterior form associated to a minimal Weierstrass model, and
+              $\omega^0$ is a Néron exterior form.
+            
+              The values in this column <strong>only apply when $p\neq 2$ and $C$ has
+              tame reduction</strong>
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=22"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Defs. 5.3–5.6]</a>,
+              <a
+                href="https://arxiv.org/pdf/2607.07558#page=25"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[arXiv:2607.07558, Cor. 5.20]</a>.
+            </dd>
+          </dl>
+        </div>
+      </details>
+
+      <p class="controls-help">
+        <!--Use the column checkboxes to show or hide data. Select rows for a
+        temporary comparison, or pin rows to keep them fixed beneath the
+        heading while scrolling.-->
+      </p>
+    </section>
+
+    <div class="controls">
+      <section class="row-tools" aria-label="Row comparison tools">
+<div class="row-tool-buttons">
+          <button
+            id="show-selected"
+            type="button"
+            aria-pressed="false"
+            title="Show only rows selected with a checkbox"
+          >
+            Show selected only
+          </button>
+
+          <button
+            id="show-pinned"
+            type="button"
+            aria-pressed="false"
+            title="Show only pinned rows"
+          >
+            Show pinned only
+          </button>
+
+          <button id="clear-selection" type="button">
+            Clear selection
+          </button>
+
+          <button id="unpin-all" type="button">
+            Unpin all
+          </button>
 </div>
-</div>
+
+        <p class="row-tools-help">
+          Use the column checkboxes to show or hide data. Select rows temporarily with the checkbox. Pinned rows move to the
+          top and stay frozen beneath the heading row while you scroll. Pins
+          survive refreshes.
+        </p>
+
+        <p id="row-count" class="row-count" aria-live="polite"></p>
+      </section>
+
+      <section id="toggler" aria-label="Visible table columns">
+        <label><input type="checkbox" data-column="nu" checked> MRM reduction type</label>
+        <label><input type="checkbox" data-column="mrnc" checked> MRNC reduction type</label>
+        <label><input type="checkbox" data-column="stable" checked> Potential stable type</label>
+        <label><input type="checkbox" data-column="mrm-pic" checked> MRM special fibre</label>
+        <label><input type="checkbox" data-column="mrnc-pic" checked> MRNC special fibre</label>
+        <label><input type="checkbox" data-column="components" checked> # Components (MRM)</label>
+        <label><input type="checkbox" data-column="component" checked> Néron component group</label>
+        <label><input type="checkbox" data-column="conductor" checked> Tame conductor exponent</label>
+        <label><input type="checkbox" data-column="wild" checked> Wild reduction iff $p=$</label>
+        <label><input type="checkbox" data-column="discriminant" checked> $v(\Delta_{\min})$</label>
+        <label><input type="checkbox" data-column="omega" checked> $v(\omega_{\min}/\omega^0)$</label>
+      </section>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th class="col-actions" aria-label="Select or pin rows">Select / pin</th>
+            <th class="col-nu">MRM reduction type</th>
+            <th class="col-mrnc">MRNC reduction type</th>
+            <th class="col-stable">Potential stable type</th>
+            <th class="col-mrm-pic">MRM special fibre</th>
+            <th class="col-mrnc-pic">MRNC special fibre</th>
+            <th class="col-components"># Components (MRM)</th>
+            <th class="col-component">Néron component group</th>
+            <th class="col-conductor">Tame conductor exponent</th>
+            <th class="col-wild">Wild reduction iff $p=$</th>
+            <th class="col-discriminant">$v(\Delta_{\min})$</th>
+            <th class="col-omega">$v(\omega_{\min}/\omega^0)$</th>
+          </tr>
+        </thead>
+        <tbody id="reduction-types"></tbody>
+      </table>
+    </div>
+  </main>
 </body>
 </html>
+

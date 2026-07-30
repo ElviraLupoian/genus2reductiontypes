@@ -1,0 +1,51 @@
+\usepackage{tikz}
+\usetikzlibrary{calc,decorations.pathreplacing,arrows.meta}
+
+\tikzset{
+  nu fibre/.style={
+    line width=0.55pt,
+    line cap=round,
+    line join=round
+  },
+  nu comp label/.style={
+    font=\small
+  },
+  nu mult label/.style={
+    font=\scriptsize
+  },
+  nu text label/.style={
+    font=\footnotesize
+  }
+}
+
+% Generic component-type label (A,B,C,D)
+\newcommand{\NUTypeLabel}[3]{%
+  \node[nu comp label] at ($(#1)+(#2)$) {#3};
+}
+
+% Multiplicity label
+\newcommand{\NUMult}[3]{%
+  \node[nu mult label] at ($(#1)+(#2)$) {#3};
+}
+
+% Generic textual annotation
+\newcommand{\NUText}[3]{%
+  \node[nu text label] at ($(#1)+(#2)$) {#3};
+}
+
+% Small filled node (for intersections if wanted)
+\newcommand{\NUPoint}[1]{%
+  \fill (#1) circle (0.03);
+}
+
+% Dots indicating omitted part of chain
+\newcommand{\NUDots}[2]{%
+  \node[nu text label] at ($(#1)!0.5!(#2)$) {$\cdots$};
+}
+
+% Brace with text
+\newcommand{\NUBrace}[4]{%
+  \draw[decorate,decoration={brace,amplitude=4pt}]
+    (#1) -- (#2)
+    node[midway,#3=6pt,nu text label] {#4};
+}
