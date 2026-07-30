@@ -40,7 +40,6 @@ for (const type of window.namikawaUenoTypes) {
     <td class="col-mrnc-pic">${mrncFibreHtml}</td>
     <td class="col-components">${type.numberOfComponents}</td>
     <td class="col-component">${type.componentGroup}</td>
-    <td class="col-tamagawa">${type.tamagawaNumber}</td>
     <td class="col-conductor">${type.conductorExponent}</td>
     <td class="col-wild">${wildPrimesHtml}</td>
     <td class="col-discriminant">${type.minimalDiscriminant}</td>

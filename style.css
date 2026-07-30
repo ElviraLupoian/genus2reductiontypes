@@ -106,11 +106,9 @@ tbody tr:hover th {
     display: none !important; 
 }
 
-.col-mrm {width:0px; overflow-wrap: anywhere;}
-.col-mrnc { width: 0px; }
-.col-stable, .col-conductor, .col-discriminant { width: 0px; } 
-.col-component, .col-mrm-pic, .col-mrnc-fibre { width: 0px; }
-.col-mrnc-pic {width: 0px; max-width: 100%; height: 0px;margin: 0 auto;   padding: 20px 20px; overflow: visible;}
+.col-nu {width:0px; overflow-wrap: anywhere;}
+.col-mrnc, .col-stable, .col-conductor, .col-discriminant, .col-component, .col-components, .col-mrm-pic, .col-mrnc-fibre, .col-wild, .col-omega { width: 0px; } 
+.col-mrnc-pic {width: 0px; max-width: 100%; height: 0px;margin: 0 auto;   padding: 30px 0px; overflow: visible;}
 
 
 .special-fibre {

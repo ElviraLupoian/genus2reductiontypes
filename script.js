@@ -81,7 +81,9 @@ window.namikawaUenoTypes = [
     "leadingCoefficientParity": [
       "$1$"
     ],
-    "wildPrimes": null,
+    "wildPrimes": [
+      "$2$"
+    ],
     "componentGroup": "$(\\Z/2\\Z)^4$",
     "tamagawaNumber": "$16$",
     "conductorExponent": "$4$",
@@ -530,8 +532,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/2\\Z \\times \\Z/2\\Z \\times X_l$",
     "tamagawaNumber": "$16$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$l+10$",
-    "numberOfComponents": "$l+7$",
+    "minimalDiscriminant": "$l\\!+\\!10$",
+    "numberOfComponents": "$l\\!+\\!7$",
     "omegaValuation": "$0$"
   },
   {
@@ -875,10 +877,10 @@ window.namikawaUenoTypes = [
   },
   {
     "id": "ii-m-l-or-l-m-p182",
-    "nuType": "$\\II_{m-l}\\,/\\,\\II_{l-m}\\;(\\mathrm{p182})$",
-    "nuTypePlain": "II_{m-l} / II_{l-m} (p182)",
-    "mrncReductionType": "$\\mathrm{I}^{*}_{l,m-1}\\,/\\,\\mathrm{I}^{*}_{m,l-1}$",
-    "mrncReductionTypePlain": "I^*_{l,m-1} / I^*_{m,l-1}",
+    "nuType": "$\\II_{m-l}\\;(\\mathrm{p182})$",//\\,/\\,\\II_{l-m}\\;(\\mathrm{p182})$",
+    "nuTypePlain": "II_{m-l} (p182)", /// II_{l-m}
+    "mrncReductionType": "$\\mathrm{I}^{*}_{l,m-1}$", //\\,/\\,\\mathrm{I}^{*}_{m,l-1},
+    "mrncReductionTypePlain": "I^*_{l,m-1}", /// I^*_{m,l-1}
     "mrmfibre": "—",
     "mrncfibre": "genus2-special-fibres/images/special-fibres/ii-m-l-or-l-m-p182.svg",
     "potentialStableType": "$\\III$",
@@ -891,8 +893,8 @@ window.namikawaUenoTypes = [
     "wildPrimes": [
       "$2$"
     ],
-    "componentGroup": "$Z_{l,m}\\,/\\,Z_{m,l}$",
-    "tamagawaNumber": "$4m\\,/\\,4l$",
+    "componentGroup": "$Z_{l,m}$", //\\,/\\,Z_{m,l}
+    "tamagawaNumber": "$4m$", //\\,/\\,4l
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$l+m+5$",
     "numberOfComponents": "$l+m+3$",
@@ -902,7 +904,7 @@ window.namikawaUenoTypes = [
     "id": "i-l-m-n",
     "nuType": "$\\I_{l-m-n}$",
     "nuTypePlain": "I_{l-m-n}",
-    "mrncReductionType": "$\\mathrm{I}\\,\\underset{l}{-}\\,\\underset{m}{-}\\,\\underset{n}{-}\\,\\mathrm{I}$",
+    "mrncReductionType": "$\\mathrm{I}\\!\\underset{l}{-}\\!\\underset{m}{-}\\!\\underset{n}{-}\\!\\mathrm{I}$",
     "mrncReductionTypePlain": "I-l-m-n-I",
     "mrmfibre": "—",
     "mrncfibre": "genus2-special-fibres/images/special-fibres/i-l-m-n.svg",
@@ -952,7 +954,7 @@ window.namikawaUenoTypes = [
     "id": "ii-l-m-p183",
     "nuType": "$\\II_{l-m}\\;(\\mathrm{p183})$",
     "nuTypePlain": "II_{l-m} (p183)",
-    "mrncReductionType": "$\\mathrm{D}\\,\\underset{l-1}{-}\\,\\underset{m}{\\overset{2-2}{-}}\\,\\mathrm{D}$",
+    "mrncReductionType": "$\\mathrm{D}\\!\\underset{l-1}{-}\\!\\underset{m}{\\overset{2-2}{-}}\\!\\mathrm{D}$",
     "mrncReductionTypePlain": "D-(l-1)-{2-2}-m-D",
     "mrmfibre": "—",
     "mrncfibre": "genus2-special-fibres/images/special-fibres/ii-l-m-p183.svg",
@@ -1002,7 +1004,7 @@ window.namikawaUenoTypes = [
     "id": "iii-l-p184",
     "nuType": "$\\III_l\\;(\\mathrm{p184})$",
     "nuTypePlain": "III_l (p184)",
-    "mrncReductionType": "$\\mathrm{T}\\,\\underset{l}{\\overset{3-3}{-}}\\,\\mathrm{T}$",
+    "mrncReductionType": "$\\mathrm{T}\\!\\underset{l}{\\overset{3-3}{-}}!\\mathrm{T}$",
     "mrncReductionTypePlain": "T-l-{3-3}-T",
     "mrmfibre": "—",
     "mrncfibre": "genus2-special-fibres/images/special-fibres/iii-l-p184.svg",
@@ -1529,8 +1531,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/6\\Z$",
     "tamagawaNumber": "$6$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+17$",
-    "numberOfComponents": "$t+14$",
+    "minimalDiscriminant": "$12t\\!+\\!17$",
+    "numberOfComponents": "$t\\!+\\!14$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1554,8 +1556,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/6\\Z$",
     "tamagawaNumber": "$6$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+7$",
-    "numberOfComponents": "$t+4$",
+    "minimalDiscriminant": "$12t\\!+\\!7$",
+    "numberOfComponents": "$t\\!+\\!4$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1579,8 +1581,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/2\\Z$",
     "tamagawaNumber": "$2$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+19$",
-    "numberOfComponents": "$t+16$",
+    "minimalDiscriminant": "$12t\\!+\\!19$",
+    "numberOfComponents": "$t\\!+\\!16$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1604,8 +1606,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/6\\Z$",
     "tamagawaNumber": "$6$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+13$",
-    "numberOfComponents": "$t+10$",
+    "minimalDiscriminant": "$12t\\!+\\!13$",
+    "numberOfComponents": "$t\\!+\\!10$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1629,8 +1631,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/2\\Z$",
     "tamagawaNumber": "$2$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+13$",
-    "numberOfComponents": "$t+10$",
+    "minimalDiscriminant": "$12t\\!+\\!13$",
+    "numberOfComponents": "$t\\!+\\!10$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1654,8 +1656,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/6\\Z$",
     "tamagawaNumber": "$6$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+11$",
-    "numberOfComponents": "$t+8$",
+    "minimalDiscriminant": "$12t\\!+\\!11$",
+    "numberOfComponents": "$t\\!+\\!8$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1679,8 +1681,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/2\\Z$",
     "tamagawaNumber": "$2$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+11$",
-    "numberOfComponents": "$t+8$",
+    "minimalDiscriminant": "$12t\\!+\\!11$",
+    "numberOfComponents": "$t\\!+\\!8$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1704,8 +1706,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$(0)$",
     "tamagawaNumber": "$1$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+4$",
-    "numberOfComponents": "$t+1$",
+    "minimalDiscriminant": "$12t\\!+\\!4$",
+    "numberOfComponents": "$t\\!+\\!1$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1728,8 +1730,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$(\\Z/3\\Z)^2$",
     "tamagawaNumber": "$9$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+16$",
-    "numberOfComponents": "$t+13$",
+    "minimalDiscriminant": "$12t\\!+\\!16$",
+    "numberOfComponents": "$t\\!+\\!13$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1753,8 +1755,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/3\\Z$",
     "tamagawaNumber": "$3$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+6$",
-    "numberOfComponents": "$t+3$",
+    "minimalDiscriminant": "$12t\\!+\\!6$",
+    "numberOfComponents": "$t\\!+\\!3$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1778,8 +1780,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/3\\Z$",
     "tamagawaNumber": "$3$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+18$",
-    "numberOfComponents": "$t+15$",
+    "minimalDiscriminant": "$12t\\!+\\!18$",
+    "numberOfComponents": "$t\\!+\\!15$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1803,8 +1805,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/3\\Z$",
     "tamagawaNumber": "$3$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+10$",
-    "numberOfComponents": "$t+7$",
+    "minimalDiscriminant": "$12t\\!+\\!10$",
+    "numberOfComponents": "$t\\!+\\!7$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1827,8 +1829,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$(\\Z/3\\Z)^2$",
     "tamagawaNumber": "$9$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+8$",
-    "numberOfComponents": "$t+5$",
+    "minimalDiscriminant": "$12t\\!+\\!8$",
+    "numberOfComponents": "$t\\!+\\!5$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1852,8 +1854,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$(0)$",
     "tamagawaNumber": "$1$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+20$",
-    "numberOfComponents": "$t+17$",
+    "minimalDiscriminant": "$12t\\!+\\!20$",
+    "numberOfComponents": "$t\\!+\\!17$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1876,8 +1878,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$(\\Z/3\\Z)^2$",
     "tamagawaNumber": "$9$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+12$",
-    "numberOfComponents": "$t+9$",
+    "minimalDiscriminant": "$12t\\!+\\!12$",
+    "numberOfComponents": "$t\\!+\\!9$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1901,8 +1903,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$(0)$",
     "tamagawaNumber": "$1$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+12$",
-    "numberOfComponents": "$t+9$",
+    "minimalDiscriminant": "$12t\\!+\\!12$",
+    "numberOfComponents": "$t\\!+\\!9$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1926,8 +1928,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/3\\Z$",
     "tamagawaNumber": "$3$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+14$",
-    "numberOfComponents": "$t+11$",
+    "minimalDiscriminant": "$12t\\!+\\!14$",
+    "numberOfComponents": "$t\\!+\\!11$",
     "omegaValuation": "$-t$"
   },
   {
@@ -1950,9 +1952,9 @@ window.namikawaUenoTypes = [
     "componentGroup": "$(0)$",
     "tamagawaNumber": "$1$",
     "conductorExponent": "$2$",
-    "minimalDiscriminant": "$12t+15$",
+    "minimalDiscriminant": "$12t\\!+\\!15$",
     "numberOfComponents": "$t+3$",
-    "omegaValuation": "$-(t+1)$"
+    "omegaValuation": "$-(t\\!+\\!1)$"
   },
   {
     "id": "2i-star0-t",
@@ -1974,9 +1976,9 @@ window.namikawaUenoTypes = [
     "componentGroup": "$(\\Z/2\\Z)^2$",
     "tamagawaNumber": "$4$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+21$",
-    "numberOfComponents": "$t+7$",
-    "omegaValuation": "$-(t+1)$"
+    "minimalDiscriminant": "$12t\\!+\\!21$",
+    "numberOfComponents": "$t\\!+\\!7$",
+    "omegaValuation": "$-(t\\!+\\!1)$"
   },
   {
     "id": "2iv-t",
@@ -1999,9 +2001,9 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/3\\Z$",
     "tamagawaNumber": "$3$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+19$",
-    "numberOfComponents": "$t+5$",
-    "omegaValuation": "$-(t+1)$"
+    "minimalDiscriminant": "$12t\\!+\\!19$",
+    "numberOfComponents": "$t\\!+\\!5$",
+    "omegaValuation": "$-(t\\!+\\!1)$"
   },
   {
     "id": "2iv-star-t",
@@ -2024,9 +2026,9 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/3\\Z$",
     "tamagawaNumber": "$3$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+23$",
-    "numberOfComponents": "$t+9$",
-    "omegaValuation": "$-(t+1)$"
+    "minimalDiscriminant": "$12t\\!+\\!23$",
+    "numberOfComponents": "$t\\!+\\!9$",
+    "omegaValuation": "$-(t\\!+\\!1)$"
   },
   {
     "id": "2iii-t",
@@ -2048,9 +2050,9 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/2\\Z$",
     "tamagawaNumber": "$2$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+18$",
-    "numberOfComponents": "$t+4$",
-    "omegaValuation": "$-(t+1)$"
+    "minimalDiscriminant": "$12t\\!+\\!18$",
+    "numberOfComponents": "$t\\!+\\!4$",
+    "omegaValuation": "$-(t\\!+\\!1)$"
   },
   {
     "id": "2iii-star-t",
@@ -2072,9 +2074,9 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/2\\Z$",
     "tamagawaNumber": "$2$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+24$",
-    "numberOfComponents": "$t+10$",
-    "omegaValuation": "$-(t+1)$"
+    "minimalDiscriminant": "$12t\\!+\\!24$",
+    "numberOfComponents": "$t\\!+\\!10$",
+    "omegaValuation": "$-(t\\!+\\!1)$"
   },
   {
     "id": "2ii-t",
@@ -2097,9 +2099,9 @@ window.namikawaUenoTypes = [
     "componentGroup": "$(0)$",
     "tamagawaNumber": "$1$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+17$",
-    "numberOfComponents": "$t+3$",
-    "omegaValuation": "$-(t+1)$"
+    "minimalDiscriminant": "$12t\\!+\\!17$",
+    "numberOfComponents": "$t\\!+\\!3$",
+    "omegaValuation": "$-(t\\!+\\!1)$"
   },
   {
     "id": "2ii-star-t",
@@ -2122,9 +2124,9 @@ window.namikawaUenoTypes = [
     "componentGroup": "$(0)$",
     "tamagawaNumber": "$1$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+25$",
-    "numberOfComponents": "$t+11$",
-    "omegaValuation": "$-(t+1)$"
+    "minimalDiscriminant": "$12t\\!+\\!25$",
+    "numberOfComponents": "$t\\!+\\!11$",
+    "omegaValuation": "$-(t\\!+\\!1)$"
   },
   {
     "id": "i0-i-l-t",
@@ -2145,8 +2147,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/l\\Z$",
     "tamagawaNumber": "$l$",
     "conductorExponent": "$1$",
-    "minimalDiscriminant": "$12t+l$",
-    "numberOfComponents": "$l+t$",
+    "minimalDiscriminant": "$12t\\!+\\!l$",
+    "numberOfComponents": "$l\\!+\\!t$",
     "omegaValuation": "$-t$"
   },
   {
@@ -2170,8 +2172,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$(\\Z/2\\Z)^2\\times X_l$",
     "tamagawaNumber": "$16$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+l+12$",
-    "numberOfComponents": "$l+t+9$",
+    "minimalDiscriminant": "$12t\\!+\\!l\\!+\\!12$",
+    "numberOfComponents": "$l\\!+\\!t\\!+\\!9$",
     "omegaValuation": "$-t$"
   },
   {
@@ -2195,8 +2197,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$X_l$",
     "tamagawaNumber": "$4$",
     "conductorExponent": "$2$",
-    "minimalDiscriminant": "$12t+l+6$",
-    "numberOfComponents": "$l+t+5$",
+    "minimalDiscriminant": "$12t\\!+\\!l\\!+\\!6$",
+    "numberOfComponents": "$l\\!+\\!t\\!+\\!5$",
     "omegaValuation": "$-t$"
   },
   {
@@ -2220,8 +2222,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$(\\Z/2\\Z)^2\\times\\Z/l\\Z$",
     "tamagawaNumber": "$4l$",
     "conductorExponent": "$3$",
-    "minimalDiscriminant": "$12t+l+6$",
-    "numberOfComponents": "$l+t+4$",
+    "minimalDiscriminant": "$12t\\!+\\!l\\!+\\!6$",
+    "numberOfComponents": "$l\\!+\\!t\\!+\\!4$",
     "omegaValuation": "$-t$"
   },
   {
@@ -2448,8 +2450,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/3\\Z\\times\\Z/l\\Z$",
     "tamagawaNumber": "$3l$",
     "conductorExponent": "$3$",
-    "minimalDiscriminant": "$12t+l+4$",
-    "numberOfComponents": "$l+t+2$",
+    "minimalDiscriminant": "$12t\\!+\\!l\\!+\\!4$",
+    "numberOfComponents": "$l\\!+\\!t\\!+\\!2$",
     "omegaValuation": "$-t$"
   },
   {
@@ -2474,8 +2476,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$X_l$",
     "tamagawaNumber": "$4$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+l+16$",
-    "numberOfComponents": "$l+t+13$",
+    "minimalDiscriminant": "$12t\\!+\\!l\\!+\\!16$",
+    "numberOfComponents": "$l\\!+\\!t\\!+\\!13$",
     "omegaValuation": "$-t$"
   },
   {
@@ -2500,8 +2502,8 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/3\\Z\\times X_l$",
     "tamagawaNumber": "$12$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+l+10$",
-    "numberOfComponents": "$l+t+7$",
+    "minimalDiscriminant": "$12t\\!+\\!l\\!+\\!10$",
+    "numberOfComponents": "$l\\!+\\!t\\!+\\!7$",
     "omegaValuation": "$-t$"
   },
   {
@@ -2526,15 +2528,15 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/l\\Z$",
     "tamagawaNumber": "$l$",
     "conductorExponent": "$3$",
-    "minimalDiscriminant": "$12t+l+10$",
-    "numberOfComponents": "$l+t+8$",
+    "minimalDiscriminant": "$12t\\!+\\!l\\!+\\!10$",
+    "numberOfComponents": "$l\\!+\\!t\\!+\\!8$",
     "omegaValuation": "$-t$"
   },
   {
     "id": "i-l-i-m-t",
     "nuType": "$\\I_l\\text{-}\\I_m\\text{-}t$",
     "nuTypePlain": "I_l-I_m-t",
-    "mrncReductionType": "$\\mathrm{I}_{l}\\,\\underset{t}{-}\\,\\mathrm{I}_{m}$",
+    "mrncReductionType": "$\\mathrm{I}_{l}\\!\\underset{t}{-}\\!\\mathrm{I}_{m}$",
     "mrncReductionTypePlain": "I_l-t-I_m",
     "mrmfibre": "—",
     "mrncfibre": "genus2-special-fibres/images/special-fibres/i-l-i-m-t.svg",
@@ -2550,15 +2552,15 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/l\\Z\\times\\Z/m\\Z$",
     "tamagawaNumber": "$lm$",
     "conductorExponent": "$2$",
-    "minimalDiscriminant": "$12t+l+m$",
-    "numberOfComponents": "$l+m+t-1$",
+    "minimalDiscriminant": "$12t\\!+\\!l\\!+\\!m$",
+    "numberOfComponents": "$l\\!+\\!m\\!+\\!t\\!-\\!1$",
     "omegaValuation": "$-t$"
   },
   {
     "id": "i-star-l-i-star-m-t",
     "nuType": "$\\I^*_l\\text{-}\\I^*_m\\text{-}t$",
     "nuTypePlain": "I^*_l-I^*_m-t",
-    "mrncReductionType": "$\\mathrm{I}^{*}_{l}\\,\\underset{t}{-}\\,\\mathrm{I}^{*}_{m}$",
+    "mrncReductionType": "$\\mathrm{I}^{*}_{l}\\!\\underset{t}{-}\\!\\mathrm{I}^{*}_{m}$",
     "mrncReductionTypePlain": "I^*_l-t-I^*_m",
     "mrmfibre": "—",
     "mrncfibre": "genus2-special-fibres/images/special-fibres/i-star-l-i-star-m-t.svg",
@@ -2576,16 +2578,16 @@ window.namikawaUenoTypes = [
     "componentGroup": "$X_l\\times X_m$",
     "tamagawaNumber": "$16$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+l+m+12$",
-    "numberOfComponents": "$l+m+t+9$",
+    "minimalDiscriminant": "$12t\\!+\\!l\\!+\\!m\\!+\\!12$",
+    "numberOfComponents": "$l\\!+\\!m\\!+\\!t\\!+\\!9$",
     "omegaValuation": "$-t$"
   },
   {
     "id": "mixed-i-star-l-i-m-t",
-    "nuType": "$\\I^*_l\\text{-}\\I_m\\text{-}t\\,/\\,\\I_l\\text{-}\\I^*_m\\text{-}t$",
-    "nuTypePlain": "I^*_l-I_m-t / I_l-I^*_m-t",
-    "mrncReductionType": "$\\mathrm{I}^{*}_{l}\\,\\underset{t}{-}\\,\\mathrm{I}_{m}\\,/\\,\\mathrm{I}_{l}\\,\\underset{t}{-}\\,\\mathrm{I}^{*}_{m}$",
-    "mrncReductionTypePlain": "I^*_l-t-I_m / I_l-t-I^*_m",
+    "nuType": "$\\I^*_l\\text{-}\\I_m\\text{-}t$",//\\,/\\,\\I_l\\text{-}\\I^*_m\\text{-}t$",
+    "nuTypePlain": "I^*_l-I_m-t",// / I_l-I^*_m-t",
+    "mrncReductionType": "$\\mathrm{I}^{*}_{l}\\!\\underset{t}{-}\\!\\mathrm{I}_{m}$",//\\,/\\,\\mathrm{I}_{l}\\,\\underset{t}{-}\\,\\mathrm{I}^{*}_{m}$",
+    "mrncReductionTypePlain": "I^*_l-t-I_m",// / I_l-t-I^*_m",
     "mrmfibre": "—",
     "mrncfibre": "genus2-special-fibres/images/special-fibres/mixed-i-star-l-i-m-t.svg",
     "potentialStableType": "$\\VII$",
@@ -2599,11 +2601,11 @@ window.namikawaUenoTypes = [
     "wildPrimes": [
       "$2$"
     ],
-    "componentGroup": "$X_l\\times\\Z/m\\Z\\,/\\,X_m\\times\\Z/l\\Z$",
-    "tamagawaNumber": "$4m\\,/\\,4l$",
+    "componentGroup": "$X_l\\times\\Z/m\\Z$",//\\,/\\,X_m\\times\\Z/l\\Z$",
+    "tamagawaNumber": "$4m$",//\\,/\\,4l$",
     "conductorExponent": "$3$",
-    "minimalDiscriminant": "$12t+l+m+6$",
-    "numberOfComponents": "$l+m+t+4$",
+    "minimalDiscriminant": "$12t\\!+\\!l\\!+\\!m\\!+\\!6$",
+    "numberOfComponents": "$l\\!+\\!m\\!+\\!t+4$",
     "omegaValuation": "$-t$"
   },
   {
@@ -2627,9 +2629,9 @@ window.namikawaUenoTypes = [
     "componentGroup": "$\\Z/l\\Z$",
     "tamagawaNumber": "$l$",
     "conductorExponent": "$3$",
-    "minimalDiscriminant": "$12t+l+15$",
-    "numberOfComponents": "$l+t+2$",
-    "omegaValuation": "$-(t+1)$"
+    "minimalDiscriminant": "$12t\\!+\\!l\\!+\\!15$",
+    "numberOfComponents": "$l\\!+\\!t\\!+\\!2$",
+    "omegaValuation": "$-(t\\!+\\!1)$"
   },
   {
     "id": "2i-star-l-t",
@@ -2652,9 +2654,9 @@ window.namikawaUenoTypes = [
     "componentGroup": "$X_l$",
     "tamagawaNumber": "$4$",
     "conductorExponent": "$4$",
-    "minimalDiscriminant": "$12t+l+21$",
-    "numberOfComponents": "$l+t+7$",
-    "omegaValuation": "$-(t+1)$"
+    "minimalDiscriminant": "$12t\\!+\\!l\\!+\\!21$",
+    "numberOfComponents": "$l\\!+\\!t\\!+\\!7$",
+    "omegaValuation": "$-(t\\!+\\!1)$"
   }
 ];
 
