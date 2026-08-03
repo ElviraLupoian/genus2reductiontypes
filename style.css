@@ -535,6 +535,23 @@ tbody .col-mrnc-pic:has(img.special-fibre) {
   .table-wrapper {
     height: calc(100vh - 230px);
     min-height: 420px;
-  }
-}
+  }}
 
+  .nu-type-line {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 1.1rem;
+    white-space: nowrap;
+  }
+  
+  .nu-type {
+    flex: 0 0 auto;
+  }
+  
+  .parameter-range {
+    flex: 0 0 auto;
+    font-size: 0.68rem;
+    font-weight: 400;
+    color: #666;
+  }

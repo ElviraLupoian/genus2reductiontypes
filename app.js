@@ -130,7 +130,16 @@ for (const [index, type] of window.namikawaUenoTypes.entries()) {
         </svg>
       </button>
     </td>
-    <th scope="row" class="col-nu">${type.nuType}</th>
+    <th scope="row" class="col-nu">
+    <div class="nu-type-line">
+      <span class="nu-type">${type.nuType}</span>
+      ${
+        type.parameterRange
+          ? `<span class="parameter-range">${type.parameterRange}</span>`
+          : ""
+      }
+    </div>
+  </th>
     <td class="col-mrnc">${type.mrncReductionType}</td>
     <td class="col-stable">${type.potentialStableType}</td>
     <td class="col-mrm-pic">${mrmFibreHtml}</td>
