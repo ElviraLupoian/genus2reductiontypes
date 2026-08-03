@@ -1,0 +1,14 @@
+\documentclass[tikz,border=2pt]{standalone}
+\input{nu-fibre-style.tex}
+\begin{document}
+% Namikawa--Ueno type VIII-1; NU p. 14.
+\begin{tikzpicture}[nu fibre]
+
+  \draw[samples=140,smooth,domain=-1:1]
+    plot ({1.25*(\x)^3},{-0.42+0.72*(\x)^2});
+  \draw (-2.20,0.30) -- (-1.25,0.30);
+  \draw (1.25,0.30) -- (2.20,0.30);
+  \node[nu annotation,below=3pt] at (0,-0.42) {$(2,5)\ \mathrm{cusp}$};
+
+\end{tikzpicture}
+\end{document}

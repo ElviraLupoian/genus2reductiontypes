@@ -1,0 +1,17 @@
+\documentclass[tikz,border=2pt]{standalone}
+\input{nu-fibre-style.tex}
+\begin{document}
+% Namikawa--Ueno type VII; NU p. 14.
+\begin{tikzpicture}[nu fibre]
+
+  % A cuspidal C-component meeting a rational component.
+  \draw[samples=140,smooth,domain=-1:1]
+    plot ({1.25*(\x)^3},{-0.18+0.76*(\x)^2});
+  \draw (-2.15,0.58) -- (-1.25,0.58);
+  \draw (1.25,0.58) -- (2.15,0.58);
+  \draw (-1.62,-0.18) -- (1.62,-0.18);
+  \node[nu annotation,above=4pt] at (-0.58,0.58) {cusp};
+  \node[nu label,above=4pt] at (1.45,0.58) {$C$};
+
+\end{tikzpicture}
+\end{document}
