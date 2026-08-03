@@ -491,6 +491,7 @@ tbody .col-mrnc-pic:has(img.special-fibre) {
   padding: 26px 36px;
 }
 
+
 .special-fibre {
   display: block;
   width: auto;
@@ -498,9 +499,10 @@ tbody .col-mrnc-pic:has(img.special-fibre) {
   max-width: none;
   max-height: none;
   margin: 0 auto;
-  transform: scale(1.5);
-  transform-origin: center;
+
+  zoom: 1.5;
 }
+
 
 [hidden] {
   display: none !important;

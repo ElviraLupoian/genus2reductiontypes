@@ -40,8 +40,7 @@ window.MathJax = {
 };
 
 // Namikawa--Ueno data.
-// Parameter restrictions and the exceptional parameter value -1 are
-// deliberately not encoded in this first version.
+// parameterRange records the family-parameter restrictions from Tables 7.1--7.7.
 // omegaValuation stores v(omega_min / omega^0), whereas the paper displays
 // its negative.
 window.namikawaUenoTypes = [
@@ -56,6 +55,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$"
     ],
@@ -78,6 +78,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$1$"
     ],
@@ -102,6 +103,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$",
       "$1$"
@@ -127,6 +129,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$"
     ],
@@ -151,6 +154,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$1$"
     ],
@@ -176,6 +180,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$",
       "$1$"
@@ -202,6 +207,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$",
       "$1$"
@@ -228,6 +234,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$",
       "$1$"
@@ -253,6 +260,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$"
     ],
@@ -277,6 +285,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$1$"
     ],
@@ -301,6 +310,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$",
       "$1$"
@@ -327,6 +337,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$1$"
     ],
@@ -352,6 +363,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$",
       "$1$"
@@ -378,6 +390,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$1$"
     ],
@@ -403,6 +416,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$"
     ],
@@ -427,6 +441,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$"
     ],
@@ -451,6 +466,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$",
       "$1$"
@@ -476,6 +492,7 @@ window.namikawaUenoTypes = [
     "potentialStableType": "$\\I$",
     "potentialStableTypePlain": "I",
     "parameters": [],
+    "parameterRange": null,
     "leadingCoefficientParity": [
       "$0$",
       "$1$"
@@ -503,6 +520,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": null,
     "componentGroup": "$\\Z/l\\Z$",
@@ -525,6 +543,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -549,6 +568,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -573,6 +593,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -597,6 +618,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$3$"
@@ -621,6 +643,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -646,6 +669,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -671,6 +695,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -695,6 +720,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$3$"
@@ -719,6 +745,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -744,6 +771,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -768,6 +796,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -793,6 +822,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$m$"
     ],
+    "parameterRange": "$l,m>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": null,
     "componentGroup": "$\\Z/l\\Z \\times \\Z/m\\Z$",
@@ -816,6 +846,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$m$"
     ],
+    "parameterRange": "$l,m>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -840,6 +871,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -864,6 +896,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -889,6 +922,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$m$"
     ],
+    "parameterRange": "$l,m>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -915,6 +949,7 @@ window.namikawaUenoTypes = [
       "$m$",
       "$n$"
     ],
+    "parameterRange": "$l,m,n>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": null,
     "componentGroup": "$\\Z/\\frac{lm+mn+nl}{\\gcd(l,m,n)}\\Z \\times \\Z/\\gcd(l,m,n)\\Z$",
@@ -939,6 +974,7 @@ window.namikawaUenoTypes = [
       "$m$",
       "$n$"
     ],
+    "parameterRange": "$l,m,n>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -964,6 +1000,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$m$"
     ],
+    "parameterRange": "$l,m>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -989,6 +1026,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$m$"
     ],
+    "parameterRange": "$l,m>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1013,6 +1051,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$3$"
@@ -1037,6 +1076,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
+    "parameterRange": "$l>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1062,6 +1102,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": null,
     "componentGroup": "$(0)$",
@@ -1084,6 +1125,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1108,6 +1150,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1132,6 +1175,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1156,6 +1200,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1180,6 +1225,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1204,6 +1250,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1228,6 +1275,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1253,6 +1301,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1278,6 +1327,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1303,6 +1353,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$3$"
@@ -1327,6 +1378,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$3$"
@@ -1351,6 +1403,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1376,6 +1429,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1401,6 +1455,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1426,6 +1481,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1450,6 +1506,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1474,6 +1531,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1498,6 +1556,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1523,6 +1582,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1548,6 +1608,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1573,6 +1634,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1598,6 +1660,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1623,6 +1686,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1648,6 +1712,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1673,6 +1738,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1698,6 +1764,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1723,6 +1790,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$3$"
@@ -1747,6 +1815,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1772,6 +1841,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1797,6 +1867,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1822,6 +1893,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$3$"
@@ -1846,6 +1918,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1871,6 +1944,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$3$"
@@ -1895,6 +1969,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1920,6 +1995,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1945,6 +2021,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1969,6 +2046,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1993,6 +2071,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2018,6 +2097,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2043,6 +2123,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2067,6 +2148,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2091,6 +2173,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2116,6 +2199,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2142,6 +2226,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": null,
     "componentGroup": "$\\Z/l\\Z$",
@@ -2165,6 +2250,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2190,6 +2276,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2215,6 +2302,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2240,6 +2328,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2265,6 +2354,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2290,6 +2380,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2315,6 +2406,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2340,6 +2432,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2366,6 +2459,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2392,6 +2486,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2418,6 +2513,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$3$"
@@ -2443,6 +2539,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$3$"
@@ -2468,6 +2565,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq -1$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2494,6 +2592,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2520,6 +2619,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2547,6 +2647,7 @@ window.namikawaUenoTypes = [
       "$m$",
       "$t$"
     ],
+    "parameterRange": "$l,m>0,\\ t>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": null,
     "componentGroup": "$\\Z/l\\Z\\times\\Z/m\\Z$",
@@ -2571,6 +2672,7 @@ window.namikawaUenoTypes = [
       "$m$",
       "$t$"
     ],
+    "parameterRange": "$l,m>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2597,6 +2699,7 @@ window.namikawaUenoTypes = [
       "$m$",
       "$t$"
     ],
+    "parameterRange": "$l,m>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2622,6 +2725,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t>0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2647,6 +2751,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
