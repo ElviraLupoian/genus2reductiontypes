@@ -48,7 +48,6 @@ function fibreHtml(path, altText) {
     >
   `;
 }
-
 function displayWildPrimes(value) {
   if (!Array.isArray(value) || value.length === 0) {
     return "—";

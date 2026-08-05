@@ -466,6 +466,7 @@ thead .col-nu {
   min-width: var(--wild-min-width);
 }
 
+
 .col-discriminant {
   width: var(--discriminant-width);
   min-width: var(--discriminant-min-width);
