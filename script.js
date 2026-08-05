@@ -1383,7 +1383,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
-    "parameterRange": "$t\\geq -1$",
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1396,6 +1396,33 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$t+12$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "i-star0-iii-star-minus1",
+    "nuType": "$\\I^*_0\\text{-}\\III^*\\text{-}(-1)$",
+    "nuTypePlain": "I^*0-III^*-(-1)",
+    "mrncReductionType": "$\\I^*_0\\text{-}\\III^*\\text{-}(-1)$",
+    "mrncReductionTypePlain": "I^*0-III^*-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/i-star0-iii-star-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/i-star0-iii-star-minus1.svg",
+    "potentialStableType": "$\\V$",
+    "potentialStableTypePlain": "V",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$"
+    ],
+    "componentGroup": "$(\\Z/2\\Z)^3$",
+    "tamagawaNumber": "$8$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$13$",
+    "numberOfComponents": "$10$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$10$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -1500,7 +1527,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
-    "parameterRange": "$t\\geq -1$",
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1514,6 +1541,34 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$t+11$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "i-star0-iv-star-minus1",
+    "nuType": "$\\I^*_0\\text{-}\\IV^*\\text{-}(-1)$",
+    "nuTypePlain": "I^*0-IV^*-(-1)",
+    "mrncReductionType": "$\\I^*_0\\text{-}\\IV^*\\text{-}(-1)$",
+    "mrncReductionTypePlain": "I^*0-IV^*-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/i-star0-iv-star-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/i-star0-iv-star-minus1.svg",
+    "potentialStableType": "$\\V$",
+    "potentialStableTypePlain": "V",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$",
+      "$3$"
+    ],
+    "componentGroup": "$\\Z/2\\Z\\times\\Z/6\\Z$",
+    "tamagawaNumber": "$12$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$12$",
+    "numberOfComponents": "$9$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$9$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -1618,7 +1673,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
-    "parameterRange": "$t\\geq -1$",
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1632,6 +1687,34 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$t+13$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "i-star0-ii-star-minus1",
+    "nuType": "$\\I^*_0\\text{-}\\II^*\\text{-}(-1)$",
+    "nuTypePlain": "I^*0-II^*-(-1)",
+    "mrncReductionType": "$\\I^*_0\\text{-}\\II^*\\text{-}(-1)$",
+    "mrncReductionTypePlain": "I^*0-II^*-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/i-star0-ii-star-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/i-star0-ii-star-minus1.svg",
+    "potentialStableType": "$\\V$",
+    "potentialStableTypePlain": "V",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$",
+      "$3$"
+    ],
+    "componentGroup": "$(\\Z/2\\Z)^2$",
+    "tamagawaNumber": "$4$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$14$",
+    "numberOfComponents": "$11$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$11$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -1737,7 +1820,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
-    "parameterRange": "$t\\geq -1$",
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -1750,6 +1833,33 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$t+15$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "iii-star-iii-star-minus1",
+    "nuType": "$\\III^*\\text{-}\\III^*\\text{-}(-1)$",
+    "nuTypePlain": "III^*-III^*-(-1)",
+    "mrncReductionType": "$\\III^*\\text{-}\\III^*\\text{-}(-1)$",
+    "mrncReductionTypePlain": "III^*-III^*-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/iii-star-iii-star-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/iii-star-iii-star-minus1.svg",
+    "potentialStableType": "$\\V$",
+    "potentialStableTypePlain": "V",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$"
+    ],
+    "componentGroup": "$(\\Z/2\\Z)^2$",
+    "tamagawaNumber": "$4$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$16$",
+    "numberOfComponents": "$13$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$13$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -1825,7 +1935,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
-    "parameterRange": "$t\\geq -1$",
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1839,6 +1949,34 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$t+14$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "iv-star-iii-star-minus1",
+    "nuType": "$\\IV^*\\text{-}\\III^*\\text{-}(-1)$",
+    "nuTypePlain": "IV^*-III^*-(-1)",
+    "mrncReductionType": "$\\IV^*\\text{-}\\III^*\\text{-}(-1)$",
+    "mrncReductionTypePlain": "IV^*-III^*-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/iv-star-iii-star-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/iv-star-iii-star-minus1.svg",
+    "potentialStableType": "$\\V$",
+    "potentialStableTypePlain": "V",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$",
+      "$3$"
+    ],
+    "componentGroup": "$\\Z/6\\Z$",
+    "tamagawaNumber": "$6$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$15$",
+    "numberOfComponents": "$12$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$12$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -1885,7 +2023,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
-    "parameterRange": "$t\\geq -1$",
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1903,6 +2041,34 @@ window.namikawaUenoTypes = [
     "clusterPictures": null
   },
   {
+    "id": "ii-star-iii-star-minus1",
+    "nuType": "$\\II^*\\text{-}\\III^*\\text{-}(-1)$",
+    "nuTypePlain": "II^*-III^*-(-1)",
+    "mrncReductionType": "$\\II^*\\text{-}\\III^*\\text{-}(-1)$",
+    "mrncReductionTypePlain": "II^*-III^*-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/ii-star-iii-star-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/ii-star-iii-star-minus1.svg",
+    "potentialStableType": "$\\V$",
+    "potentialStableTypePlain": "V",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$",
+      "$3$"
+    ],
+    "componentGroup": "$\\Z/2\\Z$",
+    "tamagawaNumber": "$2$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$17$",
+    "numberOfComponents": "$14$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$14$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
     "id": "iv-iii-star-t",
     "nuType": "$\\IV\\text{-}\\III^*\\text{-}t$",
     "nuTypePlain": "IV-III^*-t",
@@ -1915,7 +2081,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
-    "parameterRange": "$t\\geq -1$",
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1933,6 +2099,34 @@ window.namikawaUenoTypes = [
     "clusterPictures": null
   },
   {
+    "id": "iv-iii-star-minus1",
+    "nuType": "$\\IV\\text{-}\\III^*\\text{-}(-1)$",
+    "nuTypePlain": "IV-III^*-(-1)",
+    "mrncReductionType": "$\\IV\\text{-}\\III^*\\text{-}(-1)$",
+    "mrncReductionTypePlain": "IV-III^*-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/iv-iii-star-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/iv-iii-star-minus1.svg",
+    "potentialStableType": "$\\V$",
+    "potentialStableTypePlain": "V",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$",
+      "$3$"
+    ],
+    "componentGroup": "$\\Z/6\\Z$",
+    "tamagawaNumber": "$6$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$11$",
+    "numberOfComponents": "$8$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$8$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
     "id": "ii-star-iii-t",
     "nuType": "$\\II^*\\text{-}\\III\\text{-}t$",
     "nuTypePlain": "II^*-III-t",
@@ -1945,7 +2139,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
-    "parameterRange": "$t\\geq -1$",
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -1959,6 +2153,34 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$t+12$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "ii-star-iii-minus1",
+    "nuType": "$\\II^*\\text{-}\\III\\text{-}(-1)$",
+    "nuTypePlain": "II^*-III-(-1)",
+    "mrncReductionType": "$\\II^*\\text{-}\\III\\text{-}(-1)$",
+    "mrncReductionTypePlain": "II^*-III-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/ii-star-iii-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/ii-star-iii-minus1.svg",
+    "potentialStableType": "$\\V$",
+    "potentialStableTypePlain": "V",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$",
+      "$3$"
+    ],
+    "componentGroup": "$\\Z/2\\Z$",
+    "tamagawaNumber": "$2$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$11$",
+    "numberOfComponents": "$8$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$8$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -2065,7 +2287,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
-    "parameterRange": "$t\\geq -1$",
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$3$"
@@ -2078,6 +2300,33 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$t+13$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "iv-star-iv-star-minus1",
+    "nuType": "$\\IV^*\\text{-}\\IV^*\\text{-}(-1)$",
+    "nuTypePlain": "IV^*-IV^*-(-1)",
+    "mrncReductionType": "$\\IV^*\\text{-}\\IV^*\\text{-}(-1)$",
+    "mrncReductionTypePlain": "IV^*-IV^*-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/iv-star-iv-star-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/iv-star-iv-star-minus1.svg",
+    "potentialStableType": "$\\V$",
+    "potentialStableTypePlain": "V",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$3$"
+    ],
+    "componentGroup": "$(\\Z/3\\Z)^2$",
+    "tamagawaNumber": "$9$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$14$",
+    "numberOfComponents": "$11$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$11$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -2124,7 +2373,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
-    "parameterRange": "$t\\geq -1$",
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2138,6 +2387,34 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$t+15$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "ii-star-iv-star-minus1",
+    "nuType": "$\\II^*\\text{-}\\IV^*\\text{-}(-1)$",
+    "nuTypePlain": "II^*-IV^*-(-1)",
+    "mrncReductionType": "$\\II^*\\text{-}\\IV^*\\text{-}(-1)$",
+    "mrncReductionTypePlain": "II^*-IV^*-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/ii-star-iv-star-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/ii-star-iv-star-minus1.svg",
+    "potentialStableType": "$\\V$",
+    "potentialStableTypePlain": "V",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$",
+      "$3$"
+    ],
+    "componentGroup": "$\\Z/3\\Z$",
+    "tamagawaNumber": "$3$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$16$",
+    "numberOfComponents": "$13$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$13$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -2213,7 +2490,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
-    "parameterRange": "$t\\geq -1$",
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2227,6 +2504,34 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$t+17$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "ii-star-ii-star-minus1",
+    "nuType": "$\\II^*\\text{-}\\II^*\\text{-}(-1)$",
+    "nuTypePlain": "II^*-II^*-(-1)",
+    "mrncReductionType": "$\\II^*\\text{-}\\II^*\\text{-}(-1)$",
+    "mrncReductionTypePlain": "II^*-II^*-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/ii-star-ii-star-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/ii-star-ii-star-minus1.svg",
+    "potentialStableType": "$\\V$",
+    "potentialStableTypePlain": "V",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$",
+      "$3$"
+    ],
+    "componentGroup": "$(0)$",
+    "tamagawaNumber": "$1$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$18$",
+    "numberOfComponents": "$15$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$15$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -2302,7 +2607,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$t$"
     ],
-    "parameterRange": "$t\\geq -1$",
+    "parameterRange": "$t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2316,6 +2621,34 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$t+12$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "ii-star-iv-minus1",
+    "nuType": "$\\II^*\\text{-}\\IV\\text{-}(-1)$",
+    "nuTypePlain": "II^*-IV-(-1)",
+    "mrncReductionType": "$\\II^*\\text{-}\\IV\\text{-}(-1)$",
+    "mrncReductionTypePlain": "II^*-IV-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/ii-star-iv-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/ii-star-iv-minus1.svg",
+    "potentialStableType": "$\\V$",
+    "potentialStableTypePlain": "V",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$",
+      "$3$"
+    ],
+    "componentGroup": "$\\Z/3\\Z$",
+    "tamagawaNumber": "$3$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$12$",
+    "numberOfComponents": "$9$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$9$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -2717,7 +3050,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
-    "parameterRange": "$l>0,\\ t\\geq -1$",
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -2730,6 +3063,35 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$l+t+12$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "iii-star-i-star-l-minus1",
+    "nuType": "$\\III^*\\text{-}\\I^*_l\\text{-}(-1)$",
+    "nuTypePlain": "III^*-I^*_l-(-1)",
+    "mrncReductionType": "$\\III^*\\text{-}\\I^*_l\\text{-}(-1)$",
+    "mrncReductionTypePlain": "III^*-I^*_l-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/iii-star-i-star-l-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/iii-star-i-star-l-minus1.svg",
+    "potentialStableType": "$\\VI$",
+    "potentialStableTypePlain": "VI",
+    "parameters": [
+      "$l$"
+    ],
+    "parameterRange": "$l>0$",
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$"
+    ],
+    "componentGroup": "$\\Z/2\\Z\\times X_l$",
+    "tamagawaNumber": "$8$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$l+13$",
+    "numberOfComponents": "$l+10$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$l+10$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -2838,7 +3200,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
-    "parameterRange": "$l>0,\\ t\\geq -1$",
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2852,6 +3214,36 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$l+t+11$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "iv-star-i-star-l-minus1",
+    "nuType": "$\\IV^*\\text{-}\\I^*_l\\text{-}(-1)$",
+    "nuTypePlain": "IV^*-I^*_l-(-1)",
+    "mrncReductionType": "$\\IV^*\\text{-}\\I^*_l\\text{-}(-1)$",
+    "mrncReductionTypePlain": "IV^*-I^*_l-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/iv-star-i-star-l-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/iv-star-i-star-l-minus1.svg",
+    "potentialStableType": "$\\VI$",
+    "potentialStableTypePlain": "VI",
+    "parameters": [
+      "$l$"
+    ],
+    "parameterRange": "$l>0$",
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$",
+      "$3$"
+    ],
+    "componentGroup": "$\\Z/3\\Z\\times X_l$",
+    "tamagawaNumber": "$12$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$l+12$",
+    "numberOfComponents": "$l+9$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$l+9$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -2960,7 +3352,7 @@ window.namikawaUenoTypes = [
       "$l$",
       "$t$"
     ],
-    "parameterRange": "$l>0,\\ t\\geq -1$",
+    "parameterRange": "$l>0,\\ t\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$",
@@ -2974,6 +3366,36 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": "$l+t+13$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "ii-star-i-star-l-minus1",
+    "nuType": "$\\II^*\\text{-}\\I^*_l\\text{-}(-1)$",
+    "nuTypePlain": "II^*-I^*_l-(-1)",
+    "mrncReductionType": "$\\II^*\\text{-}\\I^*_l\\text{-}(-1)$",
+    "mrncReductionTypePlain": "II^*-I^*_l-(-1)",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/ii-star-i-star-l-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/ii-star-i-star-l-minus1.svg",
+    "potentialStableType": "$\\VI$",
+    "potentialStableTypePlain": "VI",
+    "parameters": [
+      "$l$"
+    ],
+    "parameterRange": "$l>0$",
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$",
+      "$3$"
+    ],
+    "componentGroup": "$X_l$",
+    "tamagawaNumber": "$4$",
+    "conductorExponent": "$4$",
+    "minimalDiscriminant": "$l+14$",
+    "numberOfComponents": "$l+11$",
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": "$l+11$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
