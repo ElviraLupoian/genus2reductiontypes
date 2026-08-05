@@ -65,7 +65,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$0$",
     "minimalDiscriminant": "$0$",
     "numberOfComponents": "$1$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star-0-0-0",
@@ -90,7 +94,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$10$",
     "numberOfComponents": "$7$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii",
@@ -116,7 +124,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$15$",
     "numberOfComponents": "$3$",
-    "omegaValuation": "$-1$"
+    "omegaValuation": "$-1$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii",
@@ -141,7 +153,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$10$",
     "numberOfComponents": "$7$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv",
@@ -167,7 +183,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$20$",
     "numberOfComponents": "$6$",
-    "omegaValuation": "$-1$"
+    "omegaValuation": "$-1$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "v",
@@ -194,7 +214,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$5$",
     "numberOfComponents": "$2$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "v-star",
@@ -221,7 +245,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$15$",
     "numberOfComponents": "$12$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "vi",
@@ -247,7 +275,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$10$",
     "numberOfComponents": "$7$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "vii",
@@ -272,7 +304,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$5$",
     "numberOfComponents": "$2$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "vii-star",
@@ -297,7 +333,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$15$",
     "numberOfComponents": "$12$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "viii-1",
@@ -324,7 +364,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$4$",
     "numberOfComponents": "$1$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "viii-2",
@@ -350,7 +394,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12$",
     "numberOfComponents": "$9$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "viii-3",
@@ -377,7 +425,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$18$",
     "numberOfComponents": "$4$",
-    "omegaValuation": "$-1$"
+    "omegaValuation": "$-1$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "viii-4",
@@ -403,7 +455,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$16$",
     "numberOfComponents": "$13$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ix-1",
@@ -428,7 +484,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$8$",
     "numberOfComponents": "$5$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ix-2",
@@ -453,7 +513,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$6$",
     "numberOfComponents": "$3$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ix-3",
@@ -479,7 +543,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$14$",
     "numberOfComponents": "$11$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ix-4",
@@ -505,7 +573,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12$",
     "numberOfComponents": "$9$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-l-0-0",
@@ -528,7 +600,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$1$",
     "minimalDiscriminant": "$l$",
     "numberOfComponents": "$l$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star-l-0-0",
@@ -553,7 +629,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$l+10$",
     "numberOfComponents": "$l+7$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-ii-l",
@@ -578,7 +658,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$l+3$",
     "numberOfComponents": "$l+1$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-star-ii-star-l",
@@ -603,7 +687,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$l+13$",
     "numberOfComponents": "$l+10$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-ii-l",
@@ -628,7 +716,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$l+4$",
     "numberOfComponents": "$l+2$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-star-ii-star-l",
@@ -654,7 +746,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$l+14$",
     "numberOfComponents": "$l+11$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-l-plus-1-0",
@@ -680,7 +776,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$l+6$",
     "numberOfComponents": "$l+4$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-star-l-plus-1-0",
@@ -705,7 +805,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$l+16$",
     "numberOfComponents": "$l+4$",
-    "omegaValuation": "$-1$"
+    "omegaValuation": "$-1$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-star-ii-l-plus-1",
@@ -730,7 +834,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$l+8$",
     "numberOfComponents": "$l+6$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-ii-star-l-plus-1",
@@ -756,7 +864,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$l+8$",
     "numberOfComponents": "$l+5$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-star-ii-l-plus-1",
@@ -781,7 +893,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$l+9$",
     "numberOfComponents": "$l+7$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-ii-star-l-plus-1",
@@ -806,7 +922,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$l+9$",
     "numberOfComponents": "$l+6$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-l-m-0",
@@ -830,7 +950,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$l+m$",
     "numberOfComponents": "$l+m-1$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star-l-m-0",
@@ -856,7 +980,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$l+m+10$",
     "numberOfComponents": "$l+m+7$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "2i-l-0",
@@ -881,7 +1009,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$l+15$",
     "numberOfComponents": "$l+2$",
-    "omegaValuation": "$-1$"
+    "omegaValuation": "$-1$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-l",
@@ -906,7 +1038,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$l+10$",
     "numberOfComponents": "$l+7$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-m-l-or-l-m-p182",
@@ -932,7 +1068,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$l+m+5$",
     "numberOfComponents": "$l+m+3$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-l-m-n",
@@ -957,7 +1097,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$l+m+n$",
     "numberOfComponents": "$l+m+n-1$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star-l-m-n",
@@ -984,7 +1128,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$l+m+n+10$",
     "numberOfComponents": "$l+m+n+7$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-l-m-p183",
@@ -1010,7 +1158,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$l+m+5$",
     "numberOfComponents": "$l+m+3$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-star-l-m",
@@ -1036,7 +1188,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$l+m+15$",
     "numberOfComponents": "$l+m+2$",
-    "omegaValuation": "$-1$"
+    "omegaValuation": "$-1$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-l-p184",
@@ -1061,7 +1217,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$l+10$",
     "numberOfComponents": "$l+7$",
-    "omegaValuation": "$0$"
+    "omegaValuation": "$0$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-star-l-stable-iv",
@@ -1087,7 +1247,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$l+20$",
     "numberOfComponents": "$l+6$",
-    "omegaValuation": "$-1$"
+    "omegaValuation": "$-1$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i0-i0-t",
@@ -1110,7 +1274,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$0$",
     "minimalDiscriminant": "$12t$",
     "numberOfComponents": "$t+1$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i0-i-star0-t",
@@ -1135,7 +1303,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$12t+6$",
     "numberOfComponents": "$t+5$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star0-i-star0-t",
@@ -1160,7 +1332,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+12$",
     "numberOfComponents": "$t+9$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i0-iii-t",
@@ -1185,7 +1361,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$12t+3$",
     "numberOfComponents": "$t+2$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star0-iii-star-t",
@@ -1210,7 +1390,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+15$",
     "numberOfComponents": "$t+12$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star0-iii-t",
@@ -1235,7 +1419,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+9$",
     "numberOfComponents": "$t+6$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i0-iii-star-t",
@@ -1260,7 +1448,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$12t+9$",
     "numberOfComponents": "$t+8$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i0-ii-t",
@@ -1286,7 +1478,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$12t+2$",
     "numberOfComponents": "$t+1$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star0-iv-star-t",
@@ -1312,7 +1508,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+14$",
     "numberOfComponents": "$t+11$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star0-ii-t",
@@ -1338,7 +1538,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+8$",
     "numberOfComponents": "$t+5$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i0-iv-star-t",
@@ -1363,7 +1567,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$12t+8$",
     "numberOfComponents": "$t+7$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i0-iv-t",
@@ -1388,7 +1596,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$12t+4$",
     "numberOfComponents": "$t+3$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star0-ii-star-t",
@@ -1414,7 +1626,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+16$",
     "numberOfComponents": "$t+13$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star0-iv-t",
@@ -1440,7 +1656,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+10$",
     "numberOfComponents": "$t+7$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i0-ii-star-t",
@@ -1466,7 +1686,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$12t+10$",
     "numberOfComponents": "$t+9$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-iii-t",
@@ -1491,7 +1715,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+6$",
     "numberOfComponents": "$t+3$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-star-iii-star-t",
@@ -1516,7 +1744,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+18$",
     "numberOfComponents": "$t+15$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-iii-star-t",
@@ -1541,7 +1773,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+12$",
     "numberOfComponents": "$t+9$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-iii-t",
@@ -1567,7 +1803,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+5$",
     "numberOfComponents": "$t+2$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-star-iii-star-t",
@@ -1593,7 +1833,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+17$",
     "numberOfComponents": "$t+14$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-iii-t",
@@ -1619,7 +1863,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+7$",
     "numberOfComponents": "$t+4$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-star-iii-star-t",
@@ -1645,7 +1893,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+19$",
     "numberOfComponents": "$t+16$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-iii-star-t",
@@ -1671,7 +1923,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+13$",
     "numberOfComponents": "$t+10$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-star-iii-t",
@@ -1697,7 +1953,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+13$",
     "numberOfComponents": "$t+10$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-star-iii-t",
@@ -1723,7 +1983,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+11$",
     "numberOfComponents": "$t+8$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-iii-star-t",
@@ -1749,7 +2013,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+11$",
     "numberOfComponents": "$t+8$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-ii-t",
@@ -1775,7 +2043,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+4$",
     "numberOfComponents": "$t+1$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-star-iv-star-t",
@@ -1800,7 +2072,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+16$",
     "numberOfComponents": "$t+13$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-iv-t",
@@ -1826,7 +2102,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+6$",
     "numberOfComponents": "$t+3$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-star-iv-star-t",
@@ -1852,7 +2132,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+18$",
     "numberOfComponents": "$t+15$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-iv-star-t",
@@ -1878,7 +2162,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+10$",
     "numberOfComponents": "$t+7$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-iv-t",
@@ -1903,7 +2191,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+8$",
     "numberOfComponents": "$t+5$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-star-ii-star-t",
@@ -1929,7 +2221,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+20$",
     "numberOfComponents": "$t+17$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-iv-star-t",
@@ -1954,7 +2250,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+12$",
     "numberOfComponents": "$t+9$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-ii-star-t",
@@ -1980,7 +2280,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+12$",
     "numberOfComponents": "$t+9$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-star-iv-t",
@@ -2006,7 +2310,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+14$",
     "numberOfComponents": "$t+11$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "2i0-t",
@@ -2031,7 +2339,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$12t+15$",
     "numberOfComponents": "$t+3$",
-    "omegaValuation": "$-(t+1)$"
+    "omegaValuation": "$-(t+1)$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "2i-star0-t",
@@ -2056,7 +2368,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+21$",
     "numberOfComponents": "$t+7$",
-    "omegaValuation": "$-(t+1)$"
+    "omegaValuation": "$-(t+1)$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "2iv-t",
@@ -2082,7 +2398,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+19$",
     "numberOfComponents": "$t+5$",
-    "omegaValuation": "$-(t+1)$"
+    "omegaValuation": "$-(t+1)$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "2iv-star-t",
@@ -2108,7 +2428,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+23$",
     "numberOfComponents": "$t+9$",
-    "omegaValuation": "$-(t+1)$"
+    "omegaValuation": "$-(t+1)$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "2iii-t",
@@ -2133,7 +2457,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+18$",
     "numberOfComponents": "$t+4$",
-    "omegaValuation": "$-(t+1)$"
+    "omegaValuation": "$-(t+1)$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "2iii-star-t",
@@ -2158,7 +2486,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+24$",
     "numberOfComponents": "$t+10$",
-    "omegaValuation": "$-(t+1)$"
+    "omegaValuation": "$-(t+1)$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "2ii-t",
@@ -2184,7 +2516,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+17$",
     "numberOfComponents": "$t+3$",
-    "omegaValuation": "$-(t+1)$"
+    "omegaValuation": "$-(t+1)$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "2ii-star-t",
@@ -2210,7 +2546,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+25$",
     "numberOfComponents": "$t+11$",
-    "omegaValuation": "$-(t+1)$"
+    "omegaValuation": "$-(t+1)$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i0-i-l-t",
@@ -2234,7 +2574,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$1$",
     "minimalDiscriminant": "$12t+l$",
     "numberOfComponents": "$l+t$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star0-i-star-l-t",
@@ -2260,7 +2604,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+l+12$",
     "numberOfComponents": "$l+t+9$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i0-i-star-l-t",
@@ -2286,7 +2634,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$12t+l+6$",
     "numberOfComponents": "$l+t+5$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star0-i-l-t",
@@ -2312,7 +2664,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$12t+l+6$",
     "numberOfComponents": "$l+t+4$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-i-l-t",
@@ -2338,7 +2694,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$12t+l+3$",
     "numberOfComponents": "$l+t+1$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-star-i-star-l-t",
@@ -2364,7 +2724,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+l+15$",
     "numberOfComponents": "$l+t+12$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-i-star-l-t",
@@ -2390,7 +2754,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+l+9$",
     "numberOfComponents": "$l+t+6$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iii-star-i-l-t",
@@ -2416,7 +2784,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$12t+l+9$",
     "numberOfComponents": "$l+t+7$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-i-l-t",
@@ -2443,7 +2815,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$12t+l+2$",
     "numberOfComponents": "$l+t$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-star-i-star-l-t",
@@ -2470,7 +2846,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+l+14$",
     "numberOfComponents": "$l+t+11$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-i-star-l-t",
@@ -2497,7 +2877,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+l+8$",
     "numberOfComponents": "$l+t+5$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-star-i-l-t",
@@ -2523,7 +2907,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$12t+l+8$",
     "numberOfComponents": "$l+t+6$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-i-l-t",
@@ -2549,7 +2937,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$12t+l+4$",
     "numberOfComponents": "$l+t+2$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-star-i-star-l-t",
@@ -2576,7 +2968,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+l+16$",
     "numberOfComponents": "$l+t+13$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "iv-i-star-l-t",
@@ -2603,7 +2999,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+l+10$",
     "numberOfComponents": "$l+t+7$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "ii-star-i-l-t",
@@ -2630,7 +3030,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$12t+l+10$",
     "numberOfComponents": "$l+t+8$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-l-i-m-t",
@@ -2655,7 +3059,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$2$",
     "minimalDiscriminant": "$12t+l+m$",
     "numberOfComponents": "$l+m+t\\!-\\!1$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "i-star-l-i-star-m-t",
@@ -2682,7 +3090,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+l+m+12$",
     "numberOfComponents": "$l+m+t+9$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "mixed-i-star-l-i-m-t",
@@ -2709,7 +3121,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$12t+l+m+6$",
     "numberOfComponents": "$l+m+t+4$",
-    "omegaValuation": "$-t$"
+    "omegaValuation": "$-t$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "2i-l-t",
@@ -2735,7 +3151,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$3$",
     "minimalDiscriminant": "$12t+l+15$",
     "numberOfComponents": "$l+t+2$",
-    "omegaValuation": "$-(t+1)$"
+    "omegaValuation": "$-(t+1)$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   },
   {
     "id": "2i-star-l-t",
@@ -2761,7 +3181,11 @@ window.namikawaUenoTypes = [
     "conductorExponent": "$4$",
     "minimalDiscriminant": "$12t+l+21$",
     "numberOfComponents": "$l+t+7$",
-    "omegaValuation": "$-(t+1)$"
+    "omegaValuation": "$-(t+1)$",
+    "example": null,
+    "numberOfComponentsMRNC": null,
+    "numberOfMonodromyMatrices": null,
+    "clusterPictures": null
   }
 ];
 
