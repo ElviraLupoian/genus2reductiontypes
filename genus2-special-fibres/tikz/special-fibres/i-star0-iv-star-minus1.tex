@@ -1,0 +1,18 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{amsmath,amssymb}
+\usepackage{xcolor}
+\usetikzlibrary{positioning}
+\begin{document}
+% Extracted from namuenofull.inc; source column: \footnotesize \cite{NU}$_{\rm p{ 161 }}$ I$^*_{0}$-IV$^*$-$\alpha$
+\begin{tikzpicture}[xscale=0.57,yscale=0.62]
+\draw[thick,shorten >=2] (-1/3,0)--(137/30,0) node[inner sep=2pt,blue,above left,scale=0.8] {2} node[inner sep=2pt,below left,scale=0.8] {$\Gamma_1$};
+\draw[shorten <=-3pt] (0,0)--node[inner sep=2pt,scale=0.8,blue,right] {1} (0,3/5);
+\draw[shorten <=-3pt] (4/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {1} (4/5,3/5);
+\draw[shorten <=-3pt] (8/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {1} (8/5,3/5);
+\draw[blue!80!white,densely dashed] (41/15,0)--(41/15,4/5);\draw[thick,shorten >=2] (12/5,4/5)--(203/30,4/5) node[inner sep=2pt,blue,above left,scale=0.8] {3} node[inner sep=2pt,below left,scale=0.8] {$\Gamma_2$};
+\draw[shorten <=-3pt, shorten >=-3pt] (53/15,4/5)--node[inner sep=2pt,scale=0.8,blue,right] {2} (53/15,7/5);
+\draw[shorten <=-3pt] (53/15,7/5)--node[inner sep=2pt,scale=0.8,blue,above] {1} (44/15,7/5);
+\draw[shorten <=-3pt, shorten >=-3pt] (74/15,4/5)--node[inner sep=2pt,scale=0.8,blue,right] {2} (74/15,7/5);
+\draw[shorten <=-3pt] (74/15,7/5)--node[inner sep=2pt,scale=0.8,blue,above] {1} (13/3,7/5);
+\end{tikzpicture}
+\end{document}
