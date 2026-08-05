@@ -132,7 +132,10 @@ for (const [index, type] of window.namikawaUenoTypes.entries()) {
     </td>
     <th scope="row" class="col-nu">
     <div class="nu-type-line">
-      <span class="nu-type">${type.nuType}</span>
+    <span class="nu-type">
+  <span class="nu-bracket">[</span>${type.nuType}<span class="nu-bracket">]</span>
+</span>
+
       ${
         type.parameterRange
           ? `<span class="parameter-range">${type.parameterRange}</span>`

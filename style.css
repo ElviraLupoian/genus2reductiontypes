@@ -555,3 +555,10 @@ tbody .col-mrnc-pic:has(img.special-fibre) {
     font-weight: 400;
     color: #666;
   }
+
+  .nu-bracket {
+    display: inline-block;
+    font-size: 1.25em;
+    line-height: 1;
+    vertical-align: -0.04em;
+  }
