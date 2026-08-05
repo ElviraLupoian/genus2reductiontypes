@@ -157,15 +157,15 @@ for (const [index, type] of window.namikawaUenoTypes.entries()) {
     <td class="col-mrnc">${type.mrncReductionType}</td>
     <td class="col-stable">${type.potentialStableType}</td>
     <td class="col-mrm-pic">${mrmFibreHtml}</td>
-    <td class="col-mrnc-pic">${mrncFibreHtml}</td>
     <td class="col-components">${type.numberOfComponents}</td>
+    <td class="col-mrnc-pic">${mrncFibreHtml}</td>
+    <td class="col-mrnc-components">${type.numberOfComponentsMRNC ?? "—"}</td>
     <td class="col-component">${type.componentGroup}</td>
     <td class="col-conductor">${type.conductorExponent}</td>
     <td class="col-wild">${displayWildPrimes(type.wildPrimes)}</td>
     <td class="col-discriminant">${type.minimalDiscriminant}</td>
     <td class="col-omega">${type.omegaValuation}</td>
     <td class="col-example">${type.example ?? "—"}</td>
-    <td class="col-mrnc-components">${type.numberOfComponentsMRNC ?? "—"}</td>
     <td class="col-monodromy">${type.monodromyMatrix ?? "—"}</td>
     <td class="col-cluster-pics">${type.clusterPictures ?? "—"}</td>
   `;

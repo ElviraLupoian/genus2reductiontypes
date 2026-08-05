@@ -26,6 +26,9 @@
   --components-width: 115px;
   --components-min-width: 95px;
 
+  --components-width-mrnc: 115px;
+  --components-min-width-mrnc: 95px;
+
   --component-group-width: 170px;
   --component-group-min-width: 140px;
 
@@ -440,10 +443,17 @@ thead .col-nu {
   min-width: var(--mrm-picture-min-width);
 }
 
+
+
 .col-mrnc-pic {
   width: var(--mrnc-picture-width);
   min-width: var(--mrnc-picture-min-width);
   overflow: visible;
+}
+
+.col-components-mrnc {
+  width: var(--components-mrnc-width);
+  min-width: var(--components-mrnc-min-width);
 }
 
 .col-components {
@@ -569,11 +579,11 @@ tbody .col-mrnc-pic:has(img.special-fibre) {
     min-width: 60px;
   }
   
-  .col-mrnc-components {
+ /* .col-mrnc-components {
     width: 60px;
     min-width: 60px;
     text-align: center;
-  }
+  }*/
   
   .col-monodromy {
     width: 60px;
