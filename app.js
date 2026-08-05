@@ -54,7 +54,11 @@ function displayWildPrimes(value) {
     return "—";
   }
 
-  return value.join(", ");
+  const primes = value.map(prime =>
+    String(prime).replace(/\$/g, "")
+  );
+
+  return `$${primes.join(",\\,")}$`;
 }
 
 
