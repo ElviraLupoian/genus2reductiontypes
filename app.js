@@ -155,7 +155,7 @@ for (const [index, type] of window.namikawaUenoTypes.entries()) {
     <td class="col-omega">${type.omegaValuation}</td>
     <td class="col-example">${type.example ?? "—"}</td>
     <td class="col-mrnc-components">${type.numberOfComponentsMRNC ?? "—"}</td>
-    <td class="col-monodromy">${type.numberOfMonodromyMatrices ?? "—"}</td>
+    <td class="col-monodromy">${type.monodromyMatrix ?? "—"}</td>
     <td class="col-cluster-pics">${type.clusterPictures ?? "—"}</td>
   `;
 

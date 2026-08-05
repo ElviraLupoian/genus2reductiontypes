@@ -68,7 +68,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -97,7 +97,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -127,7 +127,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-1$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -156,7 +156,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -186,7 +186,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-1$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -217,7 +217,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -248,7 +248,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -278,7 +278,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -307,7 +307,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -336,7 +336,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -367,7 +367,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -397,7 +397,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -428,7 +428,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-1$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -458,7 +458,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -487,7 +487,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -516,7 +516,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -546,7 +546,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -576,7 +576,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -603,7 +603,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -632,7 +632,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -661,7 +661,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -690,7 +690,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -719,7 +719,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -749,7 +749,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -779,7 +779,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -808,7 +808,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-1$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -837,7 +837,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -867,7 +867,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -896,7 +896,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -925,7 +925,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -953,7 +953,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -983,7 +983,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1012,7 +1012,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-1$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1041,7 +1041,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1071,7 +1071,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1100,7 +1100,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1131,7 +1131,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1161,7 +1161,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1191,7 +1191,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-1$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1220,7 +1220,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$0$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1250,7 +1250,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-1$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1277,7 +1277,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1306,7 +1306,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1335,7 +1335,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1364,7 +1364,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1393,7 +1393,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1422,7 +1422,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1451,7 +1451,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1481,7 +1481,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1511,7 +1511,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1541,7 +1541,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1570,7 +1570,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1599,7 +1599,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1629,7 +1629,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1659,7 +1659,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1689,7 +1689,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1718,7 +1718,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1747,7 +1747,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1776,7 +1776,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1806,7 +1806,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1836,7 +1836,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1866,7 +1866,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1896,7 +1896,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1926,7 +1926,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1956,7 +1956,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -1986,7 +1986,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2016,7 +2016,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2046,7 +2046,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2075,7 +2075,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2105,7 +2105,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2135,7 +2135,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2165,7 +2165,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2194,7 +2194,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2224,7 +2224,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2253,7 +2253,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2283,7 +2283,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2313,7 +2313,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2342,7 +2342,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-(t+1)$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2371,7 +2371,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-(t+1)$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2401,7 +2401,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-(t+1)$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2431,7 +2431,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-(t+1)$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2460,7 +2460,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-(t+1)$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2489,7 +2489,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-(t+1)$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2519,7 +2519,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-(t+1)$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2549,7 +2549,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-(t+1)$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2577,7 +2577,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2607,7 +2607,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2637,7 +2637,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2667,7 +2667,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2697,7 +2697,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2727,7 +2727,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2757,7 +2757,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2787,7 +2787,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2818,7 +2818,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2849,7 +2849,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2880,7 +2880,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2910,7 +2910,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2940,7 +2940,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -2971,7 +2971,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -3002,7 +3002,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -3033,7 +3033,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -3062,7 +3062,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -3093,7 +3093,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -3124,7 +3124,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-t$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -3154,7 +3154,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-(t+1)$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   },
   {
@@ -3184,7 +3184,7 @@ window.namikawaUenoTypes = [
     "omegaValuation": "$-(t+1)$",
     "example": null,
     "numberOfComponentsMRNC": null,
-    "numberOfMonodromyMatrices": null,
+    "monodromyMatrix": null,
     "clusterPictures": null
   }
 ];

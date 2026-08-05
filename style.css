@@ -584,3 +584,16 @@ tbody .col-mrnc-pic:has(img.special-fibre) {
     width: 60px;
     min-width: 60px;
   }
+
+  .nu-label-and-page {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.3rem;
+  }
+  
+  .nu-page {
+    font-size: 0.72rem;
+    font-weight: 400;
+    color: #666;
+    white-space: nowrap;
+  }
