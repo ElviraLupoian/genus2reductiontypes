@@ -1042,7 +1042,7 @@ window.namikawaUenoTypes = [
     "id": "iii-l-p184",
     "nuType": "$\\III_l\\;(\\mathrm{p184})$",
     "nuTypePlain": "III_l (p184)",
-    "mrncReductionType": "$\\mathrm{T}\\!\\underset{l}{\\overset{3-3}{-}}!\\mathrm{T}$",
+    "mrncReductionType": "$\\mathrm{T}\\!\\underset{l}{\\overset{3-3}{-}}\\mathrm{T}$",
     "mrncReductionTypePlain": "T-l-{3-3}-T",
     "mrmfibre": "genus2-special-fibres/images/special-fibres/iii-l-p184.svg",
     "mrncfibre": "genus2-special-fibres/images/special-fibres/iii-l-p184.svg",
