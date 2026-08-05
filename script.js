@@ -1046,8 +1046,9 @@ window.namikawaUenoTypes = [
   },
   {
     "id": "ii-m-l-or-l-m-p182",
-    "nuType": "$\\II_{m-l}\\;(\\mathrm{p182})$",//\\,/\\,\\II_{l-m}\\;(\\mathrm{p182})$",
-    "nuTypePlain": "II_{m-l} (p182)", /// II_{l-m}
+    "nuType": "$\\II_{m-l}$",
+    "nuPage": "$(\\mathrm{p182})$",
+    "nuTypePlain": "II_{m-l} (p182)",
     "mrncReductionType": "$\\mathrm{I}^{*}_{l,m-1}$", //\\,/\\,\\mathrm{I}^{*}_{m,l-1},
     "mrncReductionTypePlain": "I^*_{l,m-1}", /// I^*_{m,l-1}
     "mrmfibre": "genus2-special-fibres/images/special-fibres/ii-m-l-or-l-m-p182.svg",
@@ -1136,7 +1137,8 @@ window.namikawaUenoTypes = [
   },
   {
     "id": "ii-l-m-p183",
-    "nuType": "$\\II_{l-m}\\;(\\mathrm{p183})$",
+    "nuType": "$\\II_{l-m}$",
+    "nuPage": "$(\\mathrm{p183})$",
     "nuTypePlain": "II_{l-m} (p183)",
     "mrncReductionType": "$\\mathrm{D}\\!\\underset{l-1}{-}\\!\\underset{m}{\\overset{2-2}{-}}\\!\\mathrm{D}$",
     "mrncReductionTypePlain": "D-(l-1)-{2-2}-m-D",
@@ -1196,7 +1198,8 @@ window.namikawaUenoTypes = [
   },
   {
     "id": "iii-l-p184",
-    "nuType": "$\\III_l\\;(\\mathrm{p184})$",
+    "nuType": "$\\III_l$",
+    "nuPage": "$(\\mathrm{p184})$",
     "nuTypePlain": "III_l (p184)",
     "mrncReductionType": "$\\mathrm{T}\\!\\underset{l}{\\overset{3-3}{-}}\\mathrm{T}$",
     "mrncReductionTypePlain": "T-l-{3-3}-T",

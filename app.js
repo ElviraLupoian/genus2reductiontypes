@@ -132,16 +132,24 @@ for (const [index, type] of window.namikawaUenoTypes.entries()) {
     </td>
     <th scope="row" class="col-nu">
     <div class="nu-type-line">
-    <span class="nu-type">
-  <span class="nu-bracket">[</span>${type.nuType}<span class="nu-bracket">]</span>
-</span>
-
+    <span class="nu-label-and-page">
+      <span class="nu-type">
+        <span class="nu-bracket">[</span>${type.nuType}<span class="nu-bracket">]</span>
+      </span>
+  
       ${
-        type.parameterRange
-          ? `<span class="parameter-range">${type.parameterRange}</span>`
+        type.nuPage
+          ? `<span class="nu-page">${type.nuPage}</span>`
           : ""
       }
-    </div>
+    </span>
+  
+    ${
+      type.parameterRange
+        ? `<span class="parameter-range">${type.parameterRange}</span>`
+        : ""
+    }
+  </div>
   </th>
     <td class="col-mrnc">${type.mrncReductionType}</td>
     <td class="col-stable">${type.potentialStableType}</td>
