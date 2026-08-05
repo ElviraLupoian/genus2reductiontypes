@@ -69,7 +69,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$1$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i-0-0-0-1.svg", "genus2-special-fibres/images/cluster-pictures/i-0-0-0-2.svg"]
   },
   {
     "id": "i-star-0-0-0",
@@ -98,7 +98,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$7$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i-star-0-0-0-1.svg", "genus2-special-fibres/images/cluster-pictures/i-star-0-0-0-2.svg"]
   },
   {
     "id": "ii",
@@ -128,7 +128,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$3$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-1.svg", "genus2-special-fibres/images/cluster-pictures/ii-2.svg"]
   },
   {
     "id": "iii",
@@ -157,7 +157,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$7$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-1.svg", "genus2-special-fibres/images/cluster-pictures/iii-2.svg"]
   },
   {
     "id": "iv",
@@ -187,7 +187,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$6$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-1.svg", "genus2-special-fibres/images/cluster-pictures/iv-2.svg"]
   },
   {
     "id": "v",
@@ -218,7 +218,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$5$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/v-1.svg", "genus2-special-fibres/images/cluster-pictures/v-2.svg"]
   },
   {
     "id": "v-star",
@@ -249,7 +249,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$12$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/v-star-1.svg", "genus2-special-fibres/images/cluster-pictures/v-star-2.svg"]
   },
   {
     "id": "vi",
@@ -279,7 +279,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$7$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/vi-1.svg", "genus2-special-fibres/images/cluster-pictures/vi-2.svg"]
   },
   {
     "id": "vii",
@@ -308,7 +308,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$5$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/vii-1.svg", "genus2-special-fibres/images/cluster-pictures/vii-2.svg"]
   },
   {
     "id": "vii-star",
@@ -337,7 +337,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$12$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/vii-star-1.svg", "genus2-special-fibres/images/cluster-pictures/vii-star-2.svg"]
   },
   {
     "id": "viii-1",
@@ -368,7 +368,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$5$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/viii-1-1.svg", "genus2-special-fibres/images/cluster-pictures/viii-1-2.svg"]
   },
   {
     "id": "viii-2",
@@ -398,7 +398,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$9$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/viii-2-1.svg", "genus2-special-fibres/images/cluster-pictures/viii-2-2.svg"]
   },
   {
     "id": "viii-3",
@@ -429,7 +429,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$6$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/viii-3-1.svg", "genus2-special-fibres/images/cluster-pictures/viii-3-2.svg"]
   },
   {
     "id": "viii-4",
@@ -459,7 +459,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$13$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/viii-4-1.svg", "genus2-special-fibres/images/cluster-pictures/viii-4-2.svg"]
   },
   {
     "id": "ix-1",
@@ -488,7 +488,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$6$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ix-1-1.svg", "genus2-special-fibres/images/cluster-pictures/ix-1-2.svg"]
   },
   {
     "id": "ix-2",
@@ -517,7 +517,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$5$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ix-2-1.svg", "genus2-special-fibres/images/cluster-pictures/ix-2-2.svg"]
   },
   {
     "id": "ix-3",
@@ -547,7 +547,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$11$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ix-3-1.svg", "genus2-special-fibres/images/cluster-pictures/ix-3-2.svg"]
   },
   {
     "id": "ix-4",
@@ -577,7 +577,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$9$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ix-4-1.svg", "genus2-special-fibres/images/cluster-pictures/ix-4-2.svg"]
   },
   {
     "id": "i-l-0-0",
@@ -2914,7 +2914,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i0-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/i0-i-l-t-2.svg"]
   },
   {
     "id": "i-star0-i-star-l-t",
@@ -2944,7 +2944,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+9$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i-star0-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/i-star0-i-star-l-t-2.svg"]
   },
   {
     "id": "i0-i-star-l-t",
@@ -2974,7 +2974,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+5$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i0-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/i0-i-star-l-t-2.svg"]
   },
   {
     "id": "i-star0-i-l-t",
@@ -3004,7 +3004,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+4$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i-star0-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/i-star0-i-l-t-2.svg"]
   },
   {
     "id": "iii-i-l-t",
@@ -3034,7 +3034,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+3$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iii-i-l-t-2.svg"]
   },
   {
     "id": "iii-star-i-star-l-t",
@@ -3064,7 +3064,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+12$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-star-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-star-l-t-2.svg"]
   },
   {
     "id": "iii-star-i-star-l-minus1",
@@ -3123,7 +3123,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+8$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iii-i-star-l-t-2.svg"]
   },
   {
     "id": "iii-star-i-l-t",
@@ -3153,7 +3153,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+7$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-2.svg"]
   },
   {
     "id": "ii-i-l-t",
@@ -3184,7 +3184,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+3$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/ii-i-l-t-2.svg"]
   },
   {
     "id": "iv-star-i-star-l-t",
@@ -3215,7 +3215,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+11$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-star-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iv-star-i-star-l-t-2.svg"]
   },
   {
     "id": "iv-star-i-star-l-minus1",
@@ -3276,7 +3276,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+8$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/ii-i-star-l-t-2.svg"]
   },
   {
     "id": "iv-star-i-l-t",
@@ -3306,7 +3306,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+6$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-star-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iv-star-i-l-t-2.svg"]
   },
   {
     "id": "iv-i-l-t",
@@ -3336,7 +3336,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+3$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iv-i-l-t-2.svg"]
   },
   {
     "id": "ii-star-i-star-l-t",
@@ -3367,7 +3367,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+13$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-star-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/ii-star-i-star-l-t-2.svg"]
   },
   {
     "id": "ii-star-i-star-l-minus1",
@@ -3428,7 +3428,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+8$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iv-i-star-l-t-2.svg"]
   },
   {
     "id": "ii-star-i-l-t",
@@ -3459,7 +3459,7 @@ window.namikawaUenoTypes = [
     "example": null,
     "numberOfComponentsMRNC": "$l+t+8$",
     "monodromyMatrix": null,
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-star-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/ii-star-i-l-t-2.svg"]
   },
   {
     "id": "i-l-i-m-t",

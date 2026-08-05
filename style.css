@@ -608,3 +608,57 @@ tbody .col-mrnc-pic:has(img.special-fibre) {
     color: #666;
     white-space: nowrap;
   }
+  .nu-component-key {
+    width: auto;
+    margin: 0.7rem 0 0.9rem;
+    border-collapse: collapse;
+  }
+  
+  .nu-component-key th,
+  .nu-component-key td {
+    padding: 0.35rem 0.75rem;
+    border: 1px solid #d4d8dd;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table-guide .nu-component-key {
+    display: inline-table;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: 100%;
+    table-layout: auto;
+    margin: 0.35rem 0 0.55rem;
+    font-size: 0.82rem;
+  }
+  
+  .table-guide .nu-component-key th,
+  .table-guide .nu-component-key td {
+    width: auto !important;
+    min-width: 0 !important;
+    padding: 0.16rem 0.4rem;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .cluster-picture-list {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    gap: 1.25rem;
+    flex-wrap: nowrap;
+  }
+  
+  .cluster-picture {
+    display: block;
+    width: auto;
+    height: 35px;
+    max-width: 320px;
+    max-height: 210px;
+    flex: 0 0 auto;
+  }
+
+  .col-cluster-pics {
+    overflow-x: auto;
+  }

@@ -60,6 +60,24 @@ function displayWildPrimes(value) {
   return `$${primes.join(",\\,")}$`;
 }
 
+function displayClusterPictures(value, type) {
+  if (!Array.isArray(value) || value.length === 0) {
+    return "—";
+  }
+
+  return `
+    <div class="cluster-picture-list">
+      ${value.map((src, index) => `
+        <img
+          src="${src}"
+          alt="Cluster picture ${index + 1} for ${type.nuTypePlain}"
+          class="cluster-picture"
+        >
+      `).join("")}
+    </div>
+  `;
+}
+
 
 function setSelected(id, selected, checkbox, row) {
   if (selected) {
@@ -167,7 +185,9 @@ for (const [index, type] of window.namikawaUenoTypes.entries()) {
     <td class="col-omega">${type.omegaValuation}</td>
     <td class="col-example">${type.example ?? "—"}</td>
     <td class="col-monodromy">${type.monodromyMatrix ?? "—"}</td>
-    <td class="col-cluster-pics">${type.clusterPictures ?? "—"}</td>
+    <td class="col-cluster-pics">
+    ${displayClusterPictures(type.clusterPictures, type)}
+  </td>
   `;
 
   const selector = row.querySelector(".row-selector");
