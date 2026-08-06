@@ -824,7 +824,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
-    "parameterRange": "$l\\geq -1$",
+    "parameterRange": "$l\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$3$"
@@ -835,8 +835,35 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+8$",
     "numberOfComponents": "$l+6$",
     "omegaValuation": "$0$",
-    "example": "$\\begin{cases}y^2=(x^2+\\pi^3)(x^3+\\pi^4),&l=-1,\\\\ y^2=x(x^3+\\pi^2)((x-1)^2+\\pi^l),&l\\geq0,\\end{cases}$",
+    "example": "$y^2=x(x^3+\\pi^2)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+6$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "iv-star-ii-0",
+    "nuType": "$\\IV^*\\text{-}\\II_0$",
+    "nuTypePlain": "IV^*-II_0",
+    "mrncReductionType": "$\\mathrm{IV}^{*}_{-1}$",
+    "mrncReductionTypePlain": "IV^*_{-1}",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/iv-star-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/iv-star-minus1.svg",
+    "potentialStableType": "$\\II$",
+    "potentialStableTypePlain": "II",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$3$"
+    ],
+    "componentGroup": "$(0)$",
+    "tamagawaNumber": "$1$",
+    "conductorExponent": "$3$",
+    "minimalDiscriminant": "$17$",
+    "numberOfComponents": "$4$",
+    "omegaValuation": "$-1$",
+    "example": "$y^2=(x^2+\\pi^3)(x^3+\\pi^4)$",
+    "numberOfComponentsMRNC": "$4$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
@@ -883,7 +910,7 @@ window.namikawaUenoTypes = [
     "parameters": [
       "$l$"
     ],
-    "parameterRange": "$l\\geq -1$",
+    "parameterRange": "$l\\geq 0$",
     "leadingCoefficientParity": null,
     "wildPrimes": [
       "$2$"
@@ -894,8 +921,35 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+9$",
     "numberOfComponents": "$l+7$",
     "omegaValuation": "$0$",
-    "example": "$\\begin{cases}y^2=\\pi(x^2+\\pi)(x^4+\\pi),&l=-1,\\\\ y^2=(x^4+\\pi^3)((x-1)^2+\\pi^l),&l\\geq0,\\end{cases}$",
+    "example": "$y^2=(x^4+\\pi^3)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+7$",
+    "monodromyMatrix": null,
+    "clusterPictures": null
+  },
+  {
+    "id": "iii-star-ii-0",
+    "nuType": "$\\III^*\\text{-}\\II_0$",
+    "nuTypePlain": "III^*-II_0",
+    "mrncReductionType": "$\\mathrm{III}^{*}_{-1}$",
+    "mrncReductionTypePlain": "III^*_{-1}",
+    "mrmfibre": "genus2-special-fibres/images/special-fibres/iii-star-minus1.svg",
+    "mrncfibre": "genus2-special-fibres/images/special-fibres/iii-star-minus1.svg",
+    "potentialStableType": "$\\II$",
+    "potentialStableTypePlain": "II",
+    "parameters": [],
+    "parameterRange": null,
+    "leadingCoefficientParity": null,
+    "wildPrimes": [
+      "$2$"
+    ],
+    "componentGroup": "$(0)$",
+    "tamagawaNumber": "$1$",
+    "conductorExponent": "$3$",
+    "minimalDiscriminant": "$18$",
+    "numberOfComponents": "$5$",
+    "omegaValuation": "$-1$",
+    "example": "$y^2=\\pi(x^2+\\pi)(x^4+\\pi)$",
+    "numberOfComponentsMRNC": "$5$",
     "monodromyMatrix": null,
     "clusterPictures": null
   },
