@@ -66,7 +66,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$0$",
     "numberOfComponents": "$1$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x^5+x^3+x^2+x+1$",
     "numberOfComponentsMRNC": "$1$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i-0-0-0-1.svg", "genus2-special-fibres/images/cluster-pictures/i-0-0-0-2.svg"]
@@ -95,7 +95,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$10$",
     "numberOfComponents": "$7$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x^5+\\pi^2x^3+\\pi^3x^2+\\pi^4x+\\pi^5$",
     "numberOfComponentsMRNC": "$7$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i-star-0-0-0-1.svg", "genus2-special-fibres/images/cluster-pictures/i-star-0-0-0-2.svg"]
@@ -125,7 +125,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$15$",
     "numberOfComponents": "$3$",
     "omegaValuation": "$-1$",
-    "example": null,
+    "example": "$y^2=x^6+\\pi x^4+\\pi^2x^2+\\pi^3$",
     "numberOfComponentsMRNC": "$3$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-1.svg", "genus2-special-fibres/images/cluster-pictures/ii-2.svg"]
@@ -154,7 +154,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$10$",
     "numberOfComponents": "$7$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x^6+\\pi x^3+\\pi^2$",
     "numberOfComponentsMRNC": "$7$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-1.svg", "genus2-special-fibres/images/cluster-pictures/iii-2.svg"]
@@ -184,7 +184,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$20$",
     "numberOfComponents": "$6$",
     "omegaValuation": "$-1$",
-    "example": null,
+    "example": "$y^2=\\pi\\bigl(x^6+\\pi x^3+\\pi^2\\bigr)$",
     "numberOfComponentsMRNC": "$6$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-1.svg", "genus2-special-fibres/images/cluster-pictures/iv-2.svg"]
@@ -215,7 +215,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$5$",
     "numberOfComponents": "$2$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x^6+\\pi$",
     "numberOfComponentsMRNC": "$5$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/v-1.svg", "genus2-special-fibres/images/cluster-pictures/v-2.svg"]
@@ -246,7 +246,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$15$",
     "numberOfComponents": "$12$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x^6+\\pi^5$",
     "numberOfComponentsMRNC": "$12$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/v-star-1.svg", "genus2-special-fibres/images/cluster-pictures/v-star-2.svg"]
@@ -276,7 +276,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$10$",
     "numberOfComponents": "$7$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x\\bigl(x^4+\\pi x^2+\\pi^2\\bigr)$",
     "numberOfComponentsMRNC": "$7$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/vi-1.svg", "genus2-special-fibres/images/cluster-pictures/vi-2.svg"]
@@ -305,7 +305,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$5$",
     "numberOfComponents": "$2$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x(x^4+\\pi)$",
     "numberOfComponentsMRNC": "$5$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/vii-1.svg", "genus2-special-fibres/images/cluster-pictures/vii-2.svg"]
@@ -334,7 +334,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$15$",
     "numberOfComponents": "$12$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x(x^4+\\pi^5)$",
     "numberOfComponentsMRNC": "$12$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/vii-star-1.svg", "genus2-special-fibres/images/cluster-pictures/vii-star-2.svg"]
@@ -365,7 +365,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$4$",
     "numberOfComponents": "$1$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x^5+\\pi$",
     "numberOfComponentsMRNC": "$5$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/viii-1-1.svg", "genus2-special-fibres/images/cluster-pictures/viii-1-2.svg"]
@@ -395,7 +395,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12$",
     "numberOfComponents": "$9$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x^5+\\pi^3$",
     "numberOfComponentsMRNC": "$9$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/viii-2-1.svg", "genus2-special-fibres/images/cluster-pictures/viii-2-2.svg"]
@@ -426,7 +426,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$18$",
     "numberOfComponents": "$4$",
     "omegaValuation": "$-1$",
-    "example": null,
+    "example": "$y^2=x^5+\\pi^7$",
     "numberOfComponentsMRNC": "$6$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/viii-3-1.svg", "genus2-special-fibres/images/cluster-pictures/viii-3-2.svg"]
@@ -456,7 +456,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$16$",
     "numberOfComponents": "$13$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x^5+\\pi^9$",
     "numberOfComponentsMRNC": "$13$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/viii-4-1.svg", "genus2-special-fibres/images/cluster-pictures/viii-4-2.svg"]
@@ -485,7 +485,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$8$",
     "numberOfComponents": "$5$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x^5+\\pi^2$",
     "numberOfComponentsMRNC": "$6$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ix-1-1.svg", "genus2-special-fibres/images/cluster-pictures/ix-1-2.svg"]
@@ -514,7 +514,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$6$",
     "numberOfComponents": "$3$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x^5+\\pi^4$",
     "numberOfComponentsMRNC": "$5$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ix-2-1.svg", "genus2-special-fibres/images/cluster-pictures/ix-2-2.svg"]
@@ -544,7 +544,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$14$",
     "numberOfComponents": "$11$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x^5+\\pi^6$",
     "numberOfComponentsMRNC": "$11$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ix-3-1.svg", "genus2-special-fibres/images/cluster-pictures/ix-3-2.svg"]
@@ -574,7 +574,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12$",
     "numberOfComponents": "$9$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x^5+\\pi^8$",
     "numberOfComponentsMRNC": "$9$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ix-4-1.svg", "genus2-special-fibres/images/cluster-pictures/ix-4-2.svg"]
@@ -601,7 +601,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l$",
     "numberOfComponents": "$l$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=(x^3+x+1)((x-2)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -630,7 +630,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+10$",
     "numberOfComponents": "$l+7$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi(x^3+x+1)((x-2)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -659,7 +659,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+3$",
     "numberOfComponents": "$l+1$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=(x^4+\\pi)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+3$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -688,7 +688,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+13$",
     "numberOfComponents": "$l+10$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi(x^4+\\pi)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+10$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -717,7 +717,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+4$",
     "numberOfComponents": "$l+2$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x(x^3+\\pi)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+3$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -747,7 +747,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+14$",
     "numberOfComponents": "$l+11$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi x(x^3+\\pi)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+11$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -777,7 +777,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+6$",
     "numberOfComponents": "$l+4$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=(x^4+\\pi x^2+\\pi^2)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+4$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -806,7 +806,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+16$",
     "numberOfComponents": "$l+4$",
     "omegaValuation": "$-1$",
-    "example": null,
+    "example": "$y^2=\\pi(x^4+\\pi x^2+\\pi^2)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+4$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -835,7 +835,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+8$",
     "numberOfComponents": "$l+6$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$\\begin{cases}y^2=(x^2+\\pi^3)(x^3+\\pi^4),&l=-1,\\\\ y^2=x(x^3+\\pi^2)((x-1)^2+\\pi^l),&l\\geq0,\\end{cases}$",
     "numberOfComponentsMRNC": "$l+6$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -865,7 +865,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+8$",
     "numberOfComponents": "$l+5$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=(x^2+\\pi^{l+2})(x^3+\\pi)$",
     "numberOfComponentsMRNC": "$l+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -894,7 +894,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+9$",
     "numberOfComponents": "$l+7$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$\\begin{cases}y^2=\\pi(x^2+\\pi)(x^4+\\pi),&l=-1,\\\\ y^2=(x^4+\\pi^3)((x-1)^2+\\pi^l),&l\\geq0,\\end{cases}$",
     "numberOfComponentsMRNC": "$l+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -923,7 +923,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+9$",
     "numberOfComponents": "$l+6$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=(x^4+\\pi)(x^2+\\pi^{l+2})$",
     "numberOfComponentsMRNC": "$l+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -951,7 +951,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+m$",
     "numberOfComponents": "$l+m-1$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=(x^2+\\pi^l)((x-2)^2+\\pi^m)(x-1)$",
     "numberOfComponentsMRNC": "$l+m-1$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -981,7 +981,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+m+10$",
     "numberOfComponents": "$l+m+7$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi(x^2+\\pi^l)((x-2)^2+\\pi^m)(x-1)$",
     "numberOfComponentsMRNC": "$l+m+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1010,7 +1010,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+15$",
     "numberOfComponents": "$l+2$",
     "omegaValuation": "$-1$",
-    "example": null,
+    "example": "$y^2=(x^2+\\pi)\\bigl((x^2-\\pi)^2+\\pi^{\\lfloor l/2\\rfloor+2}x^{\\varepsilon_l}\\bigr),\\quad \\varepsilon_l=l-2\\lfloor l/2\\rfloor$",
     "numberOfComponentsMRNC": "$l+2$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1039,7 +1039,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+10$",
     "numberOfComponents": "$l+7$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x\\bigl((x^2-\\pi^3)^2+\\pi^{\\lfloor l/2\\rfloor-\\varepsilon_l+6}x^{\\varepsilon_l}\\bigr),\\quad \\varepsilon_l=l-2\\lfloor l/2\\rfloor$",
     "numberOfComponentsMRNC": "$l+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1070,7 +1070,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+m+5$",
     "numberOfComponents": "$l+m+3$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=(x^2+\\pi)(x^2+\\pi^{l+1})((x-1)^2+\\pi^{m-1})$",
     "numberOfComponentsMRNC": "$l+m+3$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1099,7 +1099,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+m+n$",
     "numberOfComponents": "$l+m+n-1$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=(x^2+\\pi^l)((x-1)^2+\\pi^m)((x-2)^2+\\pi^n)$",
     "numberOfComponentsMRNC": "$l+m+n-1$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1130,7 +1130,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+m+n+10$",
     "numberOfComponents": "$l+m+n+7$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi(x^2+\\pi^l)((x-1)^2+\\pi^m)((x-2)^2+\\pi^n)$",
     "numberOfComponentsMRNC": "$l+m+n+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1161,7 +1161,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+m+5$",
     "numberOfComponents": "$l+m+3$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\bigl((x^2-\\pi)^2+\\pi^{\\lfloor m/2\\rfloor+2}x^{\\varepsilon_m}\\bigr)((x-1)^2+\\pi^{l-1}),\\quad \\varepsilon_m=m-2\\lfloor m/2\\rfloor$",
     "numberOfComponentsMRNC": "$l+m+3$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1191,7 +1191,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+m+15$",
     "numberOfComponents": "$l+m+2$",
     "omegaValuation": "$-1$",
-    "example": null,
+    "example": "$y^2=\\pi\\bigl((x^2-\\pi)^2+\\pi^{\\lfloor m/2\\rfloor+2}x^{\\varepsilon_m}\\bigr)((x-1)^2+\\pi^{l-1}),\\quad \\varepsilon_m=m-2\\lfloor m/2\\rfloor$",
     "numberOfComponentsMRNC": "$l+m+2$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1221,7 +1221,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+10$",
     "numberOfComponents": "$l+7$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=(x^3-\\pi)^2+\\pi^{\\lfloor l/3\\rfloor+2}x^{\\rho_l},\\quad \\rho_l=l-3\\lfloor l/3\\rfloor$",
     "numberOfComponentsMRNC": "$l+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1251,7 +1251,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+20$",
     "numberOfComponents": "$l+6$",
     "omegaValuation": "$-1$",
-    "example": null,
+    "example": "$y^2=\\pi\\bigl((x^3-\\pi)^2+\\pi^{\\lfloor l/3\\rfloor+2}x^{\\rho_l}\\bigr),\\quad \\rho_l=l-3\\lfloor l/3\\rfloor$",
     "numberOfComponentsMRNC": "$l+6$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1278,7 +1278,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t$",
     "numberOfComponents": "$t+1$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$\\begin{aligned}y^2&=(x^3+x+1)\\\\&\\quad\\times(x^3+2\\pi^{4t}x+\\pi^{6t})\\end{aligned}$",
     "numberOfComponentsMRNC": "$t+1$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1307,7 +1307,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+6$",
     "numberOfComponents": "$t+5$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$\\begin{aligned}y^2&=(x^3+x+1)\\\\&\\quad\\times(x^3+2\\pi^{4t+2}x+\\pi^{6t+3})\\end{aligned}$",
     "numberOfComponentsMRNC": "$t+5$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1336,7 +1336,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+12$",
     "numberOfComponents": "$t+9$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$\\begin{aligned}y^2&=((x-1)^3+\\pi^2(x-1)+\\pi^3)\\\\&\\quad\\times(x^3+2\\pi^{4t+2}x+\\pi^{6t+3})\\end{aligned}$",
     "numberOfComponentsMRNC": "$t+9$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1365,7 +1365,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+3$",
     "numberOfComponents": "$t+2$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+1})(x^2+x+1)$",
     "numberOfComponentsMRNC": "$t+4$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1394,7 +1394,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+15$",
     "numberOfComponents": "$t+12$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$\\begin{aligned}y^2&=(x^3+\\pi^2x+\\pi^3)(x-1)\\\\&\\quad\\times((x-1)^2+\\pi^{4t+3})\\end{aligned}$",
     "numberOfComponentsMRNC": "$t+12$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1421,7 +1421,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$13$",
     "numberOfComponents": "$10$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi x(x^2+\\pi)(x^2+x+1)$",
     "numberOfComponentsMRNC": "$10$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1450,7 +1450,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+9$",
     "numberOfComponents": "$t+6$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$\\begin{aligned}y^2&=(x^3+\\pi^2x+\\pi^3)(x-1)\\\\&\\quad\\times((x-1)^2+\\pi^{4t+1})\\end{aligned}$",
     "numberOfComponentsMRNC": "$t+8$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1479,7 +1479,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+9$",
     "numberOfComponents": "$t+8$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+3})(x^2+x+1)$",
     "numberOfComponentsMRNC": "$t+8$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1509,7 +1509,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+2$",
     "numberOfComponents": "$t+1$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+1})(x^2+x+1)$",
     "numberOfComponentsMRNC": "$t+4$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1539,7 +1539,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+14$",
     "numberOfComponents": "$t+11$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$\\begin{aligned}y^2&=(x^3+\\pi^2x+\\pi^3)\\\\&\\quad\\times((x-1)^3+\\pi^{6t+4})\\end{aligned}$",
     "numberOfComponentsMRNC": "$t+11$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1567,7 +1567,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12$",
     "numberOfComponents": "$9$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi(x^3+\\pi)(x^2+x+1)$",
     "numberOfComponentsMRNC": "$9$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1597,7 +1597,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+8$",
     "numberOfComponents": "$t+5$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$\\begin{aligned}y^2&=(x^3+\\pi^2x+\\pi^3)\\\\&\\quad\\times((x-1)^3+\\pi^{6t+1})\\end{aligned}$",
     "numberOfComponentsMRNC": "$t+8$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1626,7 +1626,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+8$",
     "numberOfComponents": "$t+7$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+4})(x^2+x+1)$",
     "numberOfComponentsMRNC": "$t+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1655,7 +1655,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+4$",
     "numberOfComponents": "$t+3$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+2})(x^2+x+1)$",
     "numberOfComponentsMRNC": "$t+4$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1685,7 +1685,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+16$",
     "numberOfComponents": "$t+13$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$\\begin{aligned}y^2&=(x^3+\\pi^2x+\\pi^3)\\\\&\\quad\\times((x-1)^3+\\pi^{6t+5})\\end{aligned}$",
     "numberOfComponentsMRNC": "$t+13$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1713,7 +1713,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$14$",
     "numberOfComponents": "$11$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi(x^3+\\pi^2)(x^2+x+1)$",
     "numberOfComponentsMRNC": "$11$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1743,7 +1743,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+10$",
     "numberOfComponents": "$t+7$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$\\begin{aligned}y^2&=(x^3+\\pi^2x+\\pi^3)\\\\&\\quad\\times((x-1)^3+\\pi^{6t+2})\\end{aligned}$",
     "numberOfComponentsMRNC": "$t+8$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1773,7 +1773,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+10$",
     "numberOfComponents": "$t+9$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+5})(x^2+x+1)$",
     "numberOfComponentsMRNC": "$t+9$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1802,7 +1802,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+6$",
     "numberOfComponents": "$t+3$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+1})(x-1)((x-1)^2+\\pi)$",
     "numberOfComponentsMRNC": "$t+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1831,7 +1831,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+18$",
     "numberOfComponents": "$t+15$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+3})(x-1)((x-1)^2+\\pi^3)$",
     "numberOfComponentsMRNC": "$t+15$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1858,7 +1858,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$16$",
     "numberOfComponents": "$13$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi x(x^2+\\pi)(x-1)((x-1)^2+\\pi)$",
     "numberOfComponentsMRNC": "$13$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1887,7 +1887,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+12$",
     "numberOfComponents": "$t+9$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+1})(x-1)((x-1)^2+\\pi^3)$",
     "numberOfComponentsMRNC": "$t+11$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1917,7 +1917,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+5$",
     "numberOfComponents": "$t+2$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+1})((x-1)^3+\\pi)$",
     "numberOfComponentsMRNC": "$t+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1947,7 +1947,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+17$",
     "numberOfComponents": "$t+14$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+3})((x-1)^3+\\pi^4)$",
     "numberOfComponentsMRNC": "$t+14$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -1975,7 +1975,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$15$",
     "numberOfComponents": "$12$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi x(x^2+\\pi)((x-1)^3+\\pi)$",
     "numberOfComponentsMRNC": "$12$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2005,7 +2005,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+7$",
     "numberOfComponents": "$t+4$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+1})((x-1)^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$t+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2035,7 +2035,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+19$",
     "numberOfComponents": "$t+16$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+3})((x-1)^3+\\pi^5)$",
     "numberOfComponentsMRNC": "$t+16$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2063,7 +2063,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$17$",
     "numberOfComponents": "$14$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi x(x^2+\\pi)((x-1)^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$14$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2093,7 +2093,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+13$",
     "numberOfComponents": "$t+10$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+3})((x-1)^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$t+11$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2121,7 +2121,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$11$",
     "numberOfComponents": "$8$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi)(x^3+\\pi)$",
     "numberOfComponentsMRNC": "$8$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2151,7 +2151,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+13$",
     "numberOfComponents": "$t+10$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+1})((x-1)^3+\\pi^5)$",
     "numberOfComponentsMRNC": "$t+12$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2179,7 +2179,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$11$",
     "numberOfComponents": "$8$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=(x^2+\\pi)(x^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$8$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2209,7 +2209,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+11$",
     "numberOfComponents": "$t+8$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+1})((x-1)^3+\\pi^4)$",
     "numberOfComponentsMRNC": "$t+10$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2239,7 +2239,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+11$",
     "numberOfComponents": "$t+8$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+3})((x-1)^3+\\pi)$",
     "numberOfComponentsMRNC": "$t+11$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2269,7 +2269,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+4$",
     "numberOfComponents": "$t+1$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+1})((x-1)^3+\\pi)$",
     "numberOfComponentsMRNC": "$t+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2298,7 +2298,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+16$",
     "numberOfComponents": "$t+13$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+4})((x-1)^3+\\pi^4)$",
     "numberOfComponentsMRNC": "$t+13$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2325,7 +2325,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$14$",
     "numberOfComponents": "$11$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi(x^3+\\pi)((x-1)^3+\\pi)$",
     "numberOfComponentsMRNC": "$11$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2355,7 +2355,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+6$",
     "numberOfComponents": "$t+3$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+1})((x-1)^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$t+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2385,7 +2385,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+18$",
     "numberOfComponents": "$t+15$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+5})((x-1)^3+\\pi^4)$",
     "numberOfComponentsMRNC": "$t+15$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2413,7 +2413,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$16$",
     "numberOfComponents": "$13$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi(x^3+\\pi)((x-1)^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$13$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2443,7 +2443,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+10$",
     "numberOfComponents": "$t+7$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+1})((x-1)^3+\\pi^4)$",
     "numberOfComponentsMRNC": "$t+10$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2472,7 +2472,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+8$",
     "numberOfComponents": "$t+5$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+2})((x-1)^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$t+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2502,7 +2502,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+20$",
     "numberOfComponents": "$t+17$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+5})((x-1)^3+\\pi^5)$",
     "numberOfComponentsMRNC": "$t+17$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2530,7 +2530,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$18$",
     "numberOfComponents": "$15$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi(x^3+\\pi^2)((x-1)^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$15$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2559,7 +2559,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+12$",
     "numberOfComponents": "$t+9$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+2})((x-1)^3+\\pi^4)$",
     "numberOfComponentsMRNC": "$t+10$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2589,7 +2589,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+12$",
     "numberOfComponents": "$t+9$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+1})((x-1)^3+\\pi^5)$",
     "numberOfComponentsMRNC": "$t+12$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2619,7 +2619,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+14$",
     "numberOfComponents": "$t+11$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+5})((x-1)^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$t+12$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2647,7 +2647,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12$",
     "numberOfComponents": "$9$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi)(x^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$9$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2676,7 +2676,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+15$",
     "numberOfComponents": "$t+3$",
     "omegaValuation": "$-(t+1)$",
-    "example": null,
+    "example": "$y^2=(x^2-\\pi)^3+\\pi^{2t+2}(x^2-\\pi)+\\pi^{3t+3}$",
     "numberOfComponentsMRNC": "$t+3$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2705,7 +2705,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+21$",
     "numberOfComponents": "$t+7$",
     "omegaValuation": "$-(t+1)$",
-    "example": null,
+    "example": "$y^2=(x^2-\\pi)^3+\\pi^{2t+3}(x^2-\\pi)+x\\pi^{3t+4}$",
     "numberOfComponentsMRNC": "$t+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2735,7 +2735,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+19$",
     "numberOfComponents": "$t+5$",
     "omegaValuation": "$-(t+1)$",
-    "example": null,
+    "example": "$y^2=(x^2-\\pi)^3+\\pi^{3t+4}$",
     "numberOfComponentsMRNC": "$t+6$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2765,7 +2765,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+23$",
     "numberOfComponents": "$t+9$",
     "omegaValuation": "$-(t+1)$",
-    "example": null,
+    "example": "$y^2=(x^2-\\pi)^3+\\pi^{3t+5}$",
     "numberOfComponentsMRNC": "$t+9$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2794,7 +2794,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+18$",
     "numberOfComponents": "$t+4$",
     "omegaValuation": "$-(t+1)$",
-    "example": null,
+    "example": "$y^2=(x^2-\\pi)\\bigl((x^2-\\pi)^2+x\\pi^{2t+2}\\bigr)$",
     "numberOfComponentsMRNC": "$t+6$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2823,7 +2823,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+24$",
     "numberOfComponents": "$t+10$",
     "omegaValuation": "$-(t+1)$",
-    "example": null,
+    "example": "$y^2=(x^2-\\pi)\\bigl((x^2-\\pi)^2+x\\pi^{2t+3}\\bigr)$",
     "numberOfComponentsMRNC": "$t+10$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2853,7 +2853,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+17$",
     "numberOfComponents": "$t+3$",
     "omegaValuation": "$-(t+1)$",
-    "example": null,
+    "example": "$y^2=(x^2-\\pi)^3+x\\pi^{3t+3}$",
     "numberOfComponentsMRNC": "$t+6$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2883,7 +2883,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+25$",
     "numberOfComponents": "$t+11$",
     "omegaValuation": "$-(t+1)$",
-    "example": null,
+    "example": "$y^2=(x^2-\\pi)^3+x\\pi^{3t+5}$",
     "numberOfComponentsMRNC": "$t+11$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -2911,7 +2911,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l$",
     "numberOfComponents": "$l+t$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{4t}x+\\pi^{6t})((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+t$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i0-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/i0-i-l-t-2.svg"]
@@ -2941,7 +2941,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+12$",
     "numberOfComponents": "$l+t+9$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x+\\pi)(x^2+\\pi^{l+2})\\bigl((x-1)^3+\\pi^{4t+2}(x-1)+\\pi^{6t+3}\\bigr)$",
     "numberOfComponentsMRNC": "$l+t+9$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i-star0-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/i-star0-i-star-l-t-2.svg"]
@@ -2971,7 +2971,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+6$",
     "numberOfComponents": "$l+t+5$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x+\\pi)(x^2+\\pi^{l+2})\\bigl((x-1)^3+\\pi^{4t}(x-1)+\\pi^{6t}\\bigr)$",
     "numberOfComponentsMRNC": "$l+t+5$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i0-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/i0-i-star-l-t-2.svg"]
@@ -3001,7 +3001,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+6$",
     "numberOfComponents": "$l+t+4$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{4t+2}x+\\pi^{6t+3})((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+t+4$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i-star0-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/i-star0-i-l-t-2.svg"]
@@ -3031,7 +3031,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+3$",
     "numberOfComponents": "$l+t+1$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+1})((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+t+3$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iii-i-l-t-2.svg"]
@@ -3061,7 +3061,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+15$",
     "numberOfComponents": "$l+t+12$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x+\\pi)(x^2+\\pi^{l+2})(x-1)\\bigl((x-1)^2+\\pi^{4t+3}\\bigr)$",
     "numberOfComponentsMRNC": "$l+t+12$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-star-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-star-l-t-2.svg"]
@@ -3090,7 +3090,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+13$",
     "numberOfComponents": "$l+10$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi x(x^2+\\pi)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+10$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -3120,7 +3120,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+9$",
     "numberOfComponents": "$l+t+6$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x+\\pi)(x^2+\\pi^{l+2})(x-1)\\bigl((x-1)^2+\\pi^{4t+1}\\bigr)$",
     "numberOfComponentsMRNC": "$l+t+8$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iii-i-star-l-t-2.svg"]
@@ -3150,7 +3150,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+9$",
     "numberOfComponents": "$l+t+7$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=x(x^2+\\pi^{4t+3})((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+t+7$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-2.svg"]
@@ -3181,7 +3181,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+2$",
     "numberOfComponents": "$l+t$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+1})((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+t+3$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/ii-i-l-t-2.svg"]
@@ -3212,7 +3212,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+14$",
     "numberOfComponents": "$l+t+11$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x+\\pi)(x^2+\\pi^{l+2})((x-1)^3+\\pi^{6t+4})$",
     "numberOfComponentsMRNC": "$l+t+11$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-star-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iv-star-i-star-l-t-2.svg"]
@@ -3242,7 +3242,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+12$",
     "numberOfComponents": "$l+9$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi(x^3+\\pi)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+9$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -3273,7 +3273,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+8$",
     "numberOfComponents": "$l+t+5$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x+\\pi)(x^2+\\pi^{l+2})((x-1)^3+\\pi^{6t+1})$",
     "numberOfComponentsMRNC": "$l+t+8$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/ii-i-star-l-t-2.svg"]
@@ -3303,7 +3303,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+8$",
     "numberOfComponents": "$l+t+6$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+4})((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+t+6$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-star-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iv-star-i-l-t-2.svg"]
@@ -3333,7 +3333,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+4$",
     "numberOfComponents": "$l+t+2$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+2})((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+t+3$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iv-i-l-t-2.svg"]
@@ -3364,7 +3364,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+16$",
     "numberOfComponents": "$l+t+13$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x+\\pi)(x^2+\\pi^{l+2})((x-1)^3+\\pi^{6t+5})$",
     "numberOfComponentsMRNC": "$l+t+13$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-star-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/ii-star-i-star-l-t-2.svg"]
@@ -3394,7 +3394,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$l+14$",
     "numberOfComponents": "$l+11$",
     "omegaValuation": "$0$",
-    "example": null,
+    "example": "$y^2=\\pi(x^3+\\pi^2)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+11$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -3425,7 +3425,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+10$",
     "numberOfComponents": "$l+t+7$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x+\\pi)(x^2+\\pi^{l+2})((x-1)^3+\\pi^{6t+2})$",
     "numberOfComponentsMRNC": "$l+t+8$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-i-star-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iv-i-star-l-t-2.svg"]
@@ -3456,7 +3456,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+10$",
     "numberOfComponents": "$l+t+8$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x^3+\\pi^{6t+5})((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+t+8$",
     "monodromyMatrix": null,
     "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-star-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/ii-star-i-l-t-2.svg"]
@@ -3485,7 +3485,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+m$",
     "numberOfComponents": "$l+m+t\\!-\\!1$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x+\\pi^{2t})(x^2+\\pi^{4t+l})((x-1)^2+\\pi^m)$",
     "numberOfComponentsMRNC": "$l+m+t-1$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -3516,7 +3516,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+m+12$",
     "numberOfComponents": "$l+m+t+9$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x+\\pi^{2t+1})(x^2+\\pi^{4t+l+2})(x-1+\\pi)((x-1)^2+\\pi^{m+2})$",
     "numberOfComponentsMRNC": "$l+m+t+9$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -3547,7 +3547,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+m+6$",
     "numberOfComponents": "$l+m+t+4$",
     "omegaValuation": "$-t$",
-    "example": null,
+    "example": "$y^2=(x+\\pi^{2t+1})(x^2+\\pi^{4t+l+2})((x-1)^2+\\pi^m)$",
     "numberOfComponentsMRNC": "$l+m+t+4$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -3577,7 +3577,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+15$",
     "numberOfComponents": "$l+t+2$",
     "omegaValuation": "$-(t+1)$",
-    "example": null,
+    "example": "$y^2=\\bigl((x^2-\\pi)+\\pi^{t+1}\\bigr)\\bigl((x^2-\\pi)^2+\\pi^{2t+\\lfloor l/2\\rfloor+2}x^{\\varepsilon_l}\\bigr),\\quad \\varepsilon_l=l-2\\lfloor l/2\\rfloor$",
     "numberOfComponentsMRNC": "$l+t+2$",
     "monodromyMatrix": null,
     "clusterPictures": null
@@ -3607,7 +3607,7 @@ window.namikawaUenoTypes = [
     "minimalDiscriminant": "$12t+l+21$",
     "numberOfComponents": "$l+t+7$",
     "omegaValuation": "$-(t+1)$",
-    "example": null,
+    "example": "$y^2=\\bigl((x^2-\\pi)+x\\pi^{t+1}\\bigr)\\bigl((x^2-\\pi)^2+\\pi^{2t+\\lfloor l/2\\rfloor+3}x^{\\varepsilon_l}\\bigr),\\quad \\varepsilon_l=l-2\\lfloor l/2\\rfloor$",
     "numberOfComponentsMRNC": "$l+t+7$",
     "monodromyMatrix": null,
     "clusterPictures": null
