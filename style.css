@@ -653,10 +653,11 @@ tbody .col-mrnc-pic:has(img.special-fibre) {
   .cluster-picture {
     display: block;
     width: auto;
-    height: 45px;
+    height: auto;
     max-width: 320px;
     max-height: 210px;
     flex: 0 0 auto;
+    zoom: 150%;
   }
 
   .col-cluster-pics {
