@@ -1,0 +1,90 @@
+
+\documentclass[tikz,border=2pt]{standalone}
+\input{nu-fibre-style.tex}
+\begin{document}
+
+\begin{tikzpicture}
+          %chain
+  \coordinate (C) at (-1.50, 3.00);
+  \coordinate (D) at (-0.50, 3.00);
+  \coordinate (A) at (-1.00, 3.00);
+  \coordinate (B) at (-0.93, 3.26);
+\node[above, text=blue] at (B) {$t-1$};
+  \fill[black] (C) circle (2pt);
+  \fill[black] (D) circle (2pt);
+  \fill[black] (A) circle (2pt);
+ 
+   %II 
+    
+   \coordinate (IIlP) at (-4.00, 3.00);
+  \coordinate (IIlQ) at (-2.00, 3.00);
+  \coordinate (IIlR) at (-3.00, 4.00);
+  \coordinate (IIlS) at (-3.00, 1.00);
+ \coordinate (IIlT) at (-3.50, 1.00);
+  \coordinate (IIlU) at (-3.50, 0.00);
+  \coordinate (IIlA) at (-2.50, 2.00);
+  \draw (IIlP) -- (IIlQ);
+  \draw (IIlR) -- (IIlS);
+  \draw (-3.00, 1.00) arc (0.0:-90.0:0.50);
+  \draw (-3.50, 0.50) arc (90.0:0.0:0.50);
+  \node[above, text=blue] at (IIlA) {A};
+
+%II^*
+
+  \coordinate (1A) at (1.00, 4.00);
+  \coordinate (1B) at (1.00, 0.00);
+  \coordinate (1C) at (0.00, 3.00);
+  \coordinate (1D) at (3.00, 3.00);
+  \coordinate (1E) at (0.50, 2.50);
+  \coordinate (1F) at (1.75, 2.50);
+  \coordinate (1G) at (1.25, 1.50);
+  \coordinate (1H) at (2.25, 1.50);
+  \coordinate (1I) at (1.73, 0.49);
+  \coordinate (1K) at (3.25, 1.50);
+  \coordinate (1L) at (4.00, 1.50);
+  \coordinate (1M) at (1.50, 2.75);
+  \coordinate (1N) at (1.50, 1.25);
+  \coordinate (1O) at (2.00, 1.75);
+  \coordinate (1P) at (2.00, 0.25);
+  \coordinate (1J) at (3.75, 0.50);
+  \coordinate (1S) at (3.50, 1.75);
+  \coordinate (1T) at (3.50, 0.25);
+  \coordinate (1Q) at (2.75, 1.00);
+  \coordinate (1R) at (2.75, 0.25);
+  \coordinate (1U) at (0.25, 3.35);
+  \coordinate (1V) at (1.23, 2.51);
+  \coordinate (1W) at (1.19, 1.64);
+  \coordinate (1X) at (1.75, 1.66);
+  \coordinate (1Y) at (1.77, 0.67);
+  \coordinate (1Z) at (2.17, 0.61);
+  \coordinate (1AA) at (2.53, 1.18);
+  \coordinate (1AB) at (3.00, 0.72);
+  \coordinate (1AC) at (3.75, 1.65);
+
+ 
+  \draw (1G) -- (1H);
+  \draw (1A) -- (1B);
+  \draw (1C) -- (1D);
+  \draw (1E) -- (1F);
+  \draw (1G) -- (1H);
+  \draw (1I) -- (1J);
+  \draw (1K) -- (1L);
+  \draw (1M) -- (1N);
+  \draw (1O) -- (1P);
+  \draw (1Q) -- (1R);
+  \draw (1I) -- (1J);
+  \draw (1S) -- (1T);
+  \draw (1Q) -- (1R);
+  \node[above, text=blue] at (1U) {$B$};
+  \node[above, text=blue] at (1V) {$2$};
+  \node[above, text=blue] at (1W) {$3$};
+  \node[above, text=blue] at (1X) {$4
+$};
+  \node[above, text=blue] at (1Y) {$5$};
+  \node[above, text=blue] at (1Z) {$6$};
+  \node[above, text=blue] at (1AA) {$3$};
+  \node[above, text=blue] at (1AB) {$4$};
+  \node[above, text=blue] at (1AC) {$2$};
+\end{tikzpicture}
+
+\end{document}
