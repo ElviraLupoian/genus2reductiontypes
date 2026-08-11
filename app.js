@@ -60,20 +60,140 @@ function displayWildPrimes(value) {
   return `$${primes.join(",\\,")}$`;
 }
 
+const clusterPictureColumnStats = new Map();
+
+for (const type of window.namikawaUenoTypes) {
+  if (
+    !Array.isArray(type.clusterPictures) ||
+    !Array.isArray(type.clusterPictureLayout)
+  ) {
+    continue;
+  }
+
+  const stableType = type.potentialStableTypePlain;
+  const columnCount = type.clusterPictureLayout.length;
+
+  if (!clusterPictureColumnStats.has(stableType)) {
+    clusterPictureColumnStats.set(stableType, {
+      pictures: Array(columnCount).fill(0),
+      rows: Array(columnCount).fill(0)
+    });
+  }
+
+  const stats = clusterPictureColumnStats.get(stableType);
+
+  type.clusterPictureLayout.forEach((count, index) => {
+    stats.pictures[index] += count;
+
+    if (count > 0) {
+      stats.rows[index] += 1;
+    }
+  });
+}
+
+/*
+ * Within each potential stable type, put the most frequently occurring
+ * cluster-picture shape first.  "Frequency" means the total number of
+ * pictures placed in that zoo column across the stable type.  Ties are
+ * broken by the number of rows in which the column occurs, then by the
+ * original zoo order.
+ */
+const clusterPictureColumnOrder = new Map();
+
+for (const [stableType, stats] of clusterPictureColumnStats) {
+  const order = stats.pictures
+    .map((_, index) => index)
+    .sort((a, b) =>
+      stats.pictures[b] - stats.pictures[a] ||
+      stats.rows[b] - stats.rows[a] ||
+      a - b
+    );
+
+  clusterPictureColumnOrder.set(stableType, order);
+}
+
 function displayClusterPictures(value, type) {
   if (!Array.isArray(value) || value.length === 0) {
     return "—";
   }
 
+  const layout =
+    Array.isArray(type.clusterPictureLayout) &&
+    type.clusterPictureLayout.reduce((sum, n) => sum + n, 0) === value.length
+      ? type.clusterPictureLayout
+      : value.map(() => 1);
+
+  let nextPicture = 0;
+
+  const originalColumns = layout.map(count => {
+    const pictures = value.slice(nextPicture, nextPicture + count);
+    nextPicture += count;
+    return pictures;
+  });
+
+  const order =
+    clusterPictureColumnOrder.get(type.potentialStableTypePlain) ||
+    originalColumns.map((_, index) => index);
+
+  const columns = order.map(originalIndex => originalColumns[originalIndex]);
+
+  let pictureNumber = 0;
+
+  const columnsHtml = columns.map((pictures, displayColumn) => `
+    <div
+      class="cluster-picture-stack"
+      data-cluster-column="${displayColumn}"
+      style="
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+        justify-content:center;
+        gap:8px;
+        min-width:0;
+        width:max-content;
+        overflow:visible;
+      "
+    >
+      ${pictures.map(src => {
+        pictureNumber += 1;
+
+        return `
+          <img
+            src="${src}"
+            alt="Cluster picture ${pictureNumber} for ${type.nuTypePlain}"
+            class="cluster-picture"
+            style="
+              display:block;
+              width:auto;
+              height:auto;
+              max-width:280px;
+              max-height:100px;
+              margin:0;
+              object-fit:contain;
+            "
+          >
+        `;
+      }).join("")}
+    </div>
+  `).join("");
+
   return `
-    <div class="cluster-picture-list">
-      ${value.map((src, index) => `
-        <img
-          src="${src}"
-          alt="Cluster picture ${index + 1} for ${type.nuTypePlain}"
-          class="cluster-picture"
-        >
-      `).join("")}
+    <div
+      class="cluster-picture-list"
+      data-stable-type="${type.potentialStableTypePlain}"
+      style="
+        display:grid;
+        grid-template-columns:repeat(${columns.length}, max-content);
+        column-gap:12px;
+        align-items:center;
+        justify-content:start;
+        width:max-content;
+        border:0;
+        background:transparent;
+        overflow:visible;
+      "
+    >
+      ${columnsHtml}
     </div>
   `;
 }
@@ -409,11 +529,99 @@ function typesetDynamicContent(attempt = 0) {
   }
 }
 
-for (const image of tableBody.querySelectorAll("img.special-fibre")) {
-  image.addEventListener("load", schedulePinnedStickyOffsets);
+/*
+ * Each table row has its own little CSS grid, so CSS alone cannot make the
+ * corresponding columns in different rows share a width.  Once the SVGs
+ * have loaded, measure the widest picture in each display column of a
+ * potential stable type and apply that width to every row in that stable
+ * type.  This preserves alignment without cropping any picture.
+ */
+let clusterLayoutFrame = null;
+
+function updateClusterPictureColumnWidths() {
+  const groups = new Map();
+
+  for (const list of tableBody.querySelectorAll(".cluster-picture-list")) {
+    const stableType = list.dataset.stableType;
+
+    if (!groups.has(stableType)) {
+      groups.set(stableType, []);
+    }
+
+    groups.get(stableType).push(list);
+  }
+
+  for (const lists of groups.values()) {
+    const columnCount = Math.max(
+      ...lists.map(list => list.querySelectorAll(".cluster-picture-stack").length)
+    );
+
+    const widths = Array(columnCount).fill(0);
+
+    for (const list of lists) {
+      const stacks = [...list.querySelectorAll(".cluster-picture-stack")];
+
+      stacks.forEach((stack, index) => {
+        const images = [...stack.querySelectorAll("img.cluster-picture")];
+
+        for (const image of images) {
+          if (!image.complete || image.naturalWidth === 0) {
+            continue;
+          }
+
+          widths[index] = Math.max(
+            widths[index],
+            Math.ceil(image.getBoundingClientRect().width)
+          );
+        }
+      });
+    }
+
+    /*
+     * A genuinely empty column gets only a small spacer.  A populated
+     * column gets exactly enough width for its widest rendered picture.
+     */
+    const finalWidths = widths.map(width => Math.max(width, 18));
+
+    for (const list of lists) {
+      list.style.gridTemplateColumns =
+        finalWidths.map(width => `${width}px`).join(" ");
+
+      const stacks = [...list.querySelectorAll(".cluster-picture-stack")];
+
+      stacks.forEach((stack, index) => {
+        stack.style.width = `${finalWidths[index]}px`;
+      });
+    }
+  }
 }
 
-window.addEventListener("resize", schedulePinnedStickyOffsets);
+function scheduleClusterPictureLayout() {
+  if (clusterLayoutFrame !== null) {
+    cancelAnimationFrame(clusterLayoutFrame);
+  }
+
+  clusterLayoutFrame = requestAnimationFrame(() => {
+    clusterLayoutFrame = requestAnimationFrame(() => {
+      clusterLayoutFrame = null;
+      updateClusterPictureColumnWidths();
+      schedulePinnedStickyOffsets();
+    });
+  });
+}
+
+for (const image of tableBody.querySelectorAll("img.special-fibre, img.cluster-picture")) {
+  if (image.classList.contains("cluster-picture")) {
+    image.addEventListener("load", scheduleClusterPictureLayout);
+  } else {
+    image.addEventListener("load", schedulePinnedStickyOffsets);
+  }
+}
+
+window.addEventListener("resize", () => {
+  scheduleClusterPictureLayout();
+  schedulePinnedStickyOffsets();
+});
 
 if ("ResizeObserver" in window) {
   const stickyResizeObserver = new ResizeObserver(schedulePinnedStickyOffsets);
@@ -424,5 +632,6 @@ if ("ResizeObserver" in window) {
 sortRows();
 updateModeButtons();
 applyRowFilters();
+scheduleClusterPictureLayout();
 typesetDynamicContent();
 
