@@ -501,10 +501,10 @@ function updateColumn(toggle) {
     cell.hidden = !toggle.checked;
   }
 
-  /*
-   * Hiding a picture column changes row heights. Recalculate the vertical
-   * offsets of frozen pinned rows so they remain tightly stacked.
-   */
+  if (toggle.dataset.column === "cluster-pics" && toggle.checked) {
+    scheduleClusterPictureLayout();
+  }
+
   schedulePinnedStickyOffsets();
 }
 
