@@ -1,5 +1,11 @@
 // for LaTeX formatting
 window.MathJax = {
+  startup: {
+    // app.js typesets the visible page content after building the table.
+    // This avoids processing every hidden column during the initial load.
+    typeset: false
+  },
+
   tex: {
     inlineMath: [['$', '$']],
     displayMath: [['$$', '$$']],
@@ -3774,4 +3780,3 @@ window.namikawaUenoTypes = [
     "clusterPictureLayout": [2, 0, 0, 0, 0, 0]
   }
 ];
-

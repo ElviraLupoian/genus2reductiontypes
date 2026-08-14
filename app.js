@@ -532,6 +532,98 @@ const toggles = document.querySelectorAll(
   "#toggler input[type='checkbox'][data-column]"
 );
 
+/*
+ * MathJax's automatic full-page pass is disabled in script.js. Keep all
+ * typesetting in one queue, initially process only checked columns, and
+ * process each hidden column once when the user first reveals it.
+ */
+let mathJaxQueue = Promise.resolve();
+const typesetColumns = new Set();
+const pendingTypesetColumns = new Set();
+
+function whenMathJaxReady(callback, attempt = 0) {
+  if (window.MathJax?.typesetPromise) {
+    callback();
+    return;
+  }
+
+  if (attempt < 100) {
+    window.setTimeout(() => whenMathJaxReady(callback, attempt + 1), 100);
+  }
+}
+
+function queueMathJaxTypeset(elements) {
+  const targets = [...new Set(elements)].filter(Boolean);
+
+  if (targets.length === 0) {
+    return Promise.resolve();
+  }
+
+  /* Recover from an earlier MathJax error so one bad expression cannot stop
+     a later column from being processed. */
+  mathJaxQueue = mathJaxQueue
+    .catch(() => {})
+    .then(() => window.MathJax.typesetPromise(targets));
+
+  return mathJaxQueue;
+}
+
+function typesetColumn(column) {
+  if (typesetColumns.has(column) || pendingTypesetColumns.has(column)) {
+    return;
+  }
+
+  pendingTypesetColumns.add(column);
+
+  whenMathJaxReady(() => {
+    const cells = document.querySelectorAll(`.col-${column}`);
+
+    queueMathJaxTypeset(cells)
+      .then(() => typesetColumns.add(column))
+      .catch(() => {})
+      .finally(() => {
+        pendingTypesetColumns.delete(column);
+        schedulePinnedStickyOffsets();
+      });
+  });
+}
+
+function typesetInitialContent() {
+  whenMathJaxReady(() => {
+    const targets = [
+      document.querySelector(".table-introduction"),
+      document.querySelector(".controls"),
+      ...document.querySelectorAll(".col-actions")
+    ];
+    const initiallyCheckedColumns = [];
+
+    for (const toggle of toggles) {
+      if (!toggle.checked) {
+        continue;
+      }
+
+      const column = toggle.dataset.column;
+      initiallyCheckedColumns.push(column);
+      pendingTypesetColumns.add(column);
+      targets.push(...document.querySelectorAll(`.col-${column}`));
+    }
+
+    queueMathJaxTypeset(targets)
+      .then(() => {
+        for (const column of initiallyCheckedColumns) {
+          typesetColumns.add(column);
+        }
+      })
+      .catch(() => {})
+      .finally(() => {
+        for (const column of initiallyCheckedColumns) {
+          pendingTypesetColumns.delete(column);
+        }
+        schedulePinnedStickyOffsets();
+      });
+  });
+}
+
 function loadClusterPictures() {
   for (const image of tableBody.querySelectorAll("img.cluster-picture[data-src]")) {
     image.src = image.dataset.src;
@@ -568,23 +660,13 @@ for (const toggle of toggles) {
   /* The cluster-layout scheduler is initialised later in this file. The final
      startup layout handles the initial state after that initialisation. */
   updateColumn(toggle, false);
-  toggle.addEventListener("change", () => updateColumn(toggle));
-}
+  toggle.addEventListener("change", () => {
+    updateColumn(toggle);
 
-function typesetDynamicContent(attempt = 0) {
-  if (window.MathJax?.typesetPromise) {
-    const table = tableBody.closest("table");
-    const controls = document.querySelector(".controls");
-
-    window.MathJax.typesetPromise([table, controls].filter(Boolean))
-      .then(schedulePinnedStickyOffsets)
-      .catch(() => {});
-    return;
-  }
-
-  if (attempt < 50) {
-    window.setTimeout(() => typesetDynamicContent(attempt + 1), 100);
-  }
+    if (toggle.checked) {
+      typesetColumn(toggle.dataset.column);
+    }
+  });
 }
 
 /*
@@ -691,4 +773,4 @@ sortRows();
 updateModeButtons();
 applyRowFilters();
 scheduleClusterPictureLayout();
-typesetDynamicContent();
+typesetInitialContent();
