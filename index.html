@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Interactive tables of Namikawa–Ueno reduction types and arithmetic invariants for genus 2 curves."
+  >
   <title>Genus 2 reduction types</title>
   <link rel="stylesheet" href="style.css">
 
@@ -427,8 +431,8 @@
         <label><input type="checkbox" data-column="component" checked> Néron component group</label>
         <label><input type="checkbox" data-column="conductor" checked> Tame conductor exponent</label>
         <label><input type="checkbox" data-column="wild" checked> Wild reduction iff $p=$</label>
-        <label><input type="checkbox" data-column="discriminant" checked> $v(\Delta_{\min})$</label>
-        <label><input type="checkbox" data-column="omega" checked> $v(\omega_{\min}/\omega^0)$</label>
+        <label><input type="checkbox" data-column="discriminant" aria-label="Show minimal discriminant valuation" checked> $v(\Delta_{\min})$</label>
+        <label><input type="checkbox" data-column="omega" aria-label="Show differential valuation" checked> $v(\omega_{\min}/\omega^0)$</label>
         <label><input type="checkbox" data-column="example"> Curve example</label>
         <label><input type="checkbox" data-column="monodromy"> Monodromy matrix</label>
         <label><input type="checkbox" data-column="cluster-pics"> Cluster pictures</label>
@@ -463,4 +467,3 @@
   </main>
 </body>
 </html>
-

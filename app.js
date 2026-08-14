@@ -184,9 +184,11 @@ function displayClusterPictures(value, type) {
 
         return `
           <img
-            src="${src}"
+            data-src="${src}"
             alt="Cluster picture ${pictureNumber} for ${type.nuTypePlain}"
             class="cluster-picture"
+            loading="lazy"
+            decoding="async"
             style="
               display:block;
               width:auto;
@@ -530,11 +532,24 @@ const toggles = document.querySelectorAll(
   "#toggler input[type='checkbox'][data-column]"
 );
 
+function loadClusterPictures() {
+  for (const image of tableBody.querySelectorAll("img.cluster-picture[data-src]")) {
+    image.src = image.dataset.src;
+    image.removeAttribute("data-src");
+  }
+}
+
 function updateColumn(toggle, recalculateClusterLayout = true) {
   const cells = document.querySelectorAll(`.col-${toggle.dataset.column}`);
 
   for (const cell of cells) {
     cell.hidden = !toggle.checked;
+  }
+
+  /* Cluster pictures begin with data-src rather than src, so the browser does
+     not download hundreds of hidden SVGs during the initial page load. */
+  if (toggle.dataset.column === "cluster-pics" && toggle.checked) {
+    loadClusterPictures();
   }
 
   /*
