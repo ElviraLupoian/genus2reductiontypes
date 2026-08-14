@@ -296,7 +296,7 @@ tbody th[scope="row"] {
 
 /* Row colours */
 
-tbody tr:nth-child(even) > * {
+tbody tr.row-stripe-odd > * {
   background-color: #f8f9fa;
 }
 

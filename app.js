@@ -112,6 +112,31 @@ for (const [stableType, stats] of clusterPictureColumnStats) {
   clusterPictureColumnOrder.set(stableType, order);
 }
 
+/*
+ * These exceptional rows are specialisations of the family immediately
+ * above them. Keep them in the same zebra-stripe group as that family so
+ * their relationship remains visible across the full width of the table.
+ */
+const smallCaseIds = new Set([
+  "iv-star-ii-0",
+  "iii-star-ii-0",
+  "i-star0-iii-star-minus1",
+  "i-star0-iv-star-minus1",
+  "i-star0-ii-star-minus1",
+  "iii-star-iii-star-minus1",
+  "iv-star-iii-star-minus1",
+  "ii-star-iii-star-minus1",
+  "iv-iii-star-minus1",
+  "ii-star-iii-minus1",
+  "iv-star-iv-star-minus1",
+  "ii-star-iv-star-minus1",
+  "ii-star-ii-star-minus1",
+  "ii-star-iv-minus1",
+  "iii-star-i-star-l-minus1",
+  "iv-star-i-star-l-minus1",
+  "ii-star-i-star-l-minus1"
+]);
+
 function displayClusterPictures(value, type) {
   if (!Array.isArray(value) || value.length === 0) {
     return "—";
@@ -231,10 +256,21 @@ function setPinned(id, pinned, button, row) {
   applyRowFilters();
 }
 
+let familyStripeIndex = -1;
+
 for (const [index, type] of window.namikawaUenoTypes.entries()) {
   const row = document.createElement("tr");
   row.dataset.id = type.id;
   row.dataset.index = String(index);
+
+  if (!smallCaseIds.has(type.id)) {
+    familyStripeIndex += 1;
+  }
+
+  row.classList.add(
+    familyStripeIndex % 2 === 0 ? "row-stripe-even" : "row-stripe-odd"
+  );
+  row.classList.toggle("row-small-case", smallCaseIds.has(type.id));
 
   const mrmFibreHtml = fibreHtml(
     type.mrmfibre,
@@ -494,22 +530,29 @@ const toggles = document.querySelectorAll(
   "#toggler input[type='checkbox'][data-column]"
 );
 
-function updateColumn(toggle) {
+function updateColumn(toggle, recalculateClusterLayout = true) {
   const cells = document.querySelectorAll(`.col-${toggle.dataset.column}`);
 
   for (const cell of cells) {
     cell.hidden = !toggle.checked;
   }
 
-  if (toggle.dataset.column === "cluster-pics" && toggle.checked) {
+  /*
+   * A hidden picture column has no measurable image widths. Recalculate its
+   * grid after toggling so newly shown cluster pictures do not overlap.
+   * Toggling picture columns can also change row heights, so recalculate the
+   * vertical offsets of frozen pinned rows.
+   */
+  if (recalculateClusterLayout) {
     scheduleClusterPictureLayout();
   }
-
   schedulePinnedStickyOffsets();
 }
 
 for (const toggle of toggles) {
-  updateColumn(toggle);
+  /* The cluster-layout scheduler is initialised later in this file. The final
+     startup layout handles the initial state after that initialisation. */
+  updateColumn(toggle, false);
   toggle.addEventListener("change", () => updateColumn(toggle));
 }
 
@@ -634,4 +677,3 @@ updateModeButtons();
 applyRowFilters();
 scheduleClusterPictureLayout();
 typesetDynamicContent();
-
