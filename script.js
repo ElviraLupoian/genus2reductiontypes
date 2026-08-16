@@ -898,7 +898,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=(x^2+\\pi^3)(x^3+\\pi^4)$",
     "numberOfComponentsMRNC": "$4$",
     "monodromyMatrix": "$\\begin{pmatrix}-1 & 0 & -1 & -1 \\\\ -1 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 1\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-star-ii-0-1.svg","genus2-special-fibres/images/cluster-pictures/iv-star-ii-0-2.svg"],
+    "clusterPictureLayout": [0,1,0,1,0]
   },
   {
     "id": "ii-ii-star-l-plus-1",
@@ -1530,7 +1531,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi x(x^2+\\pi)(x^2+x+1)$",
     "numberOfComponentsMRNC": "$10$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & -1 & 0 \\\\ 0 & -1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & -1\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i-star0-iii-star-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/i-star0-iii-star-minus1-2.svg","genus2-special-fibres/images/cluster-pictures/i-star0-iii-star-minus1-3.svg","genus2-special-fibres/images/cluster-pictures/i-star0-iii-star-minus1-4.svg","genus2-special-fibres/images/cluster-pictures/i-star0-iii-star-minus1-5.svg"],
+    "clusterPictureLayout": [0,1,4]
   },
   {
     "id": "i-star0-iii-t",
@@ -1681,7 +1683,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi(x^3+\\pi)(x^2+x+1)$",
     "numberOfComponentsMRNC": "$9$",
     "monodromyMatrix": "$\\begin{pmatrix}-1 & 0 & -1 & 0 \\\\ 0 & -1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & -1\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i-star0-iv-star-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/i-star0-iv-star-minus1-2.svg","genus2-special-fibres/images/cluster-pictures/i-star0-iv-star-minus1-3.svg","genus2-special-fibres/images/cluster-pictures/i-star0-iv-star-minus1-4.svg"],
+    "clusterPictureLayout": [0,2,2]
   },
   {
     "id": "i-star0-ii-t",
@@ -1831,7 +1834,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi(x^3+\\pi^2)(x^2+x+1)$",
     "numberOfComponentsMRNC": "$11$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & -1 & 0 \\\\ 0 & -1 & 0 & 0 \\\\ 1 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & -1\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/i-star0-ii-star-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/i-star0-ii-star-minus1-2.svg","genus2-special-fibres/images/cluster-pictures/i-star0-ii-star-minus1-3.svg","genus2-special-fibres/images/cluster-pictures/i-star0-ii-star-minus1-4.svg"],
+    "clusterPictureLayout": [0,2,2]
   },
   {
     "id": "i-star0-iv-t",
@@ -1980,7 +1984,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi x(x^2+\\pi)(x-1)((x-1)^2+\\pi)$",
     "numberOfComponentsMRNC": "$13$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & -1 & 0 \\\\ 0 & 0 & 0 & -1 \\\\ 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-star-iii-star-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/iii-star-iii-star-minus1-2.svg","genus2-special-fibres/images/cluster-pictures/iii-star-iii-star-minus1-3.svg"],
+    "clusterPictureLayout": [1,0,2]
   },
   {
     "id": "iii-iii-star-t",
@@ -2100,7 +2105,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi x(x^2+\\pi)((x-1)^3+\\pi)$",
     "numberOfComponentsMRNC": "$12$",
     "monodromyMatrix": "$\\begin{pmatrix}-1 & 0 & -1 & 0 \\\\ 0 & 0 & 0 & -1 \\\\ 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-star-iii-star-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/iv-star-iii-star-minus1-2.svg","genus2-special-fibres/images/cluster-pictures/iv-star-iii-star-minus1-3.svg","genus2-special-fibres/images/cluster-pictures/iv-star-iii-star-minus1-4.svg"],
+    "clusterPictureLayout": [1,1,2]
   },
   {
     "id": "iv-iii-t",
@@ -2190,7 +2196,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi x(x^2+\\pi)((x-1)^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$14$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & -1 & 0 \\\\ 0 & 0 & 0 & -1 \\\\ 1 & 0 & 1 & 0 \\\\ 0 & 1 & 0 & 0\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-star-iii-star-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/ii-star-iii-star-minus1-2.svg","genus2-special-fibres/images/cluster-pictures/ii-star-iii-star-minus1-3.svg","genus2-special-fibres/images/cluster-pictures/ii-star-iii-star-minus1-4.svg"],
+    "clusterPictureLayout": [1,1,2]
   },
   {
     "id": "iv-iii-star-t",
@@ -2249,7 +2256,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=x(x^2+\\pi)(x^3+\\pi)$",
     "numberOfComponentsMRNC": "$8$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & -1 \\\\ -1 & 0 & -1 & 0 \\\\ 0 & 1 & 0 & 0\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-iii-star-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/iv-iii-star-minus1-2.svg","genus2-special-fibres/images/cluster-pictures/iv-iii-star-minus1-3.svg"],
+    "clusterPictureLayout": [0,1,2]
   },
   {
     "id": "ii-star-iii-t",
@@ -2308,7 +2316,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=(x^2+\\pi)(x^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$8$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & -1 & 0 \\\\ 0 & 0 & 0 & 1 \\\\ 1 & 0 & 1 & 0 \\\\ 0 & -1 & 0 & 0\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-star-iii-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/ii-star-iii-minus1-2.svg","genus2-special-fibres/images/cluster-pictures/ii-star-iii-minus1-3.svg"],
+    "clusterPictureLayout": [0,1,2]
   },
   {
     "id": "iv-star-iii-t",
@@ -2458,7 +2467,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi(x^3+\\pi)((x-1)^3+\\pi)$",
     "numberOfComponentsMRNC": "$11$",
     "monodromyMatrix": "$\\begin{pmatrix}-1 & 0 & -1 & 0 \\\\ 0 & -1 & 0 & -1 \\\\ 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-star-iv-star-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/iv-star-iv-star-minus1-2.svg"],
+    "clusterPictureLayout": [1,1,0]
   },
   {
     "id": "ii-iv-t",
@@ -2548,7 +2558,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi(x^3+\\pi)((x-1)^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$13$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & -1 & 0 \\\\ 0 & -1 & 0 & -1 \\\\ 1 & 0 & 1 & 0 \\\\ 0 & 1 & 0 & 0\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-star-iv-star-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/ii-star-iv-star-minus1-2.svg","genus2-special-fibres/images/cluster-pictures/ii-star-iv-star-minus1-3.svg"],
+    "clusterPictureLayout": [1,2,0]
   },
   {
     "id": "ii-iv-star-t",
@@ -2668,7 +2679,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi(x^3+\\pi^2)((x-1)^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$15$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & -1 & 0 \\\\ 0 & 0 & 0 & -1 \\\\ 1 & 0 & 1 & 0 \\\\ 0 & 1 & 0 & 1\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-star-ii-star-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/ii-star-ii-star-minus1-2.svg"],
+    "clusterPictureLayout": [1,1,0]
   },
   {
     "id": "iv-iv-star-t",
@@ -2788,7 +2800,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=(x^3+\\pi)(x^3+\\pi^2)$",
     "numberOfComponentsMRNC": "$9$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & -1 & 0 \\\\ 0 & 0 & 0 & 1 \\\\ 1 & 0 & 1 & 0 \\\\ 0 & -1 & 0 & -1\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-star-iv-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/ii-star-iv-minus1-2.svg"],
+    "clusterPictureLayout": [0,2,0]
   },
   {
     "id": "2i0-t",
@@ -3245,7 +3258,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi x(x^2+\\pi)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+10$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & -1 & 0 \\\\ 0 & -1 & 0 & -l \\\\ 1 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & -1\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-star-i-star-l-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/iii-star-i-star-l-minus1-2.svg","genus2-special-fibres/images/cluster-pictures/iii-star-i-star-l-minus1-3.svg","genus2-special-fibres/images/cluster-pictures/iii-star-i-star-l-minus1-4.svg","genus2-special-fibres/images/cluster-pictures/iii-star-i-star-l-minus1-5.svg","genus2-special-fibres/images/cluster-pictures/iii-star-i-star-l-minus1-6.svg"],
+    "clusterPictureLayout": [0,1,0,1,1,2,1,0]
   },
   {
     "id": "iii-i-star-l-t",
@@ -3306,8 +3320,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=x(x^2+\\pi^{4t+3})((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+t+7$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & -1 & 0 \\\\ 0 & 1 & 0 & l \\\\ 1 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 1\\end{pmatrix}$",
-    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-2.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-3.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-4.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-5.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-6.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-7.svg"],
-    "clusterPictureLayout": [2, 1, 0, 1, 1, 0, 1, 1]
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-1.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-2.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-3.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-4.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-5.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-6.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-7.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-8.svg", "genus2-special-fibres/images/cluster-pictures/iii-star-i-l-t-9.svg"],
+    "clusterPictureLayout": [2, 1, 0, 1, 1, 2, 1, 1]
   },
   {
     "id": "ii-i-l-t",
@@ -3401,7 +3415,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi(x^3+\\pi)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+9$",
     "monodromyMatrix": "$\\begin{pmatrix}-1 & 0 & -1 & 0 \\\\ 0 & -1 & 0 & -l \\\\ 1 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & -1\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/iv-star-i-star-l-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/iv-star-i-star-l-minus1-2.svg","genus2-special-fibres/images/cluster-pictures/iv-star-i-star-l-minus1-3.svg","genus2-special-fibres/images/cluster-pictures/iv-star-i-star-l-minus1-4.svg","genus2-special-fibres/images/cluster-pictures/iv-star-i-star-l-minus1-5.svg"],
+    "clusterPictureLayout": [0,1,1,1,1,0,1,0]
   },
   {
     "id": "ii-i-star-l-t",
@@ -3557,7 +3572,8 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi(x^3+\\pi^2)((x-1)^2+\\pi^l)$",
     "numberOfComponentsMRNC": "$l+11$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & -1 & 0 \\\\ 0 & -1 & 0 & -l \\\\ 1 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & -1\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": ["genus2-special-fibres/images/cluster-pictures/ii-star-i-star-l-minus1-1.svg","genus2-special-fibres/images/cluster-pictures/ii-star-i-star-l-minus1-2.svg","genus2-special-fibres/images/cluster-pictures/ii-star-i-star-l-minus1-3.svg","genus2-special-fibres/images/cluster-pictures/ii-star-i-star-l-minus1-4.svg","genus2-special-fibres/images/cluster-pictures/ii-star-i-star-l-minus1-5.svg"],
+    "clusterPictureLayout": [0,1,1,1,1,0,1,0]
   },
   {
     "id": "iv-i-star-l-t",
