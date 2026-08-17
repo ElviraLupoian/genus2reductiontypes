@@ -1,0 +1,63 @@
+\documentclass[tikz,border=2pt]{standalone}
+\input{nu-fibre-style.tex}
+\begin{document}
+
+
+\begin{tikzpicture}[scale=0.5]
+    \coordinate (C1) at (-1.50, 3.00);
+  \coordinate (D1) at (-0.50, 3.00);
+  \coordinate (A1) at (-1.00, 3.00);
+  \coordinate (B1) at (-0.90, 3.25);
+
+  \node[scale=0.7][above] at (B1) {$t-1$};
+  \fill[black] (C1) circle (2pt);
+  \fill[black] (D1) circle (2pt);
+  \fill[black] (A1) circle (2pt);
+
+  
+  \coordinate (IIIrC) at (0.00, 3.00);
+  \coordinate (IIIrD) at (2.00, 3.00);
+  \coordinate (IIIrE) at (1.00, 4.00);
+  \coordinate (IIIrF) at (1.00, 0.00);
+  \coordinate (IIIrG) at (2.00, 1.00);
+  \coordinate (IIIrD_1) at (1.74, 2.18);
+  \draw (IIIrC) -- (IIIrD);
+  \draw (IIIrE) -- (IIIrF);
+  \draw (2.00, 2.00) arc (90.0:270.0:1.00);
+  \node[scale=0.7][above, text=blue] at (IIIrD_1) {B};
+
+
+  
+  \coordinate (A) at (-4.00, 3.00);
+  \coordinate (B) at (-2.00, 3.00);
+  \coordinate (C) at (-3.00, 4.00);
+  \coordinate (D) at (-3.00, -0.25);
+  \coordinate (G) at (-2.57, 2.06);
+  \coordinate (E) at (-3.50, 1.00);
+  \coordinate (F) at (-2.25, 1.50);
+  \coordinate (H) at (-3.50, 0.50);
+  \coordinate (I) at (-2.25, 0.25);
+  \coordinate (J) at (-2.75, 1.50);
+  \coordinate (K) at (-1.50, 1.25);
+  \coordinate (L) at (-2.75, 0.25);
+  \coordinate (M) at (-1.50, 0.50);
+  \coordinate (N) at (-1.25, 0.5);
+  \coordinate (O) at (-0.52, 0.62);
+
+
+  \draw (A) -- (B);
+  \draw (C) -- (D);
+  \node[scale=0.7][above, text=blue] at (G) {$B$};
+  \draw (E) -- (F);
+  \draw (H) -- (I);
+  \draw (J) -- (K);
+  \draw (L) -- (M);
+  \node[scale=0.7][above] at (N) {$\vdots
+$};
+  \node[scale=0.7][above] at (O) {$l-1
+$};
+\end{tikzpicture}
+
+
+
+\end{document}
