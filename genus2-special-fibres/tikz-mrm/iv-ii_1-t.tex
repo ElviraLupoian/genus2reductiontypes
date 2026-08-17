@@ -1,0 +1,50 @@
+\documentclass[tikz,border=2pt]{standalone}
+\input{nu-fibre-style.tex}
+\begin{document}
+
+
+\begin{tikzpicture}[scale=0.5]
+      \coordinate (C) at (-1.50, 3.00);
+  \coordinate (D) at (-0.50, 3.00);
+  \coordinate (A) at (-1.00, 3.00);
+  \coordinate (B) at (-0.93, 3.26);
+
+  \node[scale=0.8][above] at (B) {$t-1$};
+  \fill[black] (C) circle (2pt);
+  \fill[black] (D) circle (2pt);
+  \fill[black] (A) circle (2pt);
+
+\coordinate (A1) at (-4.00, 3.00);
+  \coordinate (B1) at (-2.00, 3.00);
+  \coordinate (C1) at (-3.00, 4.00);
+  \coordinate (D1) at (-3.00, -0.25);
+  \coordinate (E1) at (-2.75, 1.00);
+  \coordinate (F1) at (-2.75, 1.00);
+  \coordinate (G1) at (-2.57, 2.06);
+
+  \draw (A1) -- (B1);
+  \draw (C1) -- (D1);
+  \draw (E1) circle (0.25);
+  \node[scale=0.8][above, text=blue] at (G1) {$A$};
+
+  
+  
+  \coordinate (IVrC) at (0.00, 3.00);
+  \coordinate (IVrD) at (2.00, 3.00);
+  \coordinate (IVrE) at (1.00, 4.00);
+  \coordinate (IVrF) at (1.00, 0.00);
+  \coordinate (IVrG) at (0.00, 2.00);
+  \coordinate (IVrL) at (2.00, 1.00);
+  \coordinate (IVrI) at (0.00, 1.00);
+  \coordinate (IVrM) at (2.00, 2.00);
+  \coordinate (IVrD_1) at (1.72, 2.35);
+
+  
+
+  \draw (IVrC) -- (IVrD);
+  \draw (IVrE) -- (IVrF);
+  \draw (IVrG) -- (IVrL);
+  \draw (IVrI) -- (IVrM);
+\end{tikzpicture}
+
+\end{document}
