@@ -2,17 +2,17 @@
 \input{nu-fibre-style.tex}
 \begin{document}
 
-%t>0 case
+
 \begin{tikzpicture}[scale=0.5]
   % chain 
   \coordinate (C) at (-1.50, 3.00);
   \coordinate (D) at (-0.50, 3.00);
   \coordinate (A) at (-1.00, 3.00);
   \coordinate (B) at (-0.93, 3.26);
-\node[above] at (B) {$t-1$};
-  \fill[black] (C) circle (2pt);
-  \fill[black] (D) circle (2pt);
-  \fill[black] (A) circle (2pt);
+\node[scale=0.8][above] at (B) {$t-1$};
+  \fill[black] (C) circle (1.5pt);
+  \fill[black] (D) circle (1.5pt);
+  \fill[black] (A) circle (1.5pt);
 % I_0
  \coordinate (I0A) at (-4.00, 3.00);
   \coordinate (I0B) at (-2.00, 3.00);
@@ -22,8 +22,8 @@
   \coordinate (I0E) at (-2.00, 0.00);
 \draw (I0A) -- (I0B);
   \draw (I0C) -- (I0D);
-  \node[above, text=blue] at (I0A_1) {A};
-  \node[above, text=blue] at (I0E) {g1};
+  \node[scale=0/8][above, text=blue] at (I0A_1) {A};
+  \node[scale=0.8][above, text=blue] at (I0E) {g1};
 %II
     \coordinate (IIrP) at (0.00, 3.00);
   \coordinate (IIrQ) at (2.00, 3.00);
@@ -37,9 +37,8 @@
   \draw (IIrR) -- (IIrS);
   \draw (1.00, 1.00) arc (0.0:-90.0:0.50);
   \draw (0.50, 0.50) arc (90.0:0.0:0.50);
-  \node[above, text=blue] at (IIrA) {A};
+  \node[scale=0.8][above, text=blue] at (IIrA) {A};
 \end{tikzpicture}
-
 
 
 \end{tikzpicture}\end{document}
