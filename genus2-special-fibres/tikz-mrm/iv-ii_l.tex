@@ -1,0 +1,37 @@
+
+
+\documentclass[tikz,border=2pt]{standalone}
+\input{nu-fibre-style.tex}
+\begin{document}
+
+% IV-II_l (l >0)
+\begin{tikzpicture}[scale=0.5]
+  % Coordinates
+  \coordinate (A) at (-3.00, 4.00);
+  \coordinate (B) at (-3.00, 0.00);
+  \coordinate (E) at (-4.00, 1.00);
+  \coordinate (F) at (-1.50, 3.50);
+  \coordinate (C) at (-4.00, 3.00);
+  \coordinate (D) at (-1.50, 0.50);
+  \coordinate (G) at (-2.00, 3.50);
+  \coordinate (H) at (0.25, 2.50);
+  \coordinate (I) at (-2.00, 0.50);
+  \coordinate (J) at (0.25, 1.50);
+  \coordinate (K) at (0.2, 1.5);
+  \coordinate (K_1) at (1.11, 1.53);
+  \coordinate (G_1) at (-2.69, 2.89);
+  \coordinate (L) at (-2.62, 0.73);
+
+  % Drawing
+  \draw (A) -- (B);
+  \draw (E) -- (F);
+  \draw (C) -- (D);
+  \draw (G) -- (H);
+  \draw (I) -- (J);
+  \node[scale=0.8][above] at (K) {$\vdots$};
+  \node[scale=0.6][above] at (K_1) {$l-1$};
+  \node[scale=0.6][above, text=blue] at (G_1) {B};
+  \node[scale=0.6][above, text=blue] at (L) {B};
+\end{tikzpicture}
+
+\end{document}
