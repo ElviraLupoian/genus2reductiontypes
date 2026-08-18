@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Build SVGs and deploy Pages
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -26,6 +26,33 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+
+      - name: Install TeX and SVG tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            texlive-latex-extra \
+            texlive-pictures \
+            texlive-fonts-recommended \
+            inkscape
+
+      - name: Regenerate SVG files
+        run: bash tools/build-svgs.sh
+
+      - name: Commit regenerated SVG files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            genus2-special-fibres/images/special-fibres \
+            genus2-special-fibres/images/mrm-special-fibres
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Regenerate SVGs from TikZ [skip ci]"
+            git push origin HEAD:main
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
