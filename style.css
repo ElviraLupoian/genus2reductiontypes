@@ -77,11 +77,19 @@ h1 {
 
 /* Table introduction and guide */
 
-.table-introduction {
-  margin-bottom: 16px;
+.table-introduction,
+.ai-use-declaration {
   color: #3f474e;
   font-size: 0.87rem;
   line-height: 1.55;
+}
+
+.table-introduction {
+  margin-bottom: 16px;
+}
+
+.ai-use-declaration {
+  margin-top: 32px;
 }
 
 .table-introduction > p:first-child {
