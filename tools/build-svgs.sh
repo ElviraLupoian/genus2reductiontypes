@@ -49,3 +49,7 @@ build_directory \
 build_directory \
   "genus2-special-fibres/tikz-mrm" \
   "genus2-special-fibres/images/mrm-special-fibres"
+
+  build_directory \
+  "genus2-special-fibres/tikz/special-fibres" \
+  "genus2-special-fibres/images/special-fibres"
