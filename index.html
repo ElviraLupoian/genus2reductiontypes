@@ -324,8 +324,7 @@
               is the exterior form associated to a minimal Weierstrass model, and
               $\omega^0$ is a Néron exterior form.
             
-              The values in this column <strong>only apply when $p\neq 2$ and $C$ has
-              tame reduction</strong>
+              The values in this column <strong>only apply when $p\neq 2$</strong>
               <a
                 href="https://arxiv.org/pdf/2607.07558#page=22"
                 target="_blank"
@@ -366,8 +365,49 @@
             </dd>
 
             <dt>Cluster pictures</dt>
-            <dd>All possible cluster pictures. The values in this column <strong>only apply when $p\neq 2$ and
-              $C$ has tame reduction</strong>.
+            <dd class="cluster-picture-description">
+              <p>
+                This column lists all possible degree-$6$ cluster pictures for
+                the reduction type, up to an integral shift of all depths. The
+                entries <strong>only apply when $p\neq 2$ and $C$ has tame
+                reduction</strong>. For the definition of cluster pictures and the conventions used here, see
+                <a
+                  href="https://arxiv.org/pdf/2607.07558#page=4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >[ACDL, §1.4]</a>.
+              </p>
+
+              <p>
+                For a Weierstrass equation $C:y^2=f(x)$, the roots of $f$ are
+                drawn as red dots and clusters of size greater than $1$ as
+                ovals around the corresponding roots. Each proper cluster
+                other than the cluster of all roots is labelled by its relative
+                depth; the cluster of all roots is labelled by its absolute
+                depth. The cluster-picture data also include
+                $v_c=v(c_f)$, where $c_f$ is the leading coefficient of $f$.
+                Only the parity of $v_c$ is used in these pictures: the value
+                of $v_c\bmod 2$ is displayed in the upper-right corner of each
+                cluster picture.
+              </p>
+
+              <p>
+                The depth of the cluster containing all the roots is displayed
+                modulo $1$. The integer parameters $a,b,j,s$ must make every
+                relative depth positive, and $a$ and $b$ must satisfy
+                $t=a+b$. Some cluster pictures impose additional
+                parity restrictions on their parameters; these restrictions
+                are recorded in brackets on the right-hand side of the picture.
+                 Quintic cluster pictures are not displayed separately:
+                they are obtained from a displayed picture having a cluster of
+                size $5$ by removing the root outside that cluster, while
+                retaining the depths and $v_c$. See
+                <a
+                  href="https://arxiv.org/pdf/2607.07558#page=26"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >[ACDL, §7]</a>.
+              </p>
             </dd>
           </dl>
         </div>
