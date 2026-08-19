@@ -1,19 +1,16 @@
-\documentclass[tikz,border=0pt]{standalone}
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
 \begin{document}
-\begin{tikzpicture}[x=1pt,y=-1pt,line width=0.3985pt,line cap=round,line join=round]
-  \path[use as bounding box] (0,0) rectangle (81.485,30.217);
-
-  % Exact transcription of the accepted VIII-1 SVG path.
-  \draw
-    (2.914060,2.136634) --
-    (25.085936,2.136634)
-    .. controls (32.601562,2.136634) and (40.492187,6.269531) ..
-    (40.492187,15.664064)
-    .. controls (40.492187,6.269531) and (48.382813,2.136634) ..
-    (55.898438,2.136634) --
-    (78.070315,2.136634);
-
-  \node[anchor=base,inner sep=0pt,font=\fontsize{7}{8}\selectfont]
-    at (40.492187,24.841298) {$(2,5)\ \mathrm{cusp}$};
+% Namikawa--Ueno type: VIII-1
+% Target MRNC type: 10^{1,4,5}
+% Adapted from Tim Dokchitser picture: 10^{1,4,5}
+% Parameter substitution: (none)
+\begin{tikzpicture}[xscale=0.57,yscale=0.62]
+\draw[thick,shorten >=2] (-1/3,0)--(121/30,0) node[inner sep=2pt,blue,above left,scale=0.8] {10};
+\draw[shorten <=-3pt] (0,0)--node[inner sep=2pt,scale=0.8,blue,right] {1} (0,3/5);
+\draw[shorten <=-3pt, shorten >=-3pt] (7/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {4} (7/5,3/5);
+\draw[shorten <=-3pt] (7/5,3/5)--node[inner sep=2pt,scale=0.8,blue,above] {2} (4/5,3/5);
+\draw[shorten <=-3pt] (11/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {5} (11/5,3/5);
 \end{tikzpicture}
 \end{document}
