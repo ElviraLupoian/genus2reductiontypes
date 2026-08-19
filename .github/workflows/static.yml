@@ -7,13 +7,13 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -26,8 +26,68 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Find changed SVG sources
+        id: svg-sources
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE_SHA: ${{ github.event.before }}
+          CURRENT_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+
+          changed_files="$RUNNER_TEMP/changed-svg-sources.txt"
+          : > "$changed_files"
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ] || \
+             [ -z "$BEFORE_SHA" ] || \
+             [ "$BEFORE_SHA" = \
+               "0000000000000000000000000000000000000000" ]; then
+            echo "mode=all" >> "$GITHUB_OUTPUT"
+            echo "build=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if git diff --quiet "$BEFORE_SHA" "$CURRENT_SHA" -- \
+            tools/build-svgs.sh; then
+            git diff \
+              --name-only \
+              --no-renames \
+              "$BEFORE_SHA" \
+              "$CURRENT_SHA" -- \
+              genus2-special-fibres/tikz \
+              genus2-special-fibres/tikz-mrm |
+              while IFS= read -r path; do
+                case "$path" in
+                  *.tex)
+                    printf '%s\n' "$path"
+                    ;;
+                esac
+              done > "$changed_files"
+          else
+            echo "mode=all" >> "$GITHUB_OUTPUT"
+            echo "build=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if [ -s "$changed_files" ]; then
+            echo "mode=changed" >> "$GITHUB_OUTPUT"
+            echo "build=true" >> "$GITHUB_OUTPUT"
+            {
+              echo "files<<EOF"
+              cat "$changed_files"
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=none" >> "$GITHUB_OUTPUT"
+            echo "build=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Install TeX and SVG tools
+        if: steps.svg-sources.outputs.build == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y \
@@ -36,8 +96,34 @@ jobs:
             texlive-fonts-recommended \
             inkscape
 
-      - name: Regenerate SVG files
+      - name: Regenerate all SVG files
+        if: steps.svg-sources.outputs.mode == 'all'
         run: bash tools/build-svgs.sh
+
+      - name: Regenerate changed SVG files
+        if: steps.svg-sources.outputs.mode == 'changed'
+        shell: bash
+        env:
+          CHANGED_TEX_FILES: ${{ steps.svg-sources.outputs.files }}
+        run: |
+          mapfile -t changed_files <<< "$CHANGED_TEX_FILES"
+          bash tools/build-svgs.sh "${changed_files[@]}"
+
+      - name: Commit regenerated SVG files
+        if: steps.svg-sources.outputs.build == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            genus2-special-fibres/images/special-fibres \
+            genus2-special-fibres/images/mrm-special-fibres
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Regenerate SVGs from TikZ [skip ci]"
+            git push origin HEAD:main
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -50,3 +136,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
