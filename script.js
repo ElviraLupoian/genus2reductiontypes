@@ -988,7 +988,11 @@ window.namikawaUenoTypes = [
     "example": "$y^2=\\pi(x^2+\\pi)(x^4+\\pi)$",
     "numberOfComponentsMRNC": "$5$",
     "monodromyMatrix": "$\\begin{pmatrix}0 & 0 & -1 & 1 \\\\ 1 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 1\\end{pmatrix}$",
-    "clusterPictures": null
+    "clusterPictures": [
+      "genus2-special-fibres/images/cluster-pictures/iii-star-ii-0-1.svg",
+      "genus2-special-fibres/images/cluster-pictures/iii-star-ii-0-2.svg"
+    ],
+    "clusterPictureLayout": [1, 1, 0, 0, 0]
   },
   {
     "id": "iii-ii-star-l-plus-1",
