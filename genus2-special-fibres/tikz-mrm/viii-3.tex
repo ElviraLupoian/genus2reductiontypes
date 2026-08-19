@@ -1,19 +1,14 @@
 \documentclass[tikz,border=2pt]{standalone}
 \input{nu-fibre-style.tex}
 \begin{document}
-% Namikawa--Ueno type VIII-3; NU p. 15.
 \begin{tikzpicture}[nu fibre]
-
-  \draw (-2.05,0.58) -- (2.05,0.58);
-  \node[nu label,above=2pt] at (1.08,0.58) {$3$};
-
-  \draw (-1.42,-0.58) .. controls (-1.02,0.42) and (-0.42,0.58) .. (0,0.58)
-                         .. controls (0.42,0.58) and (1.02,0.42) .. (1.42,-0.58);
-  \node[nu label] at (-0.38,-0.30) {$2B$};
-
-  \draw (1.30,-1.02) -- (1.30,0.96);
-  \node[nu label,left=1pt] at (1.30,-0.18) {$2$};
-  \draw (0.92,-0.78) -- (1.72,-0.78);
-
+  \draw (-1.95,0.54) -- (1.95,0.54);
+  \node[nu label,above=2pt] at (1.02,0.54) {$3$};
+  \draw (-1.35,-0.56) .. controls (-0.90,0.18) and (-0.32,0.54) .. (0,0.54)
+                        .. controls (0.28,0.54) and (0.72,0.32) .. (1.02,-0.12);
+  \node[nu label] at (-0.38,-0.26) {$2B$};
+  \draw (1.36,-0.92) -- (1.36,0.88);
+  \node[nu label,right=1pt] at (1.36,-0.16) {$2$};
+  \draw (0.98,-0.70) -- (1.74,-0.70);
 \end{tikzpicture}
 \end{document}

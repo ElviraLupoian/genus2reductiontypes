@@ -1,17 +1,14 @@
 \documentclass[tikz,border=2pt]{standalone}
-\usepackage{tikz}
-\usetikzlibrary{positioning}
+\input{nu-fibre-style.tex}
 \begin{document}
-% Namikawa--Ueno type: VIII-3
-% Target MRNC type: 10^{3,2,5}
-% Adapted from Tim Dokchitser picture: 10^{3,2,5}
-% Parameter substitution: (none)
-\begin{tikzpicture}[xscale=0.57,yscale=0.62]
-\draw[thick,shorten >=2] (4/15,0)--(121/30,0) node[inner sep=2pt,blue,above left,scale=0.8] {10};
-\draw[shorten <=-3pt, shorten >=-3pt] (3/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {3} (3/5,3/5);
-\draw[shorten <=-3pt, shorten >=-3pt] (3/5,3/5)--node[inner sep=2pt,scale=0.8,blue,above] {2} (0,3/5);
-\draw[shorten <=-3pt] (0,3/5)--node[inner sep=2pt,scale=0.8,blue,left] {1} (0,6/5);
-\draw[shorten <=-3pt] (7/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {2} (7/5,3/5);
-\draw[shorten <=-3pt] (11/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {5} (11/5,3/5);
+\begin{tikzpicture}[nu fibre]
+  \draw (-1.95,0.54) -- (1.95,0.54);
+  \node[nu label,above=2pt] at (1.02,0.54) {$3$};
+  \draw (-1.35,-0.56) .. controls (-0.90,0.18) and (-0.32,0.54) .. (0,0.54)
+                        .. controls (0.28,0.54) and (0.72,0.32) .. (1.02,-0.12);
+  \node[nu label] at (-0.38,-0.26) {$2B$};
+  \draw (1.36,-0.92) -- (1.36,0.88);
+  \node[nu label,right=1pt] at (1.36,-0.16) {$2$};
+  \draw (0.98,-0.70) -- (1.74,-0.70);
 \end{tikzpicture}
 \end{document}

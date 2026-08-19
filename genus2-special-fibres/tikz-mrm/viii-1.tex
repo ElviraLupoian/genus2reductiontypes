@@ -1,14 +1,19 @@
-\documentclass[tikz,border=2pt]{standalone}
-\input{nu-fibre-style.tex}
+\documentclass[tikz,border=0pt]{standalone}
 \begin{document}
-% Namikawa--Ueno type VIII-1; NU p. 14.
-\begin{tikzpicture}[nu fibre]
+\begin{tikzpicture}[x=1pt,y=-1pt,line width=0.3985pt,line cap=round,line join=round]
+  \path[use as bounding box] (0,0) rectangle (81.485,30.217);
 
-  \draw[samples=140,smooth,domain=-1:1]
-    plot ({1.25*(\x)^3},{-0.42+0.72*(\x)^2});
-  \draw (-2.20,0.30) -- (-1.25,0.30);
-  \draw (1.25,0.30) -- (2.20,0.30);
-  \node[nu annotation,below=3pt] at (0,-0.42) {$(2,5)\ \mathrm{cusp}$};
+  % Exact transcription of the accepted VIII-1 SVG path.
+  \draw
+    (2.914060,2.136634) --
+    (25.085936,2.136634)
+    .. controls (32.601562,2.136634) and (40.492187,6.269531) ..
+    (40.492187,15.664064)
+    .. controls (40.492187,6.269531) and (48.382813,2.136634) ..
+    (55.898438,2.136634) --
+    (78.070315,2.136634);
 
+  \node[anchor=base,inner sep=0pt,font=\fontsize{7}{8}\selectfont]
+    at (40.492187,24.841298) {$(2,5)\ \mathrm{cusp}$};
 \end{tikzpicture}
 \end{document}
