@@ -667,7 +667,7 @@ window.namikawaUenoTypes = [
     "nuTypePlain": "III-II_l",
     "mrncReductionType": "$\\mathrm{III}_{l}$",
     "mrncReductionTypePlain": "III_l",
-    "mrmfibre": "—",
+    "mrmfibre": "genus2-special-fibres/images/mrm-special-fibres/iii-ii-l.svg",
     "mrncfibre": "genus2-special-fibres/images/special-fibres/iii-ii-l.svg",
     "potentialStableType": "$\\II$",
     "potentialStableTypePlain": "II",
