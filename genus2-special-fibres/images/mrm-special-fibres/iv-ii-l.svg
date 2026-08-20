@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="108.989pt"
-   height="81.485pt"
-   viewBox="0 0 108.989 81.485"
+   width="82.917pt"
+   height="61.076pt"
+   viewBox="0 0 82.917 61.076"
    version="1.1"
    id="svg63"
    sodipodi:docname="iv-ii-l.pdf"
@@ -60,57 +60,57 @@
   <path
      fill="none"
      stroke-width="0.3985"
-     stroke-linecap="round"
-     stroke-linejoin="round"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
      stroke="rgb(0%, 0%, 0%)"
      stroke-opacity="1"
      stroke-miterlimit="10"
-     d="M -57.828156 77.101594 L -57.828156 0.00003125 "
-     transform="matrix(1, 0, 0, -1, 79.293, 79.293)"
+     d="M -42.521719 56.692594 L -42.521719 0.0011875 "
+     transform="matrix(1, 0, 0, -1, 58.885, 58.884)"
      id="path21" />
   <path
      fill="none"
      stroke-width="0.3985"
-     stroke-linecap="round"
-     stroke-linejoin="round"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
      stroke="rgb(0%, 0%, 0%)"
      stroke-opacity="1"
      stroke-miterlimit="10"
-     d="M -77.101594 19.277375 L -28.914094 67.464875 "
-     transform="matrix(1, 0, 0, -1, 79.293, 79.293)"
+     d="M -56.693594 14.173063 L -21.26 49.606656 "
+     transform="matrix(1, 0, 0, -1, 58.885, 58.884)"
      id="path23" />
   <path
      fill="none"
      stroke-width="0.3985"
-     stroke-linecap="round"
-     stroke-linejoin="round"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
      stroke="rgb(0%, 0%, 0%)"
      stroke-opacity="1"
      stroke-miterlimit="10"
-     d="M -77.101594 57.828156 L -28.914094 9.63675 "
-     transform="matrix(1, 0, 0, -1, 79.293, 79.293)"
+     d="M -56.693594 42.520719 L -21.26 7.087125 "
+     transform="matrix(1, 0, 0, -1, 58.885, 58.884)"
      id="path25" />
   <path
      fill="none"
      stroke-width="0.3985"
-     stroke-linecap="round"
-     stroke-linejoin="round"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
      stroke="rgb(0%, 0%, 0%)"
      stroke-opacity="1"
      stroke-miterlimit="10"
-     d="M -38.550813 67.464875 L 4.820281 48.187531 "
-     transform="matrix(1, 0, 0, -1, 79.293, 79.293)"
+     d="M -28.345937 49.606656 L 3.544688 35.434781 "
+     transform="matrix(1, 0, 0, -1, 58.885, 58.884)"
      id="path27" />
   <path
      fill="none"
      stroke-width="0.3985"
-     stroke-linecap="round"
-     stroke-linejoin="round"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
      stroke="rgb(0%, 0%, 0%)"
      stroke-opacity="1"
      stroke-miterlimit="10"
-     d="M -38.550813 9.63675 L 4.820281 28.914094 "
-     transform="matrix(1, 0, 0, -1, 79.293, 79.293)"
+     d="M -28.345937 7.087125 L 3.544688 21.259 "
+     transform="matrix(1, 0, 0, -1, 58.885, 58.884)"
      id="path29" />
   <g
      fill="#000000"
@@ -118,8 +118,8 @@
      id="g33">
     <use
        xlink:href="#glyph-0-0"
-       x="82.207001"
-       y="41.188"
+       x="60.778"
+       y="28.432199"
        id="use31" />
   </g>
   <g
@@ -128,8 +128,8 @@
      id="g37">
     <use
        xlink:href="#glyph-0-0"
-       x="82.207001"
-       y="44.375999"
+       x="60.778"
+       y="31.620199"
        id="use35" />
   </g>
   <g
@@ -138,8 +138,8 @@
      id="g41">
     <use
        xlink:href="#glyph-0-0"
-       x="82.207001"
-       y="47.563999"
+       x="60.778"
+       y="34.808998"
        id="use39" />
   </g>
   <g
@@ -148,8 +148,8 @@
      id="g45">
     <use
        xlink:href="#glyph-1-0"
-       x="96.374001"
-       y="47.192001"
+       x="70.302002"
+       y="34.589001"
        id="use43" />
   </g>
   <g
@@ -158,8 +158,8 @@
      id="g49">
     <use
        xlink:href="#glyph-2-0"
-       x="98.229202"
-       y="47.192001"
+       x="72.157204"
+       y="34.589001"
        id="use47" />
   </g>
   <g
@@ -168,8 +168,8 @@
      id="g53">
     <use
        xlink:href="#glyph-3-0"
-       x="102.4634"
-       y="47.192001"
+       x="76.391403"
+       y="34.589001"
        id="use51" />
   </g>
   <g
@@ -178,8 +178,8 @@
      id="g57">
     <use
        xlink:href="#glyph-4-0"
-       x="24.052"
-       y="22.392"
+       x="17.368999"
+       y="14.404"
        id="use55" />
   </g>
   <g
@@ -188,8 +188,8 @@
      id="g61">
     <use
        xlink:href="#glyph-4-0"
-       x="25.402"
-       y="64.027"
+       x="18.361"
+       y="45.018002"
        id="use59" />
   </g>
 </svg>
