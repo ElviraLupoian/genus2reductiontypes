@@ -1000,7 +1000,7 @@ window.namikawaUenoTypes = [
     "nuTypePlain": "III-II^*_{l+1}",
     "mrncReductionType": "$\\mathrm{III}_{(l+1)\\mathrm{D}}$",
     "mrncReductionTypePlain": "III_{(l+1)D}",
-    "mrmfibre": "genus2-special-fibres/images/mrm-special-fibres/iii-ii-star-l-plus-1.svg",
+    "mrmfibre": "genus2-special-fibres/images/mrm-special-fibres/iii-ii-l-plus-1-star.svg",
     "mrncfibre": "genus2-special-fibres/images/special-fibres/iii-ii-star-l-plus-1.svg",
     "potentialStableType": "$\\II$",
     "potentialStableTypePlain": "II",
