@@ -1,56 +1,55 @@
-\documentclass[tikz,border=4pt]{standalone}
+\documentclass[tikz,border=2pt]{standalone}
 
-\usepackage{amsmath}
-\usepackage{xcolor}
-
-\definecolor{exactblue}{HTML}{0000FF}
+\input{nu-fibre-style.tex}
 
 \begin{document}
 
-% iii-ii-l
-% MRM special fibre for [III-II_l]
+% III-II_l, l>1.
+% The two principal components meet tangentially on the left. The chain on
+% the right meets each of them transversely. It has l-1 components, giving
+% 2+(l-1)=l+1 components in total.
 
-\begin{tikzpicture}[xscale=1,yscale=0.9]
+\begin{tikzpicture}[
+  x=1cm,
+  y=1cm,
+  line cap=round,
+  line join=round,
+  ordinary/.style={line width=0.4pt},
+  principal/.style={line width=0.55pt}
+]
 
-% Type III tangency on the left
-\draw
-  (-1.2,0.18)
-  .. controls (-0.75,0.18) and (-0.42,0.05) ..
-  (0,0);
+  % Principal components.  On the left these are the actual quadratic
+  % graphs y=+-0.345x^2, so their contact at the origin is unambiguous.
+  \draw[principal,domain=-1.05:0,samples=80,smooth,variable=\x]
+    plot (\x,{0.345*(\x)^2});
+  \draw[principal,domain=-1.05:0,samples=80,smooth,variable=\x]
+    plot (\x,{-0.345*(\x)^2});
 
-\draw
-  (-1.2,-0.18)
-  .. controls (-0.75,-0.18) and (-0.42,-0.05) ..
-  (0,0);
+  % A short C^1-style transition lets each parabola become a straight line
+  % gradually instead of producing a corner at the origin.
+  \draw[principal]
+    (0,0)
+      .. controls (0.12,0.00) and (0.30,0.17) ..
+    (0.42,0.26)
+      -- (1.05,0.74);
+  \draw[principal]
+    (0,0)
+      .. controls (0.12,0.00) and (0.30,-0.17) ..
+    (0.42,-0.26)
+      -- (1.05,-0.74);
 
-% The two branches open out to form the loop
-\draw
-  (0,0) -- (1.15,0.62) -- (2.15,0.62);
+  \node[nu label] at (-0.56,0.34) {$B$};
+  \node[nu label] at (-0.56,-0.34) {$B$};
 
-\draw
-  (0,0) -- (1.15,-0.62) -- (2.15,-0.62);
+  % The chain joining the two principal components. Its inner components
+  % are suppressed in the usual MRNC style.
+  \draw[ordinary] (0.68,0.62) -- (1.48,0.42);
+  \fill (1.48,0.18) circle[radius=0.65pt];
+  \fill (1.48,0.00) circle[radius=0.65pt];
+  \fill (1.48,-0.18) circle[radius=0.65pt];
+  \draw[ordinary] (1.48,-0.42) -- (0.68,-0.62);
 
-% Schematic continuation of the loop
-\draw[densely dotted]
-  (2.15,0.62) -- (2.15,-0.62);
-
-% Small transverse marks
-\draw
-  (0.82,0.51) -- (1.00,0.72);
-
-\draw
-  (0.82,-0.51) -- (1.00,-0.72);
-
-% Labels on the two branches of the type III part
-\node[text=exactblue,scale=0.8]
-  at (-0.82,0.36) {$B$};
-
-\node[text=exactblue,scale=0.8]
-  at (-0.82,-0.36) {$B$};
-
-% Parameterised part of the loop
-\node[scale=0.85,right]
-  at (2.18,0) {$l+1$};
+  \node[nu annotation,anchor=west] at (1.63,0) {$l-1$};
 
 \end{tikzpicture}
 
