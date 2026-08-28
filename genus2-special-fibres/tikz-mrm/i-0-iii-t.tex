@@ -3,18 +3,17 @@
 \input{nu-fibre-style.tex}
 \begin{document}
 
-
 % I_0-III-t
 \begin{tikzpicture}[scale=0.5]
 % chain 
   \coordinate (C) at (-1.50, 3.00);
   \coordinate (D) at (-0.50, 3.00);
   \coordinate (A) at (-1.00, 3.00);
-  \coordinate (B) at (-0.93, 3.26);
-\node[scale=0.75][above] at (B) {$t-1$};
-  \fill[black] (C) circle (1.5pt);
-  \fill[black] (D) circle (1.5pt);
-  \fill[black] (A) circle (1.5pt);
+  \coordinate (B) at (-0.90, 3.2);
+\node[scale=0.65][above] at (B) {$t-1$};
+  \fill[black] (C) circle (1.25pt);
+  \fill[black] (D) circle (1.25pt);
+  \fill[black] (A) circle (1.25pt);
  
  %I_0
  \coordinate (I0A) at (-4.00, 3.00);
@@ -22,23 +21,21 @@
   \coordinate (I0C) at (-3.00, 4.00);
   \coordinate (I0D) at (-3.00, 0.00);
   \coordinate (I0A_1) at (-4.00, 2.25);
-  \coordinate (I0E) at (-2.00, 0.00);
+  \coordinate (I0E) at (-2.25, 0.00);
  \draw (I0A) -- (I0B);
   \draw (I0C) -- (I0D);
-  \node[scale=0.8][above, text=blue] at (I0A_1) {$A$};
-  \node[scale=0.8][above, text=blue] at (I0E) {g1};
-   % III
-  \coordinate (IIIrC) at (0.00, 3.00);
-  \coordinate (IIIrD) at (2.00, 3.00);
-  \coordinate (IIIrE) at (1.00, 4.00);
-  \coordinate (IIIrF) at (1.00, 0.00);
-  \coordinate (IIIrG) at (2.00, 1.00);
-  \coordinate (IIIrD_1) at (1.74, 2.18);
+  \node[scale=0.65][above, text=blue] at (I0A_1) {A};
+  \node[scale=0.65][above, text=blue] at (I0E) {g1};
+  
+\coordinate (IIIrC) at (0.00, 3.00);
+\coordinate (IIIrD) at (2.00, 3.00);
+\coordinate (IIIrE) at (1.00, 4.00);
+ \coordinate (IIIrF) at (1.00, 0.00);
+ \coordinate (IIIrG) at (2.00, 1.00);
+ \coordinate (IIIrD_1) at (1.75, 2.20);
   \draw (IIIrC) -- (IIIrD);
   \draw (IIIrE) -- (IIIrF);
   \draw (2.00, 2.00) arc (90.0:270.0:1.00);
-  \node[scale=0.8][above, text=blue] at (IIIrD_1) {$B$};
-  
+  \node[scale=0.65][above, text=blue] at (IIIrD_1) {B};
 \end{tikzpicture}
-
 \end{document}
