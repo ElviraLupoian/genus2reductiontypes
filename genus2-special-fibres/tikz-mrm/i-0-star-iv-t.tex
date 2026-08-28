@@ -2,18 +2,19 @@
 \input{nu-fibre-style.tex}
 \begin{document}
 
+% I_0^*-IV-t
 
 
 \begin{tikzpicture}[scale=0.5]
   %chain 
- \coordinate (C) at (-1.50, 3.00);
+  \coordinate (C) at (-1.50, 3.00);
   \coordinate (D) at (-0.50, 3.00);
   \coordinate (A) at (-1.00, 3.00);
   \coordinate (B) at (-0.93, 3.26);
-\node[above] at (B) {$t\!-\!1$};
-  \fill[black] (C) circle (2pt);
-  \fill[black] (D) circle (2pt);
-  \fill[black] (A) circle (2pt);
+\node[scale=0.65][above, text=blue] at (B) {$t-1$};
+  \fill[black] (C) circle (1.25pt);
+  \fill[black] (D) circle (1.25pt);
+  \fill[black] (A) circle (1.25pt);
 %I_0^*
   \coordinate (I0sA) at (-4.00, 3.00);
   \coordinate (I0sB) at (-2.00, 3.00);
@@ -31,12 +32,12 @@
   \coordinate (I0sK_1) at (-2.79, 0.41);
  \draw (I0sA) -- (I0sB);
   \draw (I0sC) -- (I0sD);
-  \node[above, text=blue] at (I0sA_1) {B};
+  \node[scale=0.65][above, text=blue] at (I0sA_1) {B};
   \draw (I0sE) -- (I0sF);
   \draw (I0sG) -- (I0sH);
   \draw (I0sI) -- (I0sJ);
   \draw (I0sK) -- (I0sL);
-  \node[above, text=blue] at (I0sK_1) {2};
+  \node[scale=0.5][above, text=blue] at (I0sK_1) {$2$};
  
  
  %IV 
@@ -57,8 +58,9 @@
   \draw (IVrE) -- (IVrF);
   \draw (IVrG) -- (IVrL);
   \draw (IVrI) -- (IVrM);
-  \node[above, text=blue] at (IVrD_1) {B};
+  \node[scale=0.65][above, text=blue] at (IVrD_1) {B};
 \end{tikzpicture}
+
 
 
 \end{document}
