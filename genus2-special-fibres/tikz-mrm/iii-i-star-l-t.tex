@@ -1,8 +1,9 @@
 \documentclass[tikz,border=2pt]{standalone}
+\usepackage{tikz}
 \input{nu-fibre-style.tex}
 
 \begin{document}
-% III-I_n^*-m
+% III-I_l^*-t
 
 \begin{tikzpicture}[scale=0.5]
      \coordinate (C1) at (-1.50, 3.00);
@@ -11,9 +12,9 @@
   \coordinate (B1) at (-0.93, 3.26);
 
   \node[scale=0.8][above] at (B1) {$t-1$};
-  \fill[black] (C1) circle (2pt);
-  \fill[black] (D1) circle (2pt);
-  \fill[black] (A1) circle (2pt);
+  \fill[black] (C1) circle (1.25pt);
+  \fill[black] (D1) circle (1.25pt);
+  \fill[black] (A1) circle (1.25pt);
 
   
   \coordinate (IIIrC) at (-4.00, 3.00);
@@ -52,7 +53,7 @@
   \coordinate (V) at (1.58, 0.98);
 
   
-  \node[scale=0.7][above, text=blue] at (G) {$B$};
+  \node[scale=0.7][above, text=blue] at (G) {B};
   \node[scale=0.5][above] at (N) {$\vdots
 $};
   \node[scale=0.6][above] at (O) {$l
@@ -71,5 +72,4 @@ $};
   \node[scale=0.5][above, text=blue] at (U) {$2$};
   \node[scale=0.5][above, text=blue] at (V) {$2$};
 \end{tikzpicture}
-
 \end{document}
