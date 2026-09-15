@@ -1,45 +1,121 @@
 \documentclass[tikz,border=2pt]{standalone}
 \usepackage{tikz}
 \usetikzlibrary{positioning}
+\input{nu-fibre-style.tex}
 \begin{document}
+
+
+\begin{tikzpicture}[scale=0.5]
+      \coordinate (1C) at (-1.50, 3.00);
+  \coordinate (1D) at (-0.50, 3.00);
+  \coordinate (1A) at (-1.00, 3.00);
+  \coordinate (1B) at (-0.93, 3.26);
+
+  \node[scale=0.8][above] at (1B) {$t-1$};
+  \fill[black] (1C) circle (1.25pt);
+  \fill[black] (1D) circle (1.25pt);
+  \fill[black] (1A) circle (1.25pt);
+
+  
+   \coordinate (G) at (0.76, 2.19);
+  \coordinate (N) at (2.25, 1.15);
+  \coordinate (O) at (2.58, 1.31);
+  \coordinate (A) at (0.00, 3.00);
+  \coordinate (B) at (2.50, 3.00);
+  \coordinate (H) at (0.67, 1.99);
+  \coordinate (I) at (2.67, 1.99);
+  \coordinate (P) at (2.00, 1.23);
+  \coordinate (Q) at (2.00, 0.23);
+  \coordinate (R) at (1.59, 1.01);
+  \coordinate (S) at (2.34, 1.01);
+  \coordinate (T) at (1.53, 0.50);
+  \coordinate (C) at (2.00, 2.50);
+  \coordinate (D) at (2.00, 1.75);
+  \coordinate (E) at (1.00, 3.25);
+  \coordinate (F) at (1.00, 1.50);
+  \coordinate (J) at (1.50, 2.50);
+  \coordinate (K) at (1.50, 1.75);
+  \coordinate (L) at (2.50, 0.50);
+  \coordinate (M) at (1.22, 1.9);
+  \coordinate (U) at (1.79, 1.9);
+  \coordinate (V) at (1.58, 0.98);
+
+  
+  \node[scale=0.8][above, text=blue] at (G) {B};
+  \node[scale=0.7][above] at (N) {$\vdots
+$};
+  \node[scale=0.5][above] at (O) {$l
+$};
+  \draw (A) -- (B);
+  \draw (H) -- (I);
+  \draw (P) -- (Q);
+  \draw (R) -- (S);
+  \draw (C) -- (D);
+  \draw (E) -- (F);
+  \draw (J) -- (J);
+  \draw (J) -- (J);
+  \draw (J) -- (K);
+  \draw (T) -- (L);
+  \node[scale=0.5][above, text=blue] at (M) {$2$};
+  \node[scale=0.5][above, text=blue] at (U) {$2$};
+  \node[scale=0.5][above, text=blue] at (V) {$2$};
+
+   
+   \coordinate (IIlP) at (-4.00, 3.00);
+  \coordinate (IIlQ) at (-2.00, 3.00);
+  \coordinate (IIlR) at (-3.00, 4.00);
+  \coordinate (IIlS) at (-3.00, 1.00);
+ \coordinate (IIlT) at (-3.50, 1.00);
+  \coordinate (IIlU) at (-3.50, 0.00);
+  \coordinate (IIlA) at (-2.50, 2.00);
+  \draw (IIlP) -- (IIlQ);
+  \draw (IIlR) -- (IIlS);
+  \draw (-3.00, 1.00) arc (0.0:-90.0:0.50);
+  \draw (-3.50, 0.50) arc (90.0:0.0:0.50);
+  \node[scale=0.8][above, text=blue] at (IIlA) {A};
+\end{tikzpicture}
+
+% old pic:
 % Namikawa--Ueno type: II-I^*_l-t
 % Target MRNC type: II-I^*_l-t
 % Adapted from Tim Dokchitser picture: I^*_{{\it n}}\e({\it m})II
 % Parameter substitution: n -> l, m -> t
-\begin{tikzpicture}[xscale=0.57,yscale=0.62]
-\draw[thick,shorten >=2] (-1/3,0)--(94/15,0) node[inner sep=2pt,blue,above left,scale=0.8] {2};
-\draw[shorten <=-3pt] (0,0)--node[inner sep=2pt,scale=0.8,blue,right] {1} (0,3/5);
-\draw (6/5,0) 
-    ++(0.06,-0.17)--++(-0.22,0.64)++(0.11,-0.24)  
-    ++(0,0.02)
-      node[blue,scale=0.7,inner sep=1,anchor=west]{2}
-    ++(0,-0.02)
-    ++(-0.16,0.02)--++(0.46,0.44)++(-0.12,0.08)  
-    node{$\cdot$} ++(-0.06,0.16) node{$\cdot$}
-    ++(-0.06,0.16) node{$\cdot$}++(0.17,-0.12)    node[auto,inner sep=5,scale=0.7,anchor=west]{$l\!-\!1$}
-    ++(-0.25,0.23)--++(0.46,0.44)++(-0.19,0.04)   
-    ++(0,-0.05)
-      node[blue,scale=0.7,inner sep=1,anchor=east]{2}
-    ++(0,0.05)
-    ++(0.19,-0.04)++(-0.04,-0.2)--++(-0.22,0.64);
-\draw[thick,shorten >=2] (13/15,2)--(121/30,2) node[inner sep=2pt,blue,above left,scale=0.8] {2};
-\draw[shorten <=-3pt] (2,2)--node[inner sep=2pt,scale=0.8,blue,right] {1} (2,13/5);
-\draw[shorten <=-3pt] (14/5,2)--node[inner sep=2pt,scale=0.8,blue,right] {1} (14/5,13/5);
-\draw (151/30,0) 
-    ++(0.06,-0.17)--++(-0.22,0.64)++(0.11,-0.24)  
-    ++(0,0.02)
-      node[blue,scale=0.7,inner sep=1,anchor=west]{1}
-    ++(0,-0.02)
-    ++(-0.16,0.02)--++(0.46,0.44)++(-0.12,0.08)  
-    node{$\cdot$} ++(-0.06,0.16) node{$\cdot$}
-    ++(-0.06,0.16) node{$\cdot$}++(0.17,-0.12)    node[auto,inner sep=5,scale=0.7,anchor=west]{$t\!+\!1$}
-    ++(-0.25,0.23)--++(0.46,0.44)++(-0.19,0.04)   
-    ++(0,-0.05)
-      node[blue,scale=0.7,inner sep=1,anchor=east]{1}
-    ++(0,0.05)
-    ++(0.19,-0.04)++(-0.04,-0.2)--++(-0.22,0.64);
-\draw[thick,shorten >=2] (47/10,2)--(118/15,2) node[inner sep=2pt,blue,above left,scale=0.8] {6};
-\draw[shorten <=-3pt] (35/6,2)--node[inner sep=2pt,scale=0.8,blue,right] {2} (35/6,13/5);
-\draw[shorten <=-3pt] (199/30,2)--node[inner sep=2pt,scale=0.8,blue,right] {3} (199/30,13/5);
-\end{tikzpicture}
+% \begin{tikzpicture}[xscale=0.57,yscale=0.62]
+% \draw[thick,shorten >=2] (-1/3,0)--(94/15,0) node[inner sep=2pt,blue,above left,scale=0.8] {2};
+% \draw[shorten <=-3pt] (0,0)--node[inner sep=2pt,scale=0.8,blue,right] {1} (0,3/5);
+% \draw (6/5,0) 
+%     ++(0.06,-0.17)--++(-0.22,0.64)++(0.11,-0.24)  
+%     ++(0,0.02)
+%       node[blue,scale=0.7,inner sep=1,anchor=west]{2}
+%    ++(0,-0.02)
+%    ++(-0.16,0.02)--++(0.46,0.44)++(-0.12,0.08)  
+%    node{$\cdot$} ++(-0.06,0.16) node{$\cdot$}
+%    ++(-0.06,0.16) node{$\cdot$}++(0.17,-0.12)    node[auto,inner sep=5,scale=0.7,anchor=west]{$l\!-\!1$}
+%    ++(-0.25,0.23)--++(0.46,0.44)++(-0.19,0.04)   
+%    ++(0,-0.05)
+%      node[blue,scale=0.7,inner sep=1,anchor=east]{2}
+%    ++(0,0.05)
+%    ++(0.19,-0.04)++(-0.04,-0.2)--++(-0.22,0.64);
+% \draw[thick,shorten >=2] (13/15,2)--(121/30,2) node[inner sep=2pt,blue,above left,scale=0.8] {2};
+% \draw[shorten <=-3pt] (2,2)--node[inner sep=2pt,scale=0.8,blue,right] {1} (2,13/5);
+% \draw[shorten <=-3pt] (14/5,2)--node[inner sep=2pt,scale=0.8,blue,right] {1} (14/5,13/5);
+% \draw (151/30,0) 
+%    ++(0.06,-0.17)--++(-0.22,0.64)++(0.11,-0.24)  
+%    ++(0,0.02)
+%      node[blue,scale=0.7,inner sep=1,anchor=west]{1}
+%    ++(0,-0.02)
+%    ++(-0.16,0.02)--++(0.46,0.44)++(-0.12,0.08)  
+%    node{$\cdot$} ++(-0.06,0.16) node{$\cdot$}
+%    ++(-0.06,0.16) node{$\cdot$}++(0.17,-0.12)    node[auto,inner sep=5,scale=0.7,anchor=west]{$t\!+\!1$}
+%     ++(-0.25,0.23)--++(0.46,0.44)++(-0.19,0.04)   
+ %   ++(0,-0.05)
+ %     node[blue,scale=0.7,inner sep=1,anchor=east]{1}
+ %   ++(0,0.05)
+ %   ++(0.19,-0.04)++(-0.04,-0.2)--++(-0.22,0.64);
+% \draw[thick,shorten >=2] (47/10,2)--(118/15,2) node[inner sep=2pt,blue,above left,scale=0.8] {6};
+% \draw[shorten <=-3pt] (35/6,2)--node[inner sep=2pt,scale=0.8,blue,right] {2} (35/6,13/5);
+% \draw[shorten <=-3pt] (199/30,2)--node[inner sep=2pt,scale=0.8,blue,right] {3} (199/30,13/5);
+% \end{tikzpicture}
+
+
 \end{document}
