@@ -1,28 +1,94 @@
 \documentclass[tikz,border=2pt]{standalone}
 \usepackage{tikz}
 \usetikzlibrary{positioning}
+\input{nu-fibre-style.tex}
 \begin{document}
+
+
+\begin{tikzpicture}[scale=0.5]
+      \coordinate (1C) at (-1.50, 3.00);
+  \coordinate (1D) at (-0.50, 3.00);
+  \coordinate (1A) at (-1.00, 3.00);
+  \coordinate (1B) at (-0.93, 3.26);
+
+  \node[scale=0.8][above] at (1B) {$t-1$};
+  \fill[black] (1C) circle (1.25pt);
+  \fill[black] (1D) circle (1.25pt);
+  \fill[black] (1A) circle (1.25pt);
+
+      \coordinate (IVrC) at (0.00, 3.00);
+  \coordinate (IVrD) at (2.00, 3.00);
+  \coordinate (IVrE) at (1.00, 4.00);
+  \coordinate (IVrF) at (1.00, 0.00);
+  \coordinate (IVrG) at (0.00, 2.00);
+  \coordinate (IVrL) at (2.00, 1.00);
+  \coordinate (IVrI) at (0.00, 1.00);
+  \coordinate (IVrM) at (2.00, 2.00);
+  \coordinate (IVrD_1) at (1.72, 2.35);
+
+  
+
+  \draw (IVrC) -- (IVrD);
+  \draw (IVrE) -- (IVrF);
+  \draw (IVrG) -- (IVrL);
+  \draw (IVrI) -- (IVrM);
+
+
+ \coordinate (A) at (-4.00, 3.00);
+  \coordinate (B) at (-2.00, 3.00);
+  \coordinate (C) at (-3.00, 4.00);
+  \coordinate (D) at (-3.00, -0.25);
+  \coordinate (G) at (-2.57, 2.06);
+  \coordinate (E) at (-3.50, 1.00);
+  \coordinate (F) at (-2.25, 1.50);
+  \coordinate (H) at (-3.50, 0.50);
+  \coordinate (I) at (-2.25, 0.25);
+  \coordinate (J) at (-2.75, 1.50);
+  \coordinate (K) at (-1.50, 1.25);
+  \coordinate (L) at (-2.75, 0.25);
+  \coordinate (M) at (-1.50, 0.50);
+  \coordinate (N) at (-1.25, 0.5);
+  \coordinate (O) at (-0.6, 0.62);
+
+
+  \draw (A) -- (B);
+  \draw (C) -- (D);
+  \node[scale=0.8][above, text=blue] at (G) {B};
+  \draw (E) -- (F);
+  \draw (H) -- (I);
+  \draw (J) -- (K);
+  \draw (L) -- (M);
+  \node[scale=0.8][above] at (N) {$\vdots
+$};
+  \node[scale=0.6][above] at (O) {$l-1
+$};
+  
+\end{tikzpicture}
+
+% old pic:
 % Namikawa--Ueno type: IV-I_l-t
 % Target MRNC type: IV-I_l-t
 % Adapted from Tim Dokchitser picture: I_{{\it n}}\e({\it m})IV
 % Parameter substitution: n -> l, m -> t
-\begin{tikzpicture}[xscale=0.57,yscale=0.62]
-\draw[thick,shorten >=2] (-0.09,0)--(3.67,0) node[inner sep=2pt,blue,above left,scale=0.8] {1};
-\draw[scale=0.8] (0,0) ++(0.05,0.3) node[anchor=east,blue,scale=0.7] {1} ++(0.3,-0.45)--++(115:0.75)++(295:0.15)++(245:0.15)--++(65:0.75)++(245:0.15)++(180:0.15)--++(0:0.22) ++(0:0.15) node{$\cdot$} ++(0:0.15) node{$\cdot$} node[above=0.1,anchor=south,scale=0.7]{$l$}++(0:0.15) node{$\cdot$} ++(0:0.15) --++(0:0.22)++(180:0.15)++(115:0.15)--++(295:0.75)++(115:0.15)++(65:0.15)--++(245:0.75)++(0.3,0.45) node[anchor=west,blue,scale=0.7] {1};\draw (2.44,0) 
-    ++(0.06,-0.17)--++(-0.22,0.64)++(0.11,-0.24)  
-    ++(0,0.02)
-      node[blue,scale=0.7,inner sep=1,anchor=west]{1}
-    ++(0,-0.02)
-    ++(-0.16,0.02)--++(0.46,0.44)++(-0.12,0.08)  
-    node{$\cdot$} ++(-0.06,0.16) node{$\cdot$}
-    ++(-0.06,0.16) node{$\cdot$}++(0.17,-0.12)    node[auto,inner sep=5,scale=0.7,anchor=west]{$t$}
-    ++(-0.25,0.23)--++(0.46,0.44)++(-0.19,0.04)   
-    ++(0,-0.05)
-      node[blue,scale=0.7,inner sep=1,anchor=east]{1}
-    ++(0,0.05)
-    ++(0.19,-0.04)++(-0.04,-0.2)--++(-0.22,0.64);
-\draw[thick,shorten >=2] (2.1,2)--(5.27,2) node[inner sep=2pt,blue,above left,scale=0.8] {3};
-\draw[shorten <=-3pt] (3.24,2)--node[inner sep=2pt,scale=0.8,blue,right] {1} (3.24,13/5);
-\draw[shorten <=-3pt] (4.04,2)--node[inner sep=2pt,scale=0.8,blue,right] {1} (4.04,13/5);
-\end{tikzpicture}
+% \begin{tikzpicture}[xscale=0.57,yscale=0.62]
+% \draw[thick,shorten >=2] (-0.09,0)--(3.67,0) node[inner sep=2pt,blue,above left,scale=0.8] {1};
+% \draw[scale=0.8] (0,0) ++(0.05,0.3) node[anchor=east,blue,scale=0.7] {1} ++(0.3,-0.45)--++(115:0.75)++(295:0.15)++(245:0.15)--++(65:0.75)++(245:0.15)++(180:0.15)--++(0:0.22) ++(0:0.15) node{$\cdot$} ++(0:0.15) node{$\cdot$} node[above=0.1,anchor=south,scale=0.7]{$l$}++(0:0.15) node{$\cdot$} ++(0:0.15) --++(0:0.22)++(180:0.15)++(115:0.15)--++(295:0.75)++(115:0.15)++(65:0.15)--++(245:0.75)++(0.3,0.45) node[anchor=west,blue,scale=0.7] {1};\draw (2.44,0) 
+ %   ++(0.06,-0.17)--++(-0.22,0.64)++(0.11,-0.24)  
+ %   ++(0,0.02)
+ %     node[blue,scale=0.7,inner sep=1,anchor=west]{1}
+ %   ++(0,-0.02)
+ %   ++(-0.16,0.02)--++(0.46,0.44)++(-0.12,0.08)  
+ %   node{$\cdot$} ++(-0.06,0.16) node{$\cdot$}
+ %   ++(-0.06,0.16) node{$\cdot$}++(0.17,-0.12)    node[auto,inner sep=5,scale=0.7,anchor=west]{$t$}
+ %   ++(-0.25,0.23)--++(0.46,0.44)++(-0.19,0.04)   
+ %   ++(0,-0.05)
+ %     node[blue,scale=0.7,inner sep=1,anchor=east]{1}
+ %   ++(0,0.05)
+ %   ++(0.19,-0.04)++(-0.04,-0.2)--++(-0.22,0.64);
+% \draw[thick,shorten >=2] (2.1,2)--(5.27,2) node[inner sep=2pt,blue,above left,scale=0.8] {3};
+% \draw[shorten <=-3pt] (3.24,2)--node[inner sep=2pt,scale=0.8,blue,right] {1} (3.24,13/5);
+% \draw[shorten <=-3pt] (4.04,2)--node[inner sep=2pt,scale=0.8,blue,right] {1} (4.04,13/5);
+% \end{tikzpicture}
+
+
 \end{document}
