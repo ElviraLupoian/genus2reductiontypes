@@ -1,33 +1,120 @@
 \documentclass[tikz,border=2pt]{standalone}
 \usepackage{tikz}
 \usetikzlibrary{positioning}
+\input{nu-fibre-style.tex}
 \begin{document}
+
+\begin{tikzpicture}[scale=0.5]
+      %chain
+  \coordinate (C) at (-1.50, 3.00);
+  \coordinate (D) at (-0.50, 3.00);
+  \coordinate (A) at (-1.00, 3.00);
+  \coordinate (B) at (-0.93, 3.26);
+\node[scale=0.65][above] at (B) {$t-1$};
+  \fill[black] (C) circle (1.25pt);
+  \fill[black] (D) circle (1.25pt);
+  \fill[black] (A) circle (1.25pt);
+
+  %IV^*
+
+      \coordinate (IVSlA) at (-4.00, 3.00);
+  \coordinate (IVSlB) at (-2.00, 3.00);
+  \coordinate (IVSlC) at (-3.50, 3.50);
+  \coordinate (IVSlD) at (-3.50, 1.75);
+  \coordinate (IVSlE) at (-3.75, 2.00);
+  \coordinate (IVSlF) at (-2.50, 2.00);
+  \coordinate (IVSlG) at (-3.00, 2.50);
+  \coordinate (IVSlH) at (-3.00, 0.75);
+  \coordinate (IVSlI) at (-3.25, 1.50);
+  \coordinate (IVSlJ) at (-2.04, 1.50);
+  \coordinate (IVSlK) at (-2.25, 1.75);
+  \coordinate (IVSlL) at (-2.25, 1.25);
+  \coordinate (IVSlM) at (-3.75, 1.00);
+  \coordinate (IVSlN) at (-2.50, 1.00);
+  \coordinate (IVSlO) at (-3.50, 1.25);
+  \coordinate (IVSlP) at (-3.50, 0.75);
+  \coordinate (IVSlR) at (-3.25, 2.16);
+  \coordinate (IVSlQ) at (-3.98, 2.50);
+  \coordinate (IVSlS) at (-2.53, 1.45);
+  \coordinate (IVSlU) at (-3.20, 1.45);
+  \coordinate (IVSlV) at (-3.28, 1.05);
+
+  \draw (IVSlA) -- (IVSlB);
+  \draw (IVSlG) -- (IVSlG);
+  \draw (IVSlG) -- (IVSlG);
+  \draw (IVSlC) -- (IVSlD);
+  \draw (IVSlE) -- (IVSlF);
+  \draw (IVSlG) -- (IVSlG);
+  \draw (IVSlG) -- (IVSlH);
+  \draw (IVSlG) -- (IVSlH);
+  \draw (IVSlI) -- (IVSlI);
+  \draw (IVSlI) -- (IVSlJ);
+  \draw (IVSlF) -- (IVSlF);
+  \draw (IVSlF) -- (IVSlF);
+  \draw (IVSlK) -- (IVSlK);
+  \draw (IVSlJ) -- (IVSlJ);
+  \draw (IVSlJ) -- (IVSlJ);
+  \draw (IVSlF) -- (IVSlF);
+  \draw (IVSlK) -- (IVSlL);
+  \draw (IVSlK) -- (IVSlL);
+  \draw (IVSlM) -- (IVSlN);
+  \draw (IVSlI) -- (IVSlI);
+  \draw (IVSlI) -- (IVSlI);
+  \draw (IVSlO) -- (IVSlP);
+  \node[scale=0.65][above, text=blue] at (IVSlQ) {B};
+  \node[scale=0.5][above, text=blue] at (IVSlR) {$2$};
+  \node[scale=0.65][above, text=blue] at (IVSlQ) {B};
+  \node[scale=0.5][above, text=blue] at (IVSlS) {$2$};
+
+  \node[scale=0.5][above, text=blue] at (IVSlU) {$3$};
+  \node[scale=0.5][above, text=blue] at (IVSlV) {$2$};
+
+ % III
+  
+  \coordinate (IIIrC) at (0.00, 3.00);
+  \coordinate (IIIrD) at (2.00, 3.00);
+  \coordinate (IIIrE) at (1.00, 4.00);
+  \coordinate (IIIrF) at (1.00, 0.00);
+  \coordinate (IIIrG) at (2.00, 1.00);
+  \coordinate (IIIrD_1) at (1.74, 2.18);
+  \draw (IIIrC) -- (IIIrD);
+  \draw (IIIrE) -- (IIIrF);
+  \draw (2.00, 2.00) arc (90.0:270.0:1.00);
+  \node[scale=0.65][above, text=blue] at (IIIrD_1) {B};
+
+
+  
+\end{tikzpicture}
+
+%old pic:
 % Namikawa--Ueno type: IV^*-III-t
 % Target MRNC type: IV^*-III-t
 % Adapted from Tim Dokchitser picture: IV^*\e({\it n})III
 % Parameter substitution: n -> t
-\begin{tikzpicture}[xscale=0.57,yscale=0.62]
-\draw[thick,shorten >=2] (-1/3,0)--(97/30,0) node[inner sep=2pt,blue,above left,scale=0.8] {4};
-\draw[shorten <=-3pt] (0,0)--node[inner sep=2pt,scale=0.8,blue,right] {1} (0,3/5);
-\draw[shorten <=-3pt] (4/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {2} (4/5,3/5);
-\draw (2,0) 
-    ++(0.07,-0.13)--++(-0.26,0.5)++(0.12,-0.19)  
-    ++(0,0.02)
-      node[blue,scale=0.7,inner sep=1,anchor=west]{1}
-    ++(0,-0.02)
-    ++(-0.16,0.02)--++(0.43,0.31)++(-0.13,0.07)  
-    node{$\cdot$} ++(-0.06,0.12) node{$\cdot$}
-    ++(-0.06,0.12) node{$\cdot$}++(0.17,-0.1)    node[auto,inner sep=5,scale=0.7,anchor=west]{$t\!+\!1$}
-    ++(-0.26,0.19)--++(0.43,0.31)++(-0.18,0.04)   
-    ++(0,-0.04)
-      node[blue,scale=0.7,inner sep=1,anchor=east]{1}
-    ++(0,0.04)
-    ++(0.18,-0.04)++(-0.03,-0.15)--++(-0.26,0.5);
-\draw[shorten <=-3pt, shorten >=-3pt] (2,3/2)--node[inner sep=2pt,scale=0.8,blue,below left=-1pt and -1pt] {2} (7/5,21/10);
-\draw[thick,shorten >=2] (16/15,21/10)--(29/6,21/10) node[inner sep=2pt,blue,above left,scale=0.8] {3};
-\draw[shorten <=-3pt, shorten >=-3pt] (11/5,21/10)--node[inner sep=2pt,scale=0.8,blue,right] {2} (11/5,27/10);
-\draw[shorten <=-3pt] (11/5,27/10)--node[inner sep=2pt,scale=0.8,blue,above] {1} (8/5,27/10);
-\draw[shorten <=-3pt, shorten >=-3pt] (18/5,21/10)--node[inner sep=2pt,scale=0.8,blue,right] {2} (18/5,27/10);
-\draw[shorten <=-3pt] (18/5,27/10)--node[inner sep=2pt,scale=0.8,blue,above] {1} (3,27/10);
-\end{tikzpicture}
+% \begin{tikzpicture}[xscale=0.57,yscale=0.62]
+% \draw[thick,shorten >=2] (-1/3,0)--(97/30,0) node[inner sep=2pt,blue,above left,scale=0.8] {4};
+% \draw[shorten <=-3pt] (0,0)--node[inner sep=2pt,scale=0.8,blue,right] {1} (0,3/5);
+% \draw[shorten <=-3pt] (4/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {2} (4/5,3/5);
+% \draw (2,0) 
+%    ++(0.07,-0.13)--++(-0.26,0.5)++(0.12,-0.19)  
+%    ++(0,0.02)
+%      node[blue,scale=0.7,inner sep=1,anchor=west]{1}
+%    ++(0,-0.02)
+%    ++(-0.16,0.02)--++(0.43,0.31)++(-0.13,0.07)  
+%    node{$\cdot$} ++(-0.06,0.12) node{$\cdot$}
+%    ++(-0.06,0.12) node{$\cdot$}++(0.17,-0.1)    node[auto,inner sep=5,scale=0.7,anchor=west]{$t\!+\!1$}
+%    ++(-0.26,0.19)--++(0.43,0.31)++(-0.18,0.04)   
+%    ++(0,-0.04)
+%       node[blue,scale=0.7,inner sep=1,anchor=east]{1}
+%    ++(0,0.04)
+%    ++(0.18,-0.04)++(-0.03,-0.15)--++(-0.26,0.5);
+% \draw[shorten <=-3pt, shorten >=-3pt] (2,3/2)--node[inner sep=2pt,scale=0.8,blue,below left=-1pt and -1pt] {2} (7/5,21/10);
+% \draw[thick,shorten >=2] (16/15,21/10)--(29/6,21/10) node[inner sep=2pt,blue,above left,scale=0.8] {3};
+% \draw[shorten <=-3pt, shorten >=-3pt] (11/5,21/10)--node[inner sep=2pt,scale=0.8,blue,right] {2} (11/5,27/10);
+% \draw[shorten <=-3pt] (11/5,27/10)--node[inner sep=2pt,scale=0.8,blue,above] {1} (8/5,27/10);
+% \draw[shorten <=-3pt, shorten >=-3pt] (18/5,21/10)--node[inner sep=2pt,scale=0.8,blue,right] {2} (18/5,27/10);
+% \draw[shorten <=-3pt] (18/5,27/10)--node[inner sep=2pt,scale=0.8,blue,above] {1} (3,27/10);
+% \end{tikzpicture}
+
+
 \end{document}
