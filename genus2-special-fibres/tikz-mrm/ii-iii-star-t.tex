@@ -1,5 +1,7 @@
 \documentclass[tikz,border=2pt]{standalone}
+\usepackage{tikz}
 \input{nu-fibre-style.tex}
+
 \begin{document}
 
 \begin{tikzpicture}[scale=0.5]
@@ -8,10 +10,10 @@
   \coordinate (D) at (-1.25, 3.00);
   \coordinate (A) at (-1.50, 3.00);
   \coordinate (B) at (-1.25, 3.26);
-\node[above] at (B) {$t-1$};
-  \fill[black] (C) circle (2pt);
-  \fill[black] (D) circle (2pt);
-  \fill[black] (A) circle (2pt);
+\node[scale=0.65][above] at (B) {$t-1$};
+  \fill[black] (C) circle (1.25pt);
+  \fill[black] (D) circle (1.25pt);
+  \fill[black] (A) circle (1.25pt);
  
    %II 
     
@@ -26,7 +28,7 @@
   \draw (IIlR) -- (IIlS);
   \draw (-3.00, 1.00) arc (0.0:-90.0:0.50);
   \draw (-3.50, 0.50) arc (90.0:0.0:0.50);
-  \node[above, text=blue] at (IIlA) {A};
+  \node[scale=0.65][above, text=blue] at (IIlA) {A};
 
   %III^*
   \coordinate (IIIsrA) at (-1.00, 3.00);
@@ -43,7 +45,7 @@
   \coordinate (IIIsrO) at (2.00, 1.00);
   \coordinate (IIIsrP) at (3.00, 2.00);
   \coordinate (IIIsrQ) at (1.75, 2.00);
-  \coordinate (IIIsrA_1) at (-0.24, 3.17);
+  \coordinate (IIIsrA_1) at (0.25, 3.17);
   \coordinate (IIIsrH_1) at (0.31, 1.97);
   \coordinate (IIIsrJ_1) at (0.67, 1.53);
   \coordinate (IIIsrI_1) at (1.09, 1.10);
@@ -67,16 +69,16 @@
   \draw (IIIsrP) -- (IIIsrP);
   \draw (IIIsrP) -- (IIIsrQ);
   \draw (IIIsrP) -- (IIIsrQ);
-  \node[above, text=blue] at (IIIsrA_1) {B};
-  \node[above, text=blue] at (IIIsrH_1) {$2$};
-  \node[above, text=blue] at (IIIsrJ_1) {$3$};
-  \node[above, text=blue] at (IIIsrI_1) {$4$};
-  \node[above, text=blue] at (IIIsrP_1) {$2$};
+  \node[scale=0.65][above, text=blue] at (IIIsrA_1) {B};
+  \node[scale=0.5][above, text=blue] at (IIIsrH_1) {$2$};
+  \node[scale=0.5][above, text=blue] at (IIIsrJ_1) {$3$};
+  \node[scale=0.5][above, text=blue] at (IIIsrI_1) {$4$};
+  \node[scale=0.5][above, text=blue] at (IIIsrP_1) {$2$};
   \draw (IIIsrL) -- (IIIsrM);
   \draw (IIIsrR) -- (IIIsrS);
   \draw (IIIsrH) -- (IIIsrI);
-  \node[above, text=blue] at (IIIsrT) {$2$};
-  \node[above, text=blue] at (IIIsrU) {$3$};
+  \node[scale=0.5][above, text=blue] at (IIIsrT) {$2$};
+  \node[scale=0.5][above, text=blue] at (IIIsrU) {$3$};
 
   
 \end{tikzpicture}
