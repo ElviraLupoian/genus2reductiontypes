@@ -1,6 +1,9 @@
 \documentclass[tikz,border=2pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
 \input{nu-fibre-style.tex}
 \begin{document}
+
 
 \begin{tikzpicture}[scale=0.5]
      %chain 
@@ -8,10 +11,10 @@
   \coordinate (D) at (-1.25, 3.00);
   \coordinate (A) at (-1.50, 3.00);
   \coordinate (B) at (-1.25, 3.26);
-\node[above] at (B) {$t\!-\!1$};
-  \fill[black] (C) circle (2pt);
-  \fill[black] (D) circle (2pt);
-  \fill[black] (A) circle (2pt);
+\node[scale=0.65][above] at (B) {$t-1$};
+  \fill[black] (C) circle (1.25pt);
+  \fill[black] (D) circle (1.25pt);
+  \fill[black] (A) circle (1.25pt);
 
 %IV
      \coordinate (IVlA) at (-4.02, 2.97);
@@ -27,7 +30,7 @@
   \draw (IVlH) -- (IVlJ);
   \draw (IVlK) -- (IVlN_1);
   \draw (IVlO) -- (IVlP);
-  \node[above, text=blue] at (IVlQ) {B};
+  \node[scale=0.65][above, text=blue] at (IVlQ) {B};
 
 %III^*
   \coordinate (IIIsrA) at (-1.00, 3.00);
@@ -47,7 +50,7 @@
   \coordinate (IIIsrA_1) at (-0.24, 3.17);
   \coordinate (IIIsrH_1) at (0.31, 1.97);
   \coordinate (IIIsrJ_1) at (0.67, 1.53);
-  \coordinate (IIIsrI_1) at (1.09, 1.10);
+  \coordinate (IIIsrI_1) at (1.15, 1.10);
   \coordinate (IIIsrP_1) at (2.21, 1.93);
   \coordinate (IIIsrL) at (2.75, 2.25);
   \coordinate (IIIsrM) at (2.75, 1.75);
@@ -68,19 +71,49 @@
   \draw (IIIsrP) -- (IIIsrP);
   \draw (IIIsrP) -- (IIIsrQ);
   \draw (IIIsrP) -- (IIIsrQ);
-  \node[above, text=blue] at (IIIsrA_1) {B};
-  \node[above, text=blue] at (IIIsrH_1) {$2$};
-  \node[above, text=blue] at (IIIsrJ_1) {$3$};
-  \node[above, text=blue] at (IIIsrI_1) {$4$};
-  \node[above, text=blue] at (IIIsrP_1) {$2$};
+  \node[scale=0.65][above, text=blue] at (IIIsrA_1) {B};
+  \node[scale=0.5][above, text=blue] at (IIIsrH_1) {$2$};
+  \node[scale=0.5][above, text=blue] at (IIIsrJ_1) {$3$};
+  \node[scale=0.5][above, text=blue] at (IIIsrI_1) {$4$};
+  \node[scale=0.5][above, text=blue] at (IIIsrP_1) {$2$};
   \draw (IIIsrL) -- (IIIsrM);
   \draw (IIIsrR) -- (IIIsrS);
   \draw (IIIsrH) -- (IIIsrI);
-  \node[above, text=blue] at (IIIsrT) {$2$};
-  \node[above, text=blue] at (IIIsrU) {$3$};
+  \node[scale=0.5][above, text=blue] at (IIIsrT) {$2$};
+  \node[scale=0.5][above, text=blue] at (IIIsrU) {$3$};
 
   
 \end{tikzpicture}
+% old pic:
+% Namikawa--Ueno type: IV-III^*-t
+% Target MRNC type: IV-III^*-t
+% Adapted from Tim Dokchitser picture: IV\e({\it n})III^*
+% Parameter substitution: n -> t
+% \begin{tikzpicture}[xscale=0.57,yscale=0.62]
+% \draw[thick,shorten >=2] (4/15,0)--(139/30,0) node[inner sep=2pt,blue,above left,scale=0.8] {4};
+% \draw[shorten <=-3pt, shorten >=-3pt] (3/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {3} (3/5,3/5);
+% \draw[shorten <=-3pt, shorten >=-3pt] (3/5,3/5)--node[inner sep=2pt,scale=0.8,blue,above] {2} (0,3/5);
+% \draw[shorten <=-3pt] (0,3/5)--node[inner sep=2pt,scale=0.8,blue,left] {1} (0,6/5);
+% \draw[shorten <=-3pt] (7/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {2} (7/5,3/5);
+% \draw[shorten <=-3pt, shorten >=-3pt] (17/5,0)--node[inner sep=2pt,scale=0.8,blue,right] {3} (17/5,3/5);
+% \draw[shorten <=-3pt, shorten >=-3pt] (17/5,3/5)--node[inner sep=2pt,scale=0.8,blue,above] {2} (13/5,3/5);
+% \draw (13/5,3/5) 
+%     ++(0.07,-0.13)--++(-0.26,0.5)++(0.12,-0.19)  
+%     ++(0,0.02)
+%       node[blue,scale=0.7,inner sep=1,anchor=west]{1}
+%    ++(0,-0.02)
+%    ++(-0.16,0.02)--++(0.43,0.31)++(-0.13,0.07)  
+%    node{$\cdot$} ++(-0.06,0.12) node{$\cdot$}
+%    ++(-0.06,0.12) node{$\cdot$}++(0.17,-0.1)    node[auto,inner sep=5,scale=0.7,anchor=west]{$t\!+\!1$}
+%    ++(-0.26,0.19)--++(0.43,0.31)++(-0.18,0.04)   
+%    ++(0,-0.04)
+%      node[blue,scale=0.7,inner sep=1,anchor=east]{1}
+%    ++(0,0.04)
+%     ++(0.18,-0.04)++(-0.03,-0.15)--++(-0.26,0.5);
+% \draw[thick,shorten >=2] (34/15,21/10)--(163/30,21/10) node[inner sep=2pt,blue,above left,scale=0.8] {3};
+% \draw[shorten <=-3pt] (17/5,21/10)--node[inner sep=2pt,scale=0.8,blue,right] {1} (17/5,27/10);
+% \draw[shorten <=-3pt] (21/5,21/10)--node[inner sep=2pt,scale=0.8,blue,right] {1} (21/5,27/10);
+% \end{tikzpicture}
 
 
 \end{document}
