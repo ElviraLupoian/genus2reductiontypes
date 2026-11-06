@@ -287,6 +287,7 @@ for (const [index, type] of window.namikawaUenoTypes.entries()) {
   const isPinned = pinnedIds.has(type.id);
 
   row.innerHTML = `
+    <td class="col-rownum">${index + 1}</td>
     <td class="col-actions row-actions">
       <input
         type="checkbox"
@@ -395,7 +396,65 @@ function sortRows() {
  */
 const table = tableBody.closest("table");
 const tableHead = table.querySelector("thead");
+const tableWrapper = table.closest(".table-wrapper");
+let columnLayoutFrame = null;
 let stickyLayoutFrame = null;
+
+/* Measure content at its natural width, then share unused panel space in
+   proportion to each data column's width. Row numbers and controls stay
+   compact. Fixed layout preserves these shares instead of letting the
+   browser redistribute the spare space between columns. */
+function updateTableColumnWidths() {
+  const headers = [...tableHead.querySelectorAll("th")];
+  const visibleHeaders = headers.filter(header => !header.hidden);
+
+  table.style.tableLayout = "auto";
+  table.style.width = "max-content";
+  table.style.minWidth = "0";
+
+  for (const header of headers) {
+    header.style.removeProperty("width");
+  }
+
+  const columns = visibleHeaders.map(header => ({
+    header,
+    width: header.getBoundingClientRect().width,
+    grows: !header.matches(".col-rownum, .col-actions")
+  }));
+  const naturalWidth = columns.reduce((sum, column) => sum + column.width, 0);
+  const extraWidth = Math.max(0, tableWrapper.clientWidth - naturalWidth);
+  let growingWidth = columns.reduce(
+    (sum, column) => sum + (column.grows ? column.width : 0), 0
+  );
+
+  // With every data column hidden, let the remaining columns fill the panel.
+  if (growingWidth === 0) {
+    columns.forEach(column => { column.grows = true; });
+    growingWidth = naturalWidth;
+  }
+
+  for (const column of columns) {
+    const extra = column.grows && growingWidth > 0
+      ? extraWidth * column.width / growingWidth
+      : 0;
+    column.header.style.width = `${column.width + extra}px`;
+  }
+
+  table.style.width = `${naturalWidth + extraWidth}px`;
+  table.style.tableLayout = "fixed";
+  schedulePinnedStickyOffsets();
+}
+
+function scheduleTableColumnWidths() {
+  if (columnLayoutFrame !== null) {
+    return;
+  }
+
+  columnLayoutFrame = requestAnimationFrame(() => {
+    columnLayoutFrame = null;
+    updateTableColumnWidths();
+  });
+}
 
 function updatePinnedStickyOffsets() {
   const headerHeight = tableHead?.getBoundingClientRect().height || 0;
@@ -474,6 +533,7 @@ function applyRowFilters() {
   clearSelectionButton.disabled = selectedIds.size === 0;
   unpinAllButton.disabled = pinnedIds.size === 0;
 
+  scheduleTableColumnWidths();
   schedulePinnedStickyOffsets();
 }
 
@@ -583,6 +643,7 @@ function typesetColumn(column) {
       .catch(() => {})
       .finally(() => {
         pendingTypesetColumns.delete(column);
+        scheduleTableColumnWidths();
         schedulePinnedStickyOffsets();
       });
   });
@@ -619,6 +680,7 @@ function typesetInitialContent() {
         for (const column of initiallyCheckedColumns) {
           pendingTypesetColumns.delete(column);
         }
+        scheduleTableColumnWidths();
         schedulePinnedStickyOffsets();
       });
   });
@@ -653,6 +715,7 @@ function updateColumn(toggle, recalculateClusterLayout = true) {
   if (recalculateClusterLayout) {
     scheduleClusterPictureLayout();
   }
+  scheduleTableColumnWidths();
   schedulePinnedStickyOffsets();
 }
 
@@ -745,6 +808,7 @@ function scheduleClusterPictureLayout() {
     clusterLayoutFrame = requestAnimationFrame(() => {
       clusterLayoutFrame = null;
       updateClusterPictureColumnWidths();
+      scheduleTableColumnWidths();
       schedulePinnedStickyOffsets();
     });
   });
@@ -754,11 +818,12 @@ for (const image of tableBody.querySelectorAll("img.special-fibre, img.cluster-p
   if (image.classList.contains("cluster-picture")) {
     image.addEventListener("load", scheduleClusterPictureLayout);
   } else {
-    image.addEventListener("load", schedulePinnedStickyOffsets);
+    image.addEventListener("load", scheduleTableColumnWidths);
   }
 }
 
 window.addEventListener("resize", () => {
+  scheduleTableColumnWidths();
   scheduleClusterPictureLayout();
   schedulePinnedStickyOffsets();
 });
@@ -767,7 +832,19 @@ if ("ResizeObserver" in window) {
   const stickyResizeObserver = new ResizeObserver(schedulePinnedStickyOffsets);
   stickyResizeObserver.observe(table);
   stickyResizeObserver.observe(tableHead);
+
+  let previousPanelWidth = 0;
+  const panelResizeObserver = new ResizeObserver(() => {
+    const width = tableWrapper.clientWidth;
+    if (width !== previousPanelWidth) {
+      previousPanelWidth = width;
+      scheduleTableColumnWidths();
+    }
+  });
+  panelResizeObserver.observe(tableWrapper);
 }
+
+document.fonts?.ready.then(scheduleTableColumnWidths);
 
 sortRows();
 updateModeButtons();

@@ -26,8 +26,11 @@
   --components-width: 115px;
   --components-min-width: 95px;
 
-  --components-width-mrnc: 115px;
-  --components-min-width-mrnc: 95px;
+  --mrnc-components-width: 115px;
+  --mrnc-components-min-width: 95px;
+
+  --example-width: 360px;
+  --example-min-width: 240px;
 
   --component-group-width: 170px;
   --component-group-min-width: 140px;
@@ -255,11 +258,7 @@ h1 {
   isolation: isolate;
 }
 
-/*
- * The table fills the available width when its visible columns fit.
- * When their minimum/content widths exceed the wrapper, the table becomes
- * wider and the wrapper supplies horizontal scrolling.
- */
+/* Fill the panel when the visible columns fit, and scroll wider content. */
 table {
   width: max-content;
   min-width: 100%;
@@ -432,9 +431,16 @@ thead .col-nu {
 
 /*
  * These are preferred widths, not rigid widths. The minimum widths prevent
- * columns from becoming unusably narrow, while the browser can distribute
- * spare width among the visible columns when the table fits in the window.
+ * columns from becoming unusably narrow; longer formulas and diagrams can
+ * grow to fit their content without stretching unrelated numeric columns.
  */
+
+.col-rownum {
+  width: 52px;
+  min-width: 48px;
+  padding: 2px 3px;
+  font-variant-numeric: tabular-nums;
+}
 
 .col-mrnc {
   width: var(--mrnc-width);
@@ -459,9 +465,9 @@ thead .col-nu {
   overflow: visible;
 }
 
-.col-components-mrnc {
-  width: var(--components-mrnc-width);
-  min-width: var(--components-mrnc-min-width);
+.col-mrnc-components {
+  width: var(--mrnc-components-width);
+  min-width: var(--mrnc-components-min-width);
 }
 
 .col-components {
@@ -583,15 +589,9 @@ tbody .col-mrnc-pic:has(img.special-fibre) {
   }
 
   .col-example {
-    width: 60px;
-    min-width: 60px;
+    width: var(--example-width);
+    min-width: var(--example-min-width);
   }
-  
- /* .col-mrnc-components {
-    width: 60px;
-    min-width: 60px;
-    text-align: center;
-  }*/
   
   .col-monodromy {
     width: 60px;
